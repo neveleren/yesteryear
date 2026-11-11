@@ -1,72 +1,120 @@
-# Yesteryear: Google and YouTube as a time machine
+# Yesteryear: a retro time machine for your searches
 
-Pick a year (1998-2025). Then search Google and YouTube as usual: results come only from that year or
-earlier, pages open as they looked back then, Google looks like that year's Google, and that year's hits play.
+**Pick a year. Google, YouTube and the whole web go back with you.**
 
-A personal hobby project, shared as is. Not affiliated with Google, YouTube, Microsoft or the Internet Archive.
+![Traveling back to 1999](docs/media/trip.gif)
 
-## Install (Chrome)
-1. Download `yesteryear-<version>.zip` from [Releases](../../releases) and unzip it (or clone this repository).
-2. Recommended: a separate Chrome profile (while it is ON, every Google search goes back in time).
-3. Open `chrome://extensions`, switch on **Developer mode** (top right).
-4. **Load unpacked** -> choose the `extension` folder. A short tour opens in a new tab.
-5. Pin the extension (puzzle icon -> pin "Yesteryear"), click it, pick a year, then **Travel to YEAR >>**.
+What did the internet say about phones before the iPhone? What was on Google News on this day in 2005?
+What was everyone googling in 2004? Set the dial to any year from **1998 to 2025**, hit **Travel**, and search
+the way people did back then.
 
-It is not in the Chrome Web Store: the hidden music player and Clippy/Rover would not pass its rules (see Limits).
+- 🕰️ **Google as it looked that year**, with that year's logo and layout.
+- 🚫 **No spoilers from the future.** Results, pages and videos stop at your year.
+- 🌐 **Every link opens the web as it was**, straight from the Internet Archive.
+- 🎵 **The soundtrack of the year** plays while you browse.
+- 📎 **Clippy** shows you around.
 
-## Update to a new version
-1. Open `chrome://extensions`.
-2. On the Yesteryear card, click the round **reload** arrow.
-3. Reload the Google and YouTube tabs that are already open (F5): until then they run the old version.
-4. Music stops on a reload: press Play again. If you have never seen the tour, it opens once by itself.
+> Free and open source Chrome extension. A hobby project: not affiliated with Google, YouTube, Microsoft or the
+> Internet Archive.
 
-## What it does
-- **The popup:** pick the year with the arrows (hold one to spin), the slider or a quick year. **Time machine ON**
-  switches it on and off. The toolbar button shows the year while ON and "OFF" otherwise.
-- **Travel to YEAR >>:** a ride through a time tunnel (with sound), then a card for that year: the meme of the
-  year with a picture, the No. 1 song, three facts, the gadget everyone wanted, and "Today in YEAR" links to CNN,
-  BBC News and The New York Times on today's date back then. Travelling also switches the time machine on.
-  The card has two buttons: "Search like it's YEAR" and "Play the hits of YEAR", plus two rows: **People are
-  searching** (what everyone googled that year: click one and it searches as it would have back then) and **Web
-  favorites** (the sites everyone visited, opened as they were that day). The card only shows what had already
-  happened by that day: earlier in the year it shows last year's meme and gadget instead.
-- **Google:** "this year" / "latest" / "best ..." become the chosen year; Google's own date cap
-  (`cd_max:12/31/YEAR`) and the plain Web tab; results that still leak later years (dates, years in the text,
-  things that did not exist yet, "2 days ago") are removed. With **Strict** on, sites that did not exist yet in
-  that year are hidden too. The page is drawn in that year's look (11 looks from the 1998 "Google!" beta to today).
-- **Google's old tabs work:** News, Groups, Gmail, Froogle, Maps, "more" and the rest open that Google service as
-  it was on today's date in that year. Images opens Google Images in that year's look, with results from that
-  year. In 1999-2001, "Try your query on" under the results opens AltaVista, Excite, Lycos, Yahoo! and the others
-  as they were that day.
-- **I'm Feeling Lucky** works like back then: with words it opens the first result of that year's search; with an
-  empty box it opens Google's logo page of that time (Holiday Logos, later Doodles).
-- **Clicking a result** opens the copy from the Internet Archive taken in that year or earlier, never later
-  (strict lookup). Links inside archived pages stay in that year too. If that exact page was not saved back then,
-  the site's front page of that year opens, with a note in that year's browser style. "The page cannot be
-  displayed" is left for sites that did not exist yet (and archive outages).
-- **YouTube:** searches get `before:YEAR+1-01-01` (server-side), newer cards, Shorts, ads and comments are
-  hidden; before 2005 YouTube "does not exist".
-- **Music:** the Billboard Year-End Hot 100 of the year, played through YouTube (one video per song, found once
-  and remembered). The popup has a mini player: Previous, Play/Pause, Next and the song. **Show player** opens the
-  big player on the right, in a Winamp / Windows Media Player / iTunes / Spotify look by era. **Hide player**
-  closes it and the music keeps playing.
-- **Tour:** after the install, Clippy or Rover (you pick) shows every button of the popup. **?** in the popup's
-  title bar opens the tour again.
+**[Download the latest version](../../releases/latest)** · [How to install](#install)
 
-## Limits (honest)
-- Google decides dates by its own estimate; a modern page can slip through the filter now and then.
-- Google may show a captcha on unusual traffic; the extension then pauses (it never searches in the
-  background).
-- Links inside archived pages each cost one archive lookup (archive.org allows about 20 per minute).
-- The music plays in a hidden page. Chrome closes it after about 30 s of silence (a long pause); Play then starts
-  the same song at the same second, 1-2 s later. If YouTube refuses to play, open youtube.com once in this Chrome
-  profile, then press Play.
-- The hidden player is fine for personal use, not for the Chrome Web Store (YouTube wants a visible player).
-- Clippy and Rover belong to Microsoft (taken from clippy.js, which has shared them for years); they are here
-  for fun and personal use only.
-- At a Chrome page zoom of 150 % or more the bottom of the popup is cut off (it fits up to 125 %).
-- Archived Google sign-in pages (Gmail and others) are read-only: their forms cannot send anything. Never type a
-  real password into an archived page.
+---
+
+## 🚀 The trip
+
+**Travel to 2005 >>** is not a setting, it's a ride: a time tunnel, a date display rolling back from today, a flash,
+and you land on the card of your year. It is dressed like a computer of that time (Windows 98, XP, 7 or 10) and
+tells you what the world looks like today, in that year:
+
+- the **meme** everyone is sharing and the **No. 1 song** on the radio;
+- what has **already happened** that year, and the **gadget** everyone wants;
+- what **people are searching for**: one click and you google it like it's that year;
+- the **sites everyone visits** (GeoCities, Napster, MySpace...), opened as they looked that very day;
+- **today's front pages** of CNN, BBC News and The New York Times, from that date.
+
+The card never spoils anything: early in the year it still shows last year's meme, because this year's has not
+happened yet.
+
+![Year cards for 1999, 2005, 2010 and 2016](docs/media/cards.png)
+
+## 🔎 Google, exactly as it was
+
+Eleven period looks, from the 1998 "Google!" beta to today. And it is not just a skin: your search really goes back.
+
+- "best phones **this year**" becomes "best phones 2005", and Google's own date filter stops at your year.
+- Results that give away a later date or mention things that did not exist yet are dropped.
+- Sites that were not online yet are left out.
+- Search for something from the future and Google tells you: *"2009 has not happened yet. It is 2005."*
+- **I'm Feeling Lucky** works like it used to. With an empty box it shows Google's holiday logos of the time.
+
+![Google in 2005: homepage and results](docs/media/google_2005.png)
+
+## 🌐 The web of that very day
+
+Click a result and it opens from the Internet Archive as it looked in your year, never later. If that exact page
+was never saved, you get the site's front page from back then, with a note in the style of the old browser.
+
+Google's own tabs work too: **News, Groups, Gmail and "more"** open those services as they were on today's date
+in your year. On the 1999 results page, "Try your query on" takes you to **AltaVista, Excite, Lycos and Yahoo!**
+of 1999.
+
+![AltaVista in 1999 and Google News in 2005](docs/media/web_of_that_day.png)
+
+## 📺 YouTube before it got big
+
+Searches only bring up videos uploaded by your year. Shorts, ads and the modern clutter are gone. Travel to 2003
+and YouTube simply doesn't exist yet.
+
+## 🎵 The soundtrack of the year
+
+The Billboard Year-End Hot 100 of your year, in the player of the time: Winamp, Windows Media Player, iTunes or
+Spotify. A mini player sits right in the extension's window; hide the big player and the music keeps going.
+
+![The player in its four looks](docs/media/player_skins.png)
+
+## 📎 Clippy shows you around
+
+On first start, Clippy (or Rover, if you are a dog person) walks you through every button, one by one.
+
+![Clippy explaining the Travel button](docs/media/tour.png)
+
+---
+
+## Things to try
+
+1. Travel to **1999** and press **I'm Feeling Lucky** with an empty box.
+2. In **2010**, google *music trends this year*.
+3. On the **2005** Google homepage, click **News**: that's Google News on today's date in 2005.
+4. On a **1999** results page, scroll down and visit AltaVista or Yahoo! of 1999.
+5. Travel to the year you got your first computer and open one of its **Web favorites**.
+6. Press **Play the hits of 2002**: they come in Winamp.
+
+## Install
+
+1. Download `yesteryear-<version>.zip` from [Releases](../../releases/latest) and unzip it.
+2. Open `chrome://extensions` and switch on **Developer mode** (top right).
+3. Click **Load unpacked** and choose the `extension` folder. Clippy appears in a new tab.
+4. Pin Yesteryear (puzzle icon, then the pin), click it, pick a year and press **Travel to YEAR >>**.
+
+Tip: use a separate Chrome profile. While the time machine is ON, every Google search in that profile travels.
+
+**Updating:** replace the folder with the new version, then click the round reload arrow on the Yesteryear card in
+`chrome://extensions` and reload open Google and YouTube tabs.
+
+![The extension's window](docs/media/popup.png)
+
+## Good to know
+
+- Google decides dates by its own estimate, so a modern page can slip through now and then.
+- Archived pages load at the Internet Archive's speed, and some old pictures were never saved.
+- The music comes from YouTube. If YouTube refuses to play, open youtube.com once in that Chrome profile, then
+  press Play again.
+- It is not in the Chrome Web Store: the hidden music player and Clippy would not pass its rules. Clippy and Rover
+  belong to Microsoft (as shared by clippy.js for years) and are here just for fun.
+- Archived sign-in pages (Gmail and others) are read-only. Never type a real password into an archived page.
+
+---
 
 ## Develop
 - Architecture and contracts: `ARCHITECTURE.md`; research behind every decision: `research/`.
@@ -83,7 +131,7 @@ It is not in the Chrome Web Store: the hidden music player and Clippy/Rover woul
     `.venv/Scripts/python.exe tests/live/lucky_check.py 2005`
   - fully stubbed, no network: `.venv/Scripts/python.exe tests/live/core_check.py` (core fixes; `--src=<dir>` checks
     another export) and `.venv/Scripts/python.exe tests/player/popup_width.py` (mini player width for every year)
-- `tests/live/smoke.py` does real Google and YouTube searches: do not run it from this machine.
+- `tests/live/smoke.py` does real Google and YouTube searches: don't run it from automation.
 
 ## License
 - Yesteryear's own code: MIT (see `LICENSE`).
