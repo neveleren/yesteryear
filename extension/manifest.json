@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Yesteryear",
-  "version": "0.2.0",
-  "description": "Search Google and YouTube as if it were any year from 1998 to 2025, with that year's look and music.",
+  "name": "Yesteryear: Retro Time Machine for Searches",
+  "version": "0.2.1",
+  "description": "Pick a year from 1998 to 2025: Google, YouTube and the whole web go back with you, in that year's look, with that year's hits.",
   "minimum_chrome_version": "120",
   "icons": {
     "16": "src/ui/icons/icon16.png",
