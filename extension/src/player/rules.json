@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [ { "header": "referer", "operation": "set", "value": "https://example.com/" } ]
+    },
+    "condition": {
+      "urlFilter": "||youtube.com/embed/*yy_player=1",
+      "resourceTypes": ["sub_frame"]
+    }
+  }
+]

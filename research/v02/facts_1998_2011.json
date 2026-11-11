@@ -1,0 +1,698 @@
+[
+  {
+    "year": 1998,
+    "meme": {
+      "ok": true,
+      "on": "01-05",
+      "on_source": "https://en.wikipedia.org/wiki/Ally_McBeal_season_1",
+      "note": "Viral by email since 1996-97 (Wikipedia: viral status 1997-1998), so the meme itself is fine for 1998. The blurb mentions Ally McBeal: the baby's first episode, 'Cro-Magnon' (S1E12), aired January 5, 1998. Sources: https://en.wikipedia.org/wiki/Ally_McBeal_season_1 (air date), https://www.tvline.com/2104160/internet-first-memes-dancing-baby-ally-mcbeal/ (first appearance in 'Cro-Magnon'). Drop the Ally McBeal clause and it can show from 01-01.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "The Winter Olympics open in Nagano, Japan (February 7).",
+        "on": "02-07",
+        "source": "https://en.wikipedia.org/wiki/1998_Winter_Olympics"
+      },
+      {
+        "text": "Titanic wins 11 Oscars, tying the all-time record (March 23).",
+        "on": "03-23",
+        "source": "https://en.wikipedia.org/wiki/70th_Academy_Awards"
+      },
+      {
+        "text": "Windows 98 goes on sale (June 25).",
+        "on": "06-25",
+        "source": "https://en.wikipedia.org/wiki/Windows_98"
+      },
+      {
+        "text": "Apple's translucent Bondi Blue iMac goes on sale (August 15).",
+        "on": "08-15",
+        "source": "https://en.wikipedia.org/wiki/IMac_G3"
+      },
+      {
+        "text": "Google is founded in a garage in Menlo Park, California (September 4).",
+        "on": "09-04",
+        "source": "https://en.wikipedia.org/wiki/History_of_Google"
+      },
+      {
+        "text": "John Glenn, 77, returns to space aboard the shuttle Discovery (October 29).",
+        "on": "10-29",
+        "source": "https://en.wikipedia.org/wiki/STS-95"
+      }
+    ],
+    "facts_note": "Kept all 3 (Titanic, Windows 98, Google), dates confirmed. Added Nagano, iMac, John Glenn.",
+    "tech": {
+      "text": "Furby",
+      "on": "10-02",
+      "source": "https://en.wikipedia.org/wiki/Furby",
+      "note": "Fits: launched October 2, 1998, the must-have toy of Christmas 1998 (resale price over $100)."
+    }
+  },
+  {
+    "year": 1999,
+    "meme": {
+      "ok": true,
+      "on": "02-09",
+      "on_source": "https://en.wikipedia.org/wiki/Hampster_Dance",
+      "note": "Page made in August 1997 (not 1998); word spread by email and blogs in February 1999 and Slashdot linked it on February 9, 1999; 60,000 views in four days by March. Source: https://en.wikipedia.org/wiki/Hampster_Dance (the Slashdot link is its cited reference, dated February 9, 1999).",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Family Guy premieres on Fox right after the Super Bowl (January 31).",
+        "on": "01-31",
+        "source": "https://en.wikipedia.org/wiki/Death_Has_a_Shadow"
+      },
+      {
+        "text": "The Matrix hits cinemas with its 'bullet time' effect (March 31).",
+        "on": "03-31",
+        "source": "https://en.wikipedia.org/wiki/The_Matrix"
+      },
+      {
+        "text": "SpongeBob SquarePants premieres on Nickelodeon (May 1).",
+        "on": "05-01",
+        "source": "https://en.wikipedia.org/wiki/Help_Wanted_(SpongeBob_SquarePants)"
+      },
+      {
+        "text": "Napster launches and lets people swap MP3 music files (June 1).",
+        "on": "06-01",
+        "source": "https://en.wikipedia.org/wiki/Napster"
+      },
+      {
+        "text": "A total solar eclipse sweeps across Europe (August 11).",
+        "on": "08-11",
+        "source": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_11,_1999"
+      },
+      {
+        "text": "Toy Story 2 opens in cinemas (November 24).",
+        "on": "11-24",
+        "source": "https://en.wikipedia.org/wiki/Toy_Story_2"
+      }
+    ],
+    "facts_note": "Kept 3, reworded two future claims: The Matrix 'makes bullet time famous' and Napster 'music sharing explodes' (both came later); Napster dated June 1. Added Family Guy, the eclipse, Toy Story 2.",
+    "tech": {
+      "text": "Nokia 3210",
+      "on": "06-30",
+      "source": "https://en.wikipedia.org/wiki/Nokia_3210",
+      "note": "Fits. Announced March 18, 1999; Nokia's press release: 'available in volume in the second quarter of 1999'. No shop date found, so on = end of Q2 (conservative)."
+    }
+  },
+  {
+    "year": 2000,
+    "meme": {
+      "ok": true,
+      "on": "07-26",
+      "on_source": "https://en.wikipedia.org/wiki/Who_Let_the_Dogs_Out",
+      "note": "Baha Men single released July 26, 2000; the Seattle Mariners started playing it in June 2000; UK No. 2 and the fourth-biggest UK single of 2000. A song craze rather than a web meme, but it is the 2000 phenomenon. Source: https://en.wikipedia.org/wiki/Who_Let_the_Dogs_Out",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "The dreaded Y2K bug is a no-show: only minor glitches (January 1).",
+        "on": "01-01",
+        "source": "https://en.wikipedia.org/wiki/Year_2000_problem"
+      },
+      {
+        "text": "The Sims is released: players run the lives of virtual people (February 4).",
+        "on": "02-04",
+        "source": "https://en.wikipedia.org/wiki/The_Sims_(video_game)"
+      },
+      {
+        "text": "Scientists announce a first rough draft of the human genome (June 26).",
+        "on": "06-26",
+        "source": "https://en.wikipedia.org/wiki/Human_Genome_Project"
+      },
+      {
+        "text": "Harry Potter and the Goblet of Fire is published (July 8).",
+        "on": "07-08",
+        "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire"
+      },
+      {
+        "text": "The Summer Olympics open in Sydney, Australia (September 15).",
+        "on": "09-15",
+        "source": "https://en.wikipedia.org/wiki/2000_Summer_Olympics"
+      },
+      {
+        "text": "The first crew moves into the International Space Station (November 2).",
+        "on": "11-02",
+        "source": "https://en.wikipedia.org/wiki/Expedition_1"
+      }
+    ],
+    "facts_note": "Kept 3 (Y2K, The Sims, ISS crew); The Sims 'becomes a smash hit' came later, reworded. Added the genome draft, Goblet of Fire, the Sydney Olympics.",
+    "tech": {
+      "text": "PlayStation 2",
+      "on": "03-04",
+      "source": "https://en.wikipedia.org/wiki/PlayStation_2",
+      "note": "Fits. Japan March 4, 2000 (= on); North America October 26, Europe November 24."
+    }
+  },
+  {
+    "year": 2001,
+    "meme": {
+      "ok": true,
+      "on": "02-16",
+      "on_source": "https://en.wikipedia.org/wiki/All_your_base_are_belong_to_us",
+      "note": "The phrase circulated as a GIF from 1999-2000; Bad_CRC's Flash video went up on Newgrounds on February 16, 2001 and spread fast. Source: https://en.wikipedia.org/wiki/All_your_base_are_belong_to_us",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Wikipedia goes online (January 15).",
+        "on": "01-15",
+        "source": "https://en.wikipedia.org/wiki/History_of_Wikipedia"
+      },
+      {
+        "text": "Dennis Tito flies to the space station as the first space tourist (April 28).",
+        "on": "04-28",
+        "source": "https://en.wikipedia.org/wiki/Dennis_Tito"
+      },
+      {
+        "text": "Shrek opens in US cinemas (May 18).",
+        "on": "05-18",
+        "source": "https://en.wikipedia.org/wiki/Shrek"
+      },
+      {
+        "text": "Spirited Away opens in Japanese cinemas (July 20).",
+        "on": "07-20",
+        "source": "https://en.wikipedia.org/wiki/Spirited_Away"
+      },
+      {
+        "text": "Windows XP (October 25) and the first Xbox (November 15) are released.",
+        "on": "11-15",
+        "source": "https://en.wikipedia.org/wiki/Xbox_(console)"
+      },
+      {
+        "text": "The first Harry Potter film opens in cinemas (November 16).",
+        "on": "11-16",
+        "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)"
+      }
+    ],
+    "facts_note": "Kept 3, dated: Windows XP October 25 and Xbox November 15 (on = 11-15), Harry Potter film November 16. Added Dennis Tito, Shrek, Spirited Away.",
+    "tech": {
+      "text": "The first iPod",
+      "on": "11-10",
+      "source": "https://en.wikipedia.org/wiki/IPod_Classic",
+      "note": "Fits as the year's landmark gadget: announced October 23, on sale November 10, 2001. Late in the year; the Game Boy Advance (Japan March 21, elsewhere June) is the earlier 2001 alternative."
+    }
+  },
+  {
+    "year": 2002,
+    "meme": {
+      "ok": false,
+      "on": "03-21",
+      "on_source": "https://knowyourmeme.com/memes/peanut-butter-jelly-time",
+      "note": "Right meme for 2002: the Flash cartoon was posted to the OffTopic.com forums in early 2002 and to Newgrounds on March 21, 2002 (https://knowyourmeme.com/memes/peanut-butter-jelly-time; Wikipedia only says 'early 2002', https://en.wikipedia.org/wiki/Buckwheat_Boyz). Blurb fix only: the banana dances, the Buckwheat Boyz sing. Image and source unchanged (the image is a PB&J sandwich photo, it loads).",
+      "replacement": {
+        "title": "Peanut Butter Jelly Time",
+        "blurb": "A pixel banana dances to 'It's peanut butter jelly time!' in a Flash cartoon.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Peanut-Butter-Jelly-Sandwich.jpg/500px-Peanut-Butter-Jelly-Sandwich.jpg",
+        "source": "https://en.wikipedia.org/wiki/Buckwheat_Boyz"
+      }
+    },
+    "facts": [
+      {
+        "text": "Euro notes and coins go into circulation in 12 countries (January 1).",
+        "on": "01-01",
+        "source": "https://en.wikipedia.org/wiki/Eurozone"
+      },
+      {
+        "text": "The Winter Olympics open in Salt Lake City (February 8).",
+        "on": "02-08",
+        "source": "https://en.wikipedia.org/wiki/2002_Winter_Olympics"
+      },
+      {
+        "text": "Spider-Man is the first film to make $100 million in one weekend (May 5).",
+        "on": "05-05",
+        "source": "https://en.wikipedia.org/wiki/List_of_2002_box_office_number-one_films_in_the_United_States"
+      },
+      {
+        "text": "Brazil beats Germany to win a record fifth World Cup (June 30).",
+        "on": "06-30",
+        "source": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_final"
+      },
+      {
+        "text": "Kelly Clarkson wins the first season of American Idol (September 4).",
+        "on": "09-04",
+        "source": "https://en.wikipedia.org/wiki/American_Idol_season_1"
+      },
+      {
+        "text": "The Lord of the Rings: The Two Towers opens in cinemas (December 18).",
+        "on": "12-18",
+        "source": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Two_Towers"
+      }
+    ],
+    "facts_note": "Kept 3, fixed: euro cash went into circulation January 1 (old currencies phased out by March); Spider-Man's record weekend was May 3-5; American Idol premiered June 11 and Clarkson won September 4. Added Salt Lake City, Brazil's fifth World Cup, The Two Towers.",
+    "tech": {
+      "text": "Nokia 7650 camera phone",
+      "on": "06-26",
+      "source": "https://en.wikipedia.org/wiki/Nokia_7650",
+      "note": "Fits: Nokia's first camera phone, much hyped, released June 26, 2002."
+    }
+  },
+  {
+    "year": 2003,
+    "meme": {
+      "ok": true,
+      "on": "09-02",
+      "on_source": "https://en.wikipedia.org/wiki/Badgers_(animation)",
+      "note": "Went live on B3ta.com on September 2, 2003. Source: https://en.wikipedia.org/wiki/Badgers_(animation)",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Apple unveils its own web browser, Safari (January 7).",
+        "on": "01-07",
+        "source": "https://en.wikipedia.org/wiki/Safari_(web_browser)"
+      },
+      {
+        "text": "Apple opens the iTunes Music Store: 99 cents a song (April 28).",
+        "on": "04-28",
+        "source": "https://en.wikipedia.org/wiki/ITunes_Store"
+      },
+      {
+        "text": "Finding Nemo swims into cinemas (May 30).",
+        "on": "05-30",
+        "source": "https://en.wikipedia.org/wiki/Finding_Nemo"
+      },
+      {
+        "text": "Skype is released, with free voice calls over the internet (August 29).",
+        "on": "08-29",
+        "source": "https://en.wikipedia.org/wiki/Skype"
+      },
+      {
+        "text": "Supersonic Concorde makes its last commercial flights (October 24).",
+        "on": "10-24",
+        "source": "https://en.wikipedia.org/wiki/Concorde"
+      },
+      {
+        "text": "The Lord of the Rings: The Return of the King opens (December 17).",
+        "on": "12-17",
+        "source": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King"
+      }
+    ],
+    "facts_note": "Kept 3: Skype dated August 29; Finding Nemo 'the year's big animated hit' came later, reworded (US release May 30). Added Safari, Concorde's last flights, The Return of the King.",
+    "tech": {
+      "text": "Game Boy Advance SP",
+      "on": "02-14",
+      "source": "https://en.wikipedia.org/wiki/Game_Boy_Advance_SP",
+      "note": "Fits. Japan February 14, 2003 (= on); other regions in March."
+    }
+  },
+  {
+    "year": 2004,
+    "meme": {
+      "ok": true,
+      "on": "12-06",
+      "on_source": "https://en.wikipedia.org/wiki/Numa_Numa",
+      "note": "Uploaded to Newgrounds on December 6, 2004 (https://en.wikipedia.org/wiki/Numa_Numa); the big spread came in early 2005. Named in the brief, so it stays, but before 12-06 the 2004 card has no meme.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "NASA's rovers Spirit and Opportunity land on Mars (January 4 and 25).",
+        "on": "01-25",
+        "source": "https://en.wikipedia.org/wiki/Opportunity_(rover)"
+      },
+      {
+        "text": "Facebook launches at Harvard as 'TheFacebook' (February 4).",
+        "on": "02-04",
+        "source": "https://en.wikipedia.org/wiki/Facebook"
+      },
+      {
+        "text": "Gmail launches with a huge 1 GB inbox (April 1).",
+        "on": "04-01",
+        "source": "https://en.wikipedia.org/wiki/Gmail"
+      },
+      {
+        "text": "SpaceShipOne makes the first private human spaceflight (June 21).",
+        "on": "06-21",
+        "source": "https://en.wikipedia.org/wiki/SpaceShipOne"
+      },
+      {
+        "text": "Outsiders Greece win Euro 2004 in Portugal (July 4).",
+        "on": "07-04",
+        "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2004_final"
+      },
+      {
+        "text": "Mozilla releases Firefox 1.0 (November 9).",
+        "on": "11-09",
+        "source": "https://en.wikipedia.org/wiki/Firefox_version_history"
+      }
+    ],
+    "facts_note": "Kept 3; the rovers are dated (Spirit January 4, Opportunity January 25, on = 01-25). Added SpaceShipOne, Greece at Euro 2004, Firefox 1.0.",
+    "tech": {
+      "text": "iPod mini",
+      "on": "02-20",
+      "source": "https://en.wikipedia.org/wiki/IPod_Mini",
+      "note": "Changed from Motorola RAZR V3: the RAZR shipped only from September 2004 (Asia, Europe) and November 16 (US) and was the top US phone of 2005-2007. iPod mini: on sale February 20, 2004, often out of stock."
+    }
+  },
+  {
+    "year": 2005,
+    "meme": {
+      "ok": true,
+      "on": "05-11",
+      "on_source": "https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+      "note": "The 'Leeroy!!' video was released on Warcraftmovies on May 11, 2005. Source: https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "The Huygens probe lands on Saturn's moon Titan (January 14).",
+        "on": "01-14",
+        "source": "https://en.wikipedia.org/wiki/Huygens_(spacecraft)"
+      },
+      {
+        "text": "Google Maps launches (February 8).",
+        "on": "02-08",
+        "source": "https://en.wikipedia.org/wiki/Google_Maps"
+      },
+      {
+        "text": "YouTube's first video, 'Me at the zoo', is uploaded (April 23).",
+        "on": "04-23",
+        "source": "https://en.wikipedia.org/wiki/Me_at_the_zoo"
+      },
+      {
+        "text": "Star Wars: Episode III closes the prequel trilogy (May 19).",
+        "on": "05-19",
+        "source": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_III_%E2%80%93_Revenge_of_the_Sith"
+      },
+      {
+        "text": "Harry Potter and the Half-Blood Prince is published (July 16).",
+        "on": "07-16",
+        "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince"
+      },
+      {
+        "text": "Microsoft's Xbox 360 goes on sale in North America (November 22).",
+        "on": "11-22",
+        "source": "https://en.wikipedia.org/wiki/Xbox_360"
+      }
+    ],
+    "facts_note": "Kept 3, dates confirmed. Added Huygens, Half-Blood Prince, Xbox 360.",
+    "tech": {
+      "text": "Motorola RAZR V3",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Motorola_Razr_V3",
+      "note": "Changed from iPod nano (on sale only from September 7, 2005; keep it if you prefer). RAZR V3: out since late 2004 and the most popular US phone of 2005, so on = 01-01."
+    }
+  },
+  {
+    "year": 2006,
+    "meme": {
+      "ok": true,
+      "on": "05-19",
+      "on_source": "https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos",
+      "note": "Uploaded April 6, 2006; it first became YouTube's most-viewed video on May 19, 2006, which the blurb claims (https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos; upload date: https://en.wikipedia.org/wiki/Judson_Laipply). For 04-06, drop the most-viewed claim from the blurb.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "NASA launches New Horizons on its way to Pluto (January 19).",
+        "on": "01-19",
+        "source": "https://en.wikipedia.org/wiki/New_Horizons"
+      },
+      {
+        "text": "The first tweet is sent: 'just setting up my twttr' (March 21).",
+        "on": "03-21",
+        "source": "https://www.computerhistory.org/tdih/march/21/"
+      },
+      {
+        "text": "Italy wins the World Cup in Berlin on penalties (July 9).",
+        "on": "07-09",
+        "source": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_final"
+      },
+      {
+        "text": "Pluto is reclassified as a dwarf planet (August 24).",
+        "on": "08-24",
+        "source": "https://en.wikipedia.org/wiki/IAU_definition_of_planet"
+      },
+      {
+        "text": "Facebook opens to everyone aged 13 and over (September 26).",
+        "on": "09-26",
+        "source": "https://en.wikipedia.org/wiki/History_of_Facebook"
+      },
+      {
+        "text": "Google agrees to buy YouTube for $1.65 billion (October 9).",
+        "on": "10-09",
+        "source": "https://en.wikipedia.org/wiki/History_of_YouTube"
+      }
+    ],
+    "facts_note": "Kept 3; the YouTube deal was announced October 9 and closed November 13, so 'agrees to buy'. Added New Horizons, Italy's World Cup, Facebook opening to everyone.",
+    "tech": {
+      "text": "Nintendo Wii",
+      "on": "11-19",
+      "source": "https://en.wikipedia.org/wiki/Wii",
+      "note": "Fits: North America November 19, 2006; most other regions in December."
+    }
+  },
+  {
+    "year": 2007,
+    "meme": {
+      "ok": true,
+      "on": "01-11",
+      "on_source": "https://en.wikipedia.org/wiki/Lolcat",
+      "note": "Cat macros existed since 2005-06, but lolcats 'did not become a sensation until early 2007' with I Can Has Cheezburger?, whose first post (the CHEEZBURGER cat) went up January 11, 2007; peak traffic May 2007. Source: https://en.wikipedia.org/wiki/Lolcat",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Netflix starts streaming movies online (January 16).",
+        "on": "01-16",
+        "source": "https://en.wikipedia.org/wiki/Netflix"
+      },
+      {
+        "text": "Pixar's Ratatouille opens in US cinemas (June 29).",
+        "on": "06-29",
+        "source": "https://en.wikipedia.org/wiki/Ratatouille_(film)"
+      },
+      {
+        "text": "The New 7 Wonders of the World are announced in Lisbon (July 7).",
+        "on": "07-07",
+        "source": "https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World"
+      },
+      {
+        "text": "Harry Potter and the Deathly Hallows, the last book, is out (July 21).",
+        "on": "07-21",
+        "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows"
+      },
+      {
+        "text": "Halo 3 makes $170 million on its first day (September 25).",
+        "on": "09-25",
+        "source": "https://en.wikipedia.org/wiki/Halo_3"
+      },
+      {
+        "text": "Amazon releases the first Kindle e-reader (November 19).",
+        "on": "11-19",
+        "source": "https://en.wikipedia.org/wiki/Amazon_Kindle"
+      }
+    ],
+    "facts_note": "Kept 3; Netflix streaming started January 16. Added Ratatouille, New 7 Wonders, Halo 3.",
+    "tech": {
+      "text": "The first iPhone",
+      "on": "06-29",
+      "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+      "note": "Fits: announced January 9, on sale in the US June 29, 2007."
+    }
+  },
+  {
+    "year": 2008,
+    "meme": {
+      "ok": true,
+      "on": "01-01",
+      "on_source": "https://en.wikipedia.org/wiki/Rickrolling",
+      "note": "Started on 4chan on May 15, 2007 and spread within days; peak in 2008 (Anonymous protests in February, YouTube's April Fools' prank on April 1, Macy's parade in November). Already viral when 2008 began, so 01-01. Source: https://en.wikipedia.org/wiki/Rickrolling",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Apple unveils the ultra-thin MacBook Air (January 15).",
+        "on": "01-15",
+        "source": "https://en.wikipedia.org/wiki/MacBook_Air"
+      },
+      {
+        "text": "Iron Man kicks off the Marvel Cinematic Universe (May 2).",
+        "on": "05-02",
+        "source": "https://en.wikipedia.org/wiki/Iron_Man_(2008_film)"
+      },
+      {
+        "text": "Apple's App Store opens with about 500 apps (July 10).",
+        "on": "07-10",
+        "source": "https://en.wikipedia.org/wiki/App_Store_(Apple)"
+      },
+      {
+        "text": "The Beijing Olympics open on 08/08/08 (August 8).",
+        "on": "08-08",
+        "source": "https://en.wikipedia.org/wiki/2008_Summer_Olympics"
+      },
+      {
+        "text": "Google Chrome is released (September 2).",
+        "on": "09-02",
+        "source": "https://en.wikipedia.org/wiki/Google_Chrome"
+      },
+      {
+        "text": "Spotify launches its music streaming service in Europe (October 7).",
+        "on": "10-07",
+        "source": "https://en.wikipedia.org/wiki/Spotify"
+      }
+    ],
+    "facts_note": "Kept 3, dates confirmed. Added MacBook Air, the Beijing Olympics, Spotify.",
+    "tech": {
+      "text": "Asus Eee PC netbook",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Asus_Eee_PC",
+      "note": "Fits: the 2008 netbook craze. First model on sale October 16, 2007 (Taiwan), so on = 01-01."
+    }
+  },
+  {
+    "year": 2009,
+    "meme": {
+      "ok": true,
+      "on": "04-10",
+      "on_source": "https://knowyourmeme.com/memes/keyboard-cat",
+      "note": "Brad O'Farrell posted 'Play Him Off, Keyboard Cat' on February 2, 2009; BuzzFeed and Urlesque featured it on April 10, 2009 (first to call it a meme); mainstream in May (Ashton Kutcher tweet May 5, AP story May 22). 04-10 is the first date it was demonstrably viral. Sources: https://knowyourmeme.com/memes/keyboard-cat , https://en.wikipedia.org/wiki/Keyboard_Cat (February 2009, May 2009 coverage).",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Bitcoin's first block is mined (January 3).",
+        "on": "01-03",
+        "source": "https://en.wikipedia.org/wiki/Bitcoin"
+      },
+      {
+        "text": "Susan Boyle stuns Britain's Got Talent with 'I Dreamed a Dream' (April 11).",
+        "on": "04-11",
+        "source": "https://en.wikipedia.org/wiki/Susan_Boyle"
+      },
+      {
+        "text": "The first version of Minecraft appears online (May 17).",
+        "on": "05-17",
+        "source": "https://en.wikipedia.org/wiki/Minecraft"
+      },
+      {
+        "text": "Usain Bolt runs 100 m in a record 9.58 seconds in Berlin (August 16).",
+        "on": "08-16",
+        "source": "https://en.wikipedia.org/wiki/Usain_Bolt"
+      },
+      {
+        "text": "Windows 7 goes on sale (October 22).",
+        "on": "10-22",
+        "source": "https://en.wikipedia.org/wiki/Windows_7"
+      },
+      {
+        "text": "James Cameron's Avatar opens in 3D (December 18).",
+        "on": "12-18",
+        "source": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+      }
+    ],
+    "facts_note": "Kept 3; Avatar 'smashes box-office records' came later (it passed Titanic in January 2010), reworded. Added Susan Boyle, Bolt's 9.58, Windows 7.",
+    "tech": {
+      "text": "Flip video camera",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Flip_Video",
+      "note": "Fits: best-selling pocket camcorder; Flip Ultra out September 12, 2007, Cisco bought Flip in March 2009. on = 01-01."
+    }
+  },
+  {
+    "year": 2010,
+    "meme": {
+      "ok": false,
+      "on": "07-03",
+      "on_source": "https://en.wikipedia.org/wiki/Double_Rainbow_(viral_video)",
+      "note": "Uploaded January 8, 2010; went viral after Jimmy Kimmel tweeted it on July 3, 2010. Source: https://en.wikipedia.org/wiki/Double_Rainbow_(viral_video). Blurb fix only: Paul Vasquez filmed it from his yard near Yosemite, he was not a hiker. Image and source unchanged.",
+      "replacement": {
+        "title": "Double Rainbow",
+        "blurb": "A man near Yosemite films a double rainbow and asks 'What does it mean?' Millions watch.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/500px-Double-alaskan-rainbow.jpg",
+        "source": "https://en.wikipedia.org/wiki/Double_Rainbow_(viral_video)"
+      }
+    },
+    "facts": [
+      {
+        "text": "The Burj Khalifa opens in Dubai as the world's tallest building (January 4).",
+        "on": "01-04",
+        "source": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+      },
+      {
+        "text": "The Winter Olympics open in Vancouver, Canada (February 12).",
+        "on": "02-12",
+        "source": "https://en.wikipedia.org/wiki/2010_Winter_Olympics"
+      },
+      {
+        "text": "Shakira's 'Waka Waka' is the sound of the World Cup in South Africa (June 11).",
+        "on": "06-11",
+        "source": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup"
+      },
+      {
+        "text": "Toy Story 3 (June 18) and Inception (July 16) open in cinemas.",
+        "on": "07-16",
+        "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2010"
+      },
+      {
+        "text": "Instagram launches on the iPhone (October 6).",
+        "on": "10-06",
+        "source": "https://en.wikipedia.org/wiki/Instagram"
+      },
+      {
+        "text": "Microsoft's Kinect lets Xbox 360 players play with their body (November 4).",
+        "on": "11-04",
+        "source": "https://en.wikipedia.org/wiki/Kinect"
+      }
+    ],
+    "facts_note": "Kept 3: Waka Waka dated to the World Cup start June 11; 'rule the summer box office' was a later claim, now both release dates. Added Burj Khalifa, Vancouver Olympics, Kinect.",
+    "tech": {
+      "text": "Apple iPad",
+      "on": "04-03",
+      "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation)",
+      "note": "Fits: on sale in the US April 3, 2010."
+    }
+  },
+  {
+    "year": 2011,
+    "meme": {
+      "ok": true,
+      "on": "04-05",
+      "on_source": "https://en.wikipedia.org/wiki/Nyan_Cat",
+      "note": "Chris Torres posted the GIF on April 2, 2011; the YouTube video 'Nyan Cat' went up on April 5, 2011. Source: https://en.wikipedia.org/wiki/Nyan_Cat",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "IBM's computer Watson beats two Jeopardy! champions (February 16).",
+        "on": "02-16",
+        "source": "https://techcrunch.com/2011/02/16/the-final-night-of-ibms-jeopardy-challenge-how-did-watson-do/"
+      },
+      {
+        "text": "Game of Thrones premieres on HBO (April 17).",
+        "on": "04-17",
+        "source": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+      },
+      {
+        "text": "Prince William and Kate Middleton marry in London (April 29).",
+        "on": "04-29",
+        "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_William_and_Catherine_Middleton"
+      },
+      {
+        "text": "The final Harry Potter film opens (July 15).",
+        "on": "07-15",
+        "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2"
+      },
+      {
+        "text": "Atlantis lands and the Space Shuttle program ends (July 21).",
+        "on": "07-21",
+        "source": "https://en.wikipedia.org/wiki/STS-135"
+      },
+      {
+        "text": "Skyrim is released on 11/11/11.",
+        "on": "11-11",
+        "source": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim"
+      }
+    ],
+    "facts_note": "Kept 3, dates confirmed. Added Watson on Jeopardy!, Game of Thrones, the last Shuttle landing. Skipped Adele's 21: Rolling in the Deep is already the 2011 No. 1 song on the card.",
+    "tech": {
+      "text": "iPhone 4S with Siri",
+      "on": "10-14",
+      "source": "https://en.wikipedia.org/wiki/IPhone_4s",
+      "note": "Fits: on sale October 14, 2011, with Siri. Earlier-year alternative: iPad 2 (March 11, 2011)."
+    }
+  }
+]

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yesteryear Music</title>
+  <link rel="stylesheet" href="player.css">
+  <script type="module" src="player.js"></script>
+</head>
+<body data-skin="winamp">
+  <main class="player" id="player">
+    <header class="titlebar">
+      <span class="app" id="app-name">Winamp</span>
+      <span class="year-tag" id="year-tag"></span>
+      <button type="button" class="hide" id="hide" title="Close this panel. The music keeps playing; open it again from the Yesteryear button.">Hide player</button>
+    </header>
+
+    <section class="deck" aria-label="Now playing">
+      <div class="clock" id="clock" role="button" tabindex="0" title="Click: time played / time left">
+        <span class="state-ind" id="state-ind" aria-hidden="true"></span>
+        <span class="time" id="time">0:00</span>
+      </div>
+      <div class="vis" id="vis-box">
+        <canvas id="vis" aria-hidden="true"></canvas>
+        <div class="idle" id="idle">Hits of <b id="idle-year"></b><small>Billboard Year-End Hot 100</small></div>
+      </div>
+      <div class="info">
+        <div class="marquee" id="marquee"><span id="track">Press Play</span></div>
+        <div class="sub" id="sub"></div>
+        <div class="meta" aria-hidden="true"><b>128</b> kbps <b>44</b> kHz <span class="stereo">stereo</span></div>
+      </div>
+      <div class="seekrow">
+        <span class="t" id="elapsed">0:00</span>
+        <input type="range" id="seek" min="0" max="1" step="1" value="0" disabled aria-label="Position in the song">
+        <span class="t" id="total">0:00</span>
+      </div>
+      <div class="controls">
+        <button type="button" class="btn" id="prev" aria-label="Previous song" title="Previous song (Z)"><span class="ico ico-prev"></span></button>
+        <button type="button" class="btn play" id="play" aria-label="Play" title="Play / Pause (Space)"><span class="ico ico-play"></span></button>
+        <button type="button" class="btn" id="next" aria-label="Next song" title="Next song (B)"><span class="ico ico-next"></span></button>
+        <button type="button" class="btn" id="shuffle" aria-pressed="false" aria-label="Shuffle" title="Shuffle"><span class="ico ico-shuffle"></span></button>
+        <label class="vol" title="Volume"><span class="ico ico-vol"></span><input type="range" id="volume" min="0" max="100" step="1" value="80" aria-label="Volume"></label>
+      </div>
+      <p class="status" id="status" role="status"></p>
+    </section>
+
+    <section class="playlist" aria-label="Playlist">
+      <div class="pl-head"><span id="pl-title">Billboard Year-End Hot 100</span><span class="pl-count" id="pl-count"></span></div>
+      <ol class="list" id="list" role="listbox" tabindex="0" aria-label="Songs"></ol>
+      <p class="pl-foot">Double-click a song to play it. Hide player keeps the music playing.</p>
+    </section>
+  </main>
+</body>
+</html>

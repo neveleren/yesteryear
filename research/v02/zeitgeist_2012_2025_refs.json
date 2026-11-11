@@ -1,0 +1,129 @@
+{
+  "about": "Provenance for zeitgeist_2012_2025.json. All Google lists were read from web.archive.org copies only (no request to any google.com host).",
+  "year_in_search": {
+    "2012": [
+      "https://web.archive.org/web/20130114211938/http://www.google.com/zeitgeist/2012/",
+      "https://web.archive.org/web/20131218023727/http://static.googleusercontent.com/media/www.google.com/es/us/zeitgeist/2012/download/google-zeitgeist-2012-en.pdf",
+      "https://web.archive.org/web/20221013182048/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2012&geo=US&isMobile=false"
+    ],
+    "2013": [
+      "https://web.archive.org/web/20131220233738/http://googleblog.blogspot.com/2013/12/2013-in-search-heroes-tragedies-and.html",
+      "https://web.archive.org/web/20211209045044/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2013&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20211017232454/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2013&geo=US&isMobile=false"
+    ],
+    "2014": [
+      "https://web.archive.org/web/20211209045005/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2014&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20190713093013/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2014&geo=US&isMobile=false"
+    ],
+    "2015": [
+      "https://web.archive.org/web/20200613105916/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2015&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20190713093014/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2015&geo=US&isMobile=false"
+    ],
+    "2016": [
+      "https://web.archive.org/web/20210715211317/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2016&geo=GLOBAL",
+      "https://web.archive.org/web/20190713093014/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2016&geo=US&isMobile=false"
+    ],
+    "2017": [
+      "https://web.archive.org/web/20190307161711/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2017&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20190713093015/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2017&geo=US&isMobile=false"
+    ],
+    "2018": [
+      "https://web.archive.org/web/20190802002731/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=-120&date=2018&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20190713093013/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2018&geo=US&isMobile=false"
+    ],
+    "2019": [
+      "https://web.archive.org/web/20191211200949/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2019&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20191211200856/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=300&date=2019&geo=US&isMobile=false"
+    ],
+    "2020": [
+      "https://web.archive.org/web/20201210000052/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2020&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20201209160229/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2020&geo=US&isMobile=false"
+    ],
+    "2021": [
+      "https://web.archive.org/web/20211208193139/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2021&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20211208155857/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2021&geo=US&isMobile=false"
+    ],
+    "2022": [
+      "https://web.archive.org/web/20221207151829/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2022&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20221215231826/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2022&geo=US&isMobile=false"
+    ],
+    "2023": [
+      "https://web.archive.org/web/20231211155830/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2023&geo=GLOBAL&isMobile=false",
+      "https://web.archive.org/web/20240105121934/https://trends.google.com/trends/api/topcharts?hl=en-US&tz=0&date=2023&geo=US&isMobile=false"
+    ],
+    "2024": [
+      "https://web.archive.org/web/20250115025146/https://trends.withgoogle.com/year-in-search/2024/",
+      "https://web.archive.org/web/20241210170713/https://trends.withgoogle.com/year-in-search/2024/us/"
+    ],
+    "2025": [
+      "https://web.archive.org/web/20260117041514/https://trends.withgoogle.com/year-in-search/2025/",
+      "https://web.archive.org/web/20251204081354/https://trends.withgoogle.com/year-in-search/2025/us/"
+    ]
+  },
+  "on_dates": {
+    "2012 gangnam style": "Google Zeitgeist 2012 timeline date 2012-07-15 (video upload)",
+    "2012 ipad 3": "new iPad announced 2012-03-07",
+    "2012 jeremy lin": "Linsanity breakout game 2012-02-04",
+    "2013 iphone 5s": "Apple event 2013-09-10",
+    "2013 harlem shake": "Sunny Coast Skate video 2013-02-02 made the meme viral (first meme video 2013-01-30), Wikipedia",
+    "2013 playstation 4": "PlayStation Meeting 2013-02-20",
+    "2014 flappy bird": "No. 1 free app in the US App Store from 2014-01-17 (Distimo via PocketGamer, MediaPost)",
+    "2014 conchita wurst": "Eurovision final win 2014-05-10",
+    "2014 iphone 6": "Apple event 2014-09-09",
+    "2015 agar.io": "released 2015-04-28, Wikipedia",
+    "2015 fallout 4": "announced 2015-06-03",
+    "2015 iphone 6s": "Apple event 2015-09-09",
+    "2016 pokemon go": "launch 2016-07-06",
+    "2016 iphone 7": "Apple event 2016-09-07",
+    "2016 slither.io": "released 2016-03-25, Wikipedia",
+    "2016 stranger things": "Netflix premiere 2016-07-15",
+    "2017 iphone x": "Apple event 2017-09-12",
+    "2017 fidget spinner": "APPROXIMATE: first appears in Google Trends in the week 2017-01-29 to 02-04 (Fortune, 2017-06-13)",
+    "2017 despacito": "single released 2017-01-13, Wikipedia",
+    "2017 mayweather vs mcgregor": "fight officially confirmed 2017-06-14, Wikipedia",
+    "2019 iphone 11": "Apple event 2019-09-10",
+    "2019 disney plus": "launch date announced 2019-04-11, Wikipedia",
+    "2020 zoom": "APPROXIMATE: mid-March 2020 surge when schools and offices moved online",
+    "2020 among us": "Sodapoppin's Twitch stream 2020-07-15 set off the surge (Know Your Meme, PC Gamer)",
+    "2020 fall guys": "released 2020-08-04",
+    "2020 dalgona coffee": "APPROXIMATE: viral on TikTok in early March 2020, Wikipedia",
+    "2020 the queen's gambit": "Netflix premiere 2020-10-23",
+    "2021 squid game": "Netflix premiere 2021-09-17",
+    "2021 drivers license": "released 2021-01-08",
+    "2021 wandavision": "premiere 2021-01-15",
+    "2022 iphone 14": "Apple event 2022-09-07",
+    "2023 grimace shake": "on sale in the US from 2023-06-12, Wikipedia",
+    "2024 iphone 16": "Apple event 2024-09-09",
+    "2024 not like us": "released 2024-05-04",
+    "2025 deepseek": "DeepSeek-R1 launched 2025-01-20, No. 1 in the US App Store by 01-27, Wikipedia",
+    "2025 iphone 17": "Apple event 2025-09-09",
+    "2025 kpop demon hunters": "Netflix release 2025-06-20",
+    "empty on": "already searched before January 1 (released, announced or famous earlier)"
+  },
+  "site_rankings": {
+    "2012": "https://web.archive.org/web/20121215044423/http://www.alexa.com/topsites",
+    "2013": "https://web.archive.org/web/20140322112929/http://www.alexa.com/topsites/countries/US",
+    "2014": "https://web.archive.org/web/20141214120808/http://www.alexa.com/topsites/countries/US",
+    "2015": "https://web.archive.org/web/20151210131740/http://www.alexa.com/topsites/countries/US",
+    "2016": "https://web.archive.org/web/20161213123205/http://www.alexa.com/topsites/countries/US",
+    "2017": "https://web.archive.org/web/20171214000331/https://www.alexa.com/topsites/countries/US",
+    "2018": "https://web.archive.org/web/20181213024339/https://www.alexa.com/topsites/countries/US",
+    "2019": "https://web.archive.org/web/20191214221159/https://www.alexa.com/topsites/countries/US",
+    "2020": "https://web.archive.org/web/20201215024334/https://www.alexa.com/topsites/countries/US",
+    "2021": "https://web.archive.org/web/20211225060846/https://www.alexa.com/topsites/countries/US",
+    "2022": "https://web.archive.org/web/20220903141747/https://www.similarweb.com/top-websites/united-states/",
+    "2023": "https://web.archive.org/web/20231203121103/https://www.similarweb.com/top-websites/united-states/",
+    "2024": "https://web.archive.org/web/20241006061126/https://www.similarweb.com/top-websites/united-states/",
+    "2025": "https://web.archive.org/web/20251209085319/https://www.similarweb.com/top-websites/united-states/"
+  },
+  "site_checks": {
+    "first": "earliest capture of the host from POST https://archive.org/wayback/available (Wayback-Api-Version: 2, timestamp 19960101); it can predate the service (prior domain owner)",
+    "same_year": "every site-year pair also has plain HTTP 200 homepage captures inside that year (CDX, one year per query); http vs https and www vs bare host follow what answered 200 that year",
+    "excluded": {
+      "ChatGPT 2023": "chat.openai.com has no 200 capture before 2024-03-01 (403 and 307 in 2023)",
+      "ChatGPT 2024": "chatgpt.com before mid-2024 is a third-party 'ChatGPT - Latest News' site (2022-12 to 2023-08) or redirects",
+      "Netflix 2014-2015": "no 200 homepage capture in 2014, 32 days in 2015",
+      "X 2024": "twitter.com became x.com on 2024-05-17; x.com before that was a placeholder or redirect"
+    }
+  }
+}

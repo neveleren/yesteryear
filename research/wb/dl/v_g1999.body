@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<TITLE>Google</TITLE>
+<BASE HREF="http://www.google.com/">
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" text="#000000" link="#0000ee" vlink="#ff0000" alink="#000099">
+
+<CENTER>
+<IMG src=google.jpg alt="Google! (Beta version)">
+
+<table border=0>
+<tr>
+<td>
+<FORM name=f method=GET action="/search">
+<CENTER>Search the web using Google<br></CENTER>
+<CENTER><INPUT type=text name=q value="" size=40 framewidth=4><br></CENTER>
+<CENTER><INPUT type=submit value="Google Search">
+<INPUT type=submit name=sa value="I'm feeling lucky"><br></CENTER>
+</FORM>
+</td>
+</tr>
+</table>
+
+<A HREF="more.html">More Google!</A><br>
+
+<p><FONT SIZE="-1">Copyright &copy;1999 Google Inc.</FONT>
+</CENTER>
+
+<SCRIPT language=JavaScript>
+<!--
+   document.f.q.focus();
+// -->
+</SCRIPT>
+<IMG SRC=white.gif WIDTH=1 HEIGHT=1 ALT=""><IMG SRC=red.gif WIDTH=1 HEIGHT=1 ALT=""><IMG SRC=purple.gif WIDTH=1 HEIGHT=1 ALT=""><IMG SRC=nav.gif WIDTH=1 HEIGHT=1 ALT=""><IMG SRC=clear.gif WIDTH=1 HEIGHT=1 ALT="">
+</BODY>
+</HTML>

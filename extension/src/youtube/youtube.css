@@ -1,0 +1,29 @@
+/* Yesteryear on YouTube. Everything is scoped to html.yy-youtube (set only while the time machine is on). */
+html.yy-youtube ytd-reel-shelf-renderer,
+html.yy-youtube ytd-rich-shelf-renderer[is-shorts],
+html.yy-youtube #comments,
+html.yy-youtube ytd-comments,
+html.yy-youtube ytd-guide-entry-renderer:has(a[href^="/shorts"]),
+html.yy-youtube ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+html.yy-youtube #chips-wrapper,
+html.yy-youtube ytd-feed-filter-chip-bar-renderer,
+/* ads ignore the before: cap */
+html.yy-youtube ytd-ad-slot-renderer,
+html.yy-youtube ytd-in-feed-ad-layout-renderer,
+html.yy-youtube ytd-promoted-sparkles-web-renderer,
+html.yy-youtube ytd-promoted-video-renderer,
+html.yy-youtube ytd-search-pyv-renderer,
+html.yy-youtube ytd-banner-promo-renderer,
+html.yy-youtube #player-ads,
+html.yy-youtube #masthead-ad { display: none !important; }
+
+/* 2005-2012: a light, era-ish reskin (CSS only; playback and navigation untouched) */
+html.yy-youtube.yy-yt-classic ytd-app, html.yy-youtube.yy-yt-classic #content,
+html.yy-youtube.yy-yt-classic ytd-page-manager { background: #fff !important; }
+html.yy-youtube.yy-yt-classic #video-title, html.yy-youtube.yy-yt-classic a#video-title-link,
+html.yy-youtube.yy-yt-classic .yt-lockup-metadata-view-model__title { color: #03c !important; font-family: Arial, sans-serif !important; font-size: 13px !important; font-weight: bold !important; }
+html.yy-youtube.yy-yt-classic #metadata-line, html.yy-youtube.yy-yt-classic .inline-metadata-item,
+html.yy-youtube.yy-yt-classic .yt-content-metadata-view-model__metadata-text { color: #666 !important; font-family: Arial, sans-serif !important; font-size: 11px !important; }
+html.yy-youtube.yy-yt-classic ytd-thumbnail, html.yy-youtube.yy-yt-classic yt-thumbnail-view-model { border-radius: 0 !important; }
+html.yy-youtube.yy-yt-classic ytd-thumbnail img, html.yy-youtube.yy-yt-classic yt-thumbnail-view-model img { border-radius: 0 !important; border: 1px solid #999 !important; }
+html.yy-youtube.yy-yt-classic #masthead-container, html.yy-youtube.yy-yt-classic #masthead { background: #fff !important; border-bottom: 1px solid #ccc; }

@@ -1,0 +1,954 @@
+{
+  "1998": {
+    "meme": {
+      "title": "Dancing Baby",
+      "blurb": "A 3D baby doing the cha-cha spreads by email and lands on TV's Ally McBeal.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/ce/DancingBaby.jpg",
+      "source": "https://en.wikipedia.org/wiki/Dancing_baby",
+      "on": "01-05"
+    },
+    "facts": [
+      {"text": "The Winter Olympics open in Nagano, Japan (February 7).", "on": "02-07"},
+      {"text": "Titanic wins 11 Oscars, tying the all-time record (March 23).", "on": "03-23"},
+      {"text": "Windows 98 goes on sale (June 25).", "on": "06-25"},
+      {"text": "Apple's translucent Bondi Blue iMac goes on sale (August 15).", "on": "08-15"},
+      {"text": "Google is founded in a garage in Menlo Park, California (September 4).", "on": "09-04"},
+      {"text": "John Glenn, 77, returns to space aboard the shuttle Discovery (October 29).", "on": "10-29"}
+    ],
+    "tech": {"text": "Furby", "on": "10-02"},
+    "searches": [
+      {"q": "titanic", "on": "01-01"},
+      {"q": "south park", "on": "01-01"},
+      {"q": "mp3", "on": "01-01"},
+      {"q": "dawson's creek", "on": "01-20"},
+      {"q": "pokemon", "on": "09-08"},
+      {"q": "furby", "on": "10-02"}
+    ],
+    "sites": [
+      {"name": "Yahoo!", "url": "http://www.yahoo.com/", "first": "19961017235908"},
+      {"name": "AOL.com", "url": "http://www.aol.com/", "first": "19961220154856"},
+      {"name": "GeoCities", "url": "http://www.geocities.com/", "first": "19961022173245"},
+      {"name": "Hotmail", "url": "http://www.hotmail.com/", "first": "19961220074303"},
+      {"name": "Netscape", "url": "http://home.netscape.com/", "first": "19970220012313"},
+      {"name": "AltaVista", "url": "http://altavista.digital.com/", "first": "19960511013133"}
+    ]
+  },
+  "1999": {
+    "meme": {
+      "title": "Hampster Dance",
+      "blurb": "Rows of dancing hamster GIFs and a sped-up song: one of the first viral web pages.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Hampster_dance.gif",
+      "source": "https://en.wikipedia.org/wiki/Hampster_Dance",
+      "on": "02-09"
+    },
+    "facts": [
+      {"text": "Family Guy premieres on Fox right after the Super Bowl (January 31).", "on": "01-31"},
+      {"text": "The Matrix hits cinemas with its 'bullet time' effect (March 31).", "on": "03-31"},
+      {"text": "SpongeBob SquarePants premieres on Nickelodeon (May 1).", "on": "05-01"},
+      {"text": "Napster launches and lets people swap MP3 music files (June 1).", "on": "06-01"},
+      {"text": "A total solar eclipse sweeps across Europe (August 11).", "on": "08-11"},
+      {"text": "Toy Story 2 opens in cinemas (November 24).", "on": "11-24"}
+    ],
+    "tech": {"text": "Nokia 3210", "on": "06-30"},
+    "searches": [
+      {"q": "pokemon", "on": "01-01"},
+      {"q": "britney spears", "on": "01-01"},
+      {"q": "wwf", "on": "01-01"},
+      {"q": "star wars", "on": "01-01"},
+      {"q": "backstreet boys", "on": "01-01"},
+      {"q": "blair witch project", "on": "01-23"}
+    ],
+    "sites": [
+      {"name": "Lycos", "url": "http://www.lycos.com/", "first": "19961022175214"},
+      {"name": "eBay", "url": "http://www.ebay.com/", "first": "19970614001443"},
+      {"name": "Ask Jeeves", "url": "http://www.askjeeves.com/", "first": "19961219064854"},
+      {"name": "ICQ", "url": "http://www.icq.com/", "first": "19970408062228"},
+      {"name": "Blue Mountain", "url": "http://www.bluemountain.com/", "first": "19971210093422"},
+      {"name": "Winamp", "url": "http://www.winamp.com/", "first": "19981205015145"}
+    ]
+  },
+  "2000": {
+    "meme": {
+      "title": "Who Let the Dogs Out?",
+      "blurb": "Woof, woof, woof! The Baha Men's barking chorus takes over every stadium and party.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/15/Baha_Men_-_Dogs_single.png",
+      "source": "https://en.wikipedia.org/wiki/Who_Let_the_Dogs_Out",
+      "on": "07-26"
+    },
+    "facts": [
+      {"text": "The dreaded Y2K bug is a no-show: only minor glitches (January 1).", "on": "01-01"},
+      {"text": "The Sims is released: players run the lives of virtual people (February 4).", "on": "02-04"},
+      {"text": "Scientists announce a first rough draft of the human genome (June 26).", "on": "06-26"},
+      {"text": "Harry Potter and the Goblet of Fire is published (July 8).", "on": "07-08"},
+      {"text": "The Summer Olympics open in Sydney, Australia (September 15).", "on": "09-15"},
+      {"text": "The first crew moves into the International Space Station (November 2).", "on": "11-02"}
+    ],
+    "tech": {"text": "PlayStation 2", "on": "03-04"},
+    "searches": [
+      {"q": "dragonball z", "on": "01-01"},
+      {"q": "nsync", "on": "01-01"},
+      {"q": "napster", "on": "01-01"},
+      {"q": "x-men", "on": "01-01"},
+      {"q": "survivor", "on": "05-31"},
+      {"q": "playstation 2", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "Napster", "url": "http://www.napster.com/", "first": "19991008215720"},
+      {"name": "Yahoo!", "url": "http://www.yahoo.com/", "first": "19961017235908"},
+      {"name": "Amazon.com", "url": "http://www.amazon.com/", "first": "19990828014913"},
+      {"name": "Hotmail", "url": "http://www.hotmail.com/", "first": "19961220074303"},
+      {"name": "MSN", "url": "http://www.msn.com/", "first": "19961022175327"},
+      {"name": "MP3.com", "url": "http://www.mp3.com/", "first": "19971221151451"}
+    ]
+  },
+  "2001": {
+    "meme": {
+      "title": "All Your Base Are Belong to Us",
+      "blurb": "A broken English line from the game Zero Wing becomes the web's favorite joke.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Aybabtu.png",
+      "source": "https://en.wikipedia.org/wiki/All_your_base_are_belong_to_us",
+      "on": "02-16"
+    },
+    "facts": [
+      {"text": "Wikipedia goes online (January 15).", "on": "01-15"},
+      {"text": "Dennis Tito flies to the space station as the first space tourist (April 28).", "on": "04-28"},
+      {"text": "Shrek opens in US cinemas (May 18).", "on": "05-18"},
+      {"text": "Spirited Away opens in Japanese cinemas (July 20).", "on": "07-20"},
+      {"text": "Windows XP (October 25) and the first Xbox (November 15) are released.", "on": "11-15"},
+      {"text": "The first Harry Potter film opens in cinemas (November 16).", "on": "11-16"}
+    ],
+    "tech": {"text": "The first iPod", "on": "11-10"},
+    "searches": [
+      {"q": "harry potter", "on": "01-01"},
+      {"q": "lord of the rings", "on": "01-01"},
+      {"q": "windows xp", "on": "02-05"},
+      {"q": "xbox", "on": "01-01"},
+      {"q": "audiogalaxy", "on": "01-01"},
+      {"q": "counterstrike", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "eBay", "url": "http://www.ebay.com/", "first": "19970614001443"},
+      {"name": "MapQuest", "url": "http://www.mapquest.com/", "first": "19970410221743"},
+      {"name": "IMDb", "url": "http://www.imdb.com/", "first": "19961119065302"},
+      {"name": "Audiogalaxy", "url": "http://www.audiogalaxy.com/", "first": "19990125084719"},
+      {"name": "Newgrounds", "url": "http://www.newgrounds.com/", "first": "19981212031345"},
+      {"name": "Hot or Not", "url": "http://www.hotornot.com/", "first": "20001027204930"}
+    ]
+  },
+  "2002": {
+    "meme": {
+      "title": "Peanut Butter Jelly Time",
+      "blurb": "A pixel banana dances to 'It's peanut butter jelly time!' in a Flash cartoon.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Peanut-Butter-Jelly-Sandwich.jpg/500px-Peanut-Butter-Jelly-Sandwich.jpg",
+      "source": "https://en.wikipedia.org/wiki/Buckwheat_Boyz",
+      "on": "03-21"
+    },
+    "facts": [
+      {"text": "Euro notes and coins go into circulation in 12 countries (January 1).", "on": "01-01"},
+      {"text": "The Winter Olympics open in Salt Lake City (February 8).", "on": "02-08"},
+      {"text": "Spider-Man is the first film to make $100 million in one weekend (May 5).", "on": "05-05"},
+      {"text": "Brazil beats Germany to win a record fifth World Cup (June 30).", "on": "06-30"},
+      {"text": "Kelly Clarkson wins the first season of American Idol (September 4).", "on": "09-04"},
+      {"text": "The Lord of the Rings: The Two Towers opens in cinemas (December 18).", "on": "12-18"}
+    ],
+    "tech": {"text": "Nokia 7650 camera phone", "on": "06-26"},
+    "searches": [
+      {"q": "spiderman", "on": "01-01"},
+      {"q": "shakira", "on": "01-01"},
+      {"q": "avril lavigne", "on": "03-11"},
+      {"q": "eminem", "on": "01-01"},
+      {"q": "american idol", "on": "06-11"},
+      {"q": "warcraft 3", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "Yahoo!", "url": "http://www.yahoo.com/", "first": "19961017235908"},
+      {"name": "Kazaa", "url": "http://www.kazaa.com/", "first": "20000903202945"},
+      {"name": "LiveJournal", "url": "http://www.livejournal.com/", "first": "19991127092624"},
+      {"name": "eBaum's World", "url": "http://www.ebaumsworld.com/", "first": "20011218061021"},
+      {"name": "Miniclip", "url": "http://www.miniclip.com/", "first": "20010223153405"},
+      {"name": "RuneScape", "url": "http://www.runescape.com/", "first": "20000817070650"}
+    ]
+  },
+  "2003": {
+    "meme": {
+      "title": "Badger Badger Badger",
+      "blurb": "Weebl's looping Flash cartoon: badgers, a mushroom and a snake. Over and over.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Badgers_Badgers.gif",
+      "source": "https://en.wikipedia.org/wiki/Badgers_(animation)",
+      "on": "09-02"
+    },
+    "facts": [
+      {"text": "Apple unveils its own web browser, Safari (January 7).", "on": "01-07"},
+      {"text": "Apple opens the iTunes Music Store: 99 cents a song (April 28).", "on": "04-28"},
+      {"text": "Finding Nemo swims into cinemas (May 30).", "on": "05-30"},
+      {"text": "Skype is released, with free voice calls over the internet (August 29).", "on": "08-29"},
+      {"text": "Supersonic Concorde makes its last commercial flights (October 24).", "on": "10-24"},
+      {"text": "The Lord of the Rings: The Return of the King opens (December 17).", "on": "12-17"}
+    ],
+    "tech": {"text": "Game Boy Advance SP", "on": "02-14"},
+    "searches": [
+      {"q": "matrix", "on": "01-01"},
+      {"q": "david beckham", "on": "01-01"},
+      {"q": "50 cent", "on": "01-01"},
+      {"q": "tour de france", "on": "01-01"},
+      {"q": "beyonce", "on": "01-01"},
+      {"q": "finding nemo", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "MSN", "url": "http://www.msn.com/", "first": "19961022175327"},
+      {"name": "eBay", "url": "http://www.ebay.com/", "first": "19970614001443"},
+      {"name": "Kazaa", "url": "http://www.kazaa.com/", "first": "20000903202945"},
+      {"name": "Xanga", "url": "http://www.xanga.com/", "first": "19991128072041"},
+      {"name": "Albino Blacksheep", "url": "http://www.albinoblacksheep.com/", "first": "20020324033951"},
+      {"name": "Addicting Games", "url": "http://www.addictinggames.com/", "first": "20020920204201"}
+    ]
+  },
+  "2004": {
+    "meme": {
+      "title": "Numa Numa",
+      "blurb": "Gary Brolsma lip-syncs 'Dragostea din tei' in his chair and the web sings along.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Numanumascreenshot.png",
+      "source": "https://en.wikipedia.org/wiki/Numa_Numa",
+      "on": "12-06"
+    },
+    "facts": [
+      {"text": "NASA's rovers Spirit and Opportunity land on Mars (January 4 and 25).", "on": "01-25"},
+      {"text": "Facebook launches at Harvard as 'TheFacebook' (February 4).", "on": "02-04"},
+      {"text": "Gmail launches with a huge 1 GB inbox (April 1).", "on": "04-01"},
+      {"text": "SpaceShipOne makes the first private human spaceflight (June 21).", "on": "06-21"},
+      {"text": "Outsiders Greece win Euro 2004 in Portugal (July 4).", "on": "07-04"},
+      {"text": "Mozilla releases Firefox 1.0 (November 9).", "on": "11-09"}
+    ],
+    "tech": {"text": "iPod mini", "on": "02-20"},
+    "searches": [
+      {"q": "britney spears", "on": "01-01"},
+      {"q": "paris hilton", "on": "01-01"},
+      {"q": "orlando bloom", "on": "01-01"},
+      {"q": "usher", "on": "01-01"},
+      {"q": "ipod", "on": "01-01"},
+      {"q": "euro 2004", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "MySpace", "url": "http://www.myspace.com/", "first": "19961221174030"},
+      {"name": "Amazon.com", "url": "http://www.amazon.com/", "first": "19990828014913"},
+      {"name": "LimeWire", "url": "http://www.limewire.com/", "first": "20010202024800"},
+      {"name": "Photobucket", "url": "http://photobucket.com/", "first": "20010723234330"},
+      {"name": "eBaum's World", "url": "http://www.ebaumsworld.com/", "first": "20011218061021"},
+      {"name": "Newgrounds", "url": "http://www.newgrounds.com/", "first": "19981212031345"}
+    ]
+  },
+  "2005": {
+    "meme": {
+      "title": "Leeroy Jenkins",
+      "blurb": "A World of Warcraft raid plan is ruined by one player charging in: LEEROY JENKINS!",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/da/Leeroy_Jenkins_WoW.webp",
+      "source": "https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+      "on": "05-11"
+    },
+    "facts": [
+      {"text": "The Huygens probe lands on Saturn's moon Titan (January 14).", "on": "01-14"},
+      {"text": "Google Maps launches (February 8).", "on": "02-08"},
+      {"text": "YouTube's first video, 'Me at the zoo', is uploaded (April 23).", "on": "04-23"},
+      {"text": "Star Wars: Episode III closes the prequel trilogy (May 19).", "on": "05-19"},
+      {"text": "Harry Potter and the Half-Blood Prince is published (July 16).", "on": "07-16"},
+      {"text": "Microsoft's Xbox 360 goes on sale in North America (November 22).", "on": "11-22"}
+    ],
+    "tech": {"text": "Motorola RAZR V3", "on": "01-01"},
+    "searches": [
+      {"q": "myspace", "on": "01-01"},
+      {"q": "wikipedia", "on": "01-01"},
+      {"q": "itunes", "on": "01-01"},
+      {"q": "world of warcraft", "on": "01-01"},
+      {"q": "xbox 360", "on": "05-12"},
+      {"q": "ipod nano", "on": "09-07"}
+    ],
+    "sites": [
+      {"name": "MySpace", "url": "http://www.myspace.com/", "first": "19961221174030"},
+      {"name": "Wikipedia", "url": "http://www.wikipedia.org/", "first": "20010727112808"},
+      {"name": "Xanga", "url": "http://www.xanga.com/", "first": "19991128072041"},
+      {"name": "LimeWire", "url": "http://www.limewire.com/", "first": "20010202024800"},
+      {"name": "Craigslist", "url": "http://www.craigslist.org/", "first": "19981202212015"},
+      {"name": "World of Warcraft", "url": "http://www.worldofwarcraft.com/", "first": "20010902230158"}
+    ]
+  },
+  "2006": {
+    "meme": {
+      "title": "Evolution of Dance",
+      "blurb": "Judson Laipply dances through decades of dance crazes: YouTube's most-viewed video.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Evolution_of_Dance_-_Vidcon_Live_%282011%29.webm/500px--Evolution_of_Dance_-_Vidcon_Live_%282011%29.webm.jpg",
+      "source": "https://en.wikipedia.org/wiki/Judson_Laipply",
+      "on": "05-19"
+    },
+    "facts": [
+      {"text": "NASA launches New Horizons on its way to Pluto (January 19).", "on": "01-19"},
+      {"text": "The first tweet is sent: 'just setting up my twttr' (March 21).", "on": "03-21"},
+      {"text": "Italy wins the World Cup in Berlin on penalties (July 9).", "on": "07-09"},
+      {"text": "Pluto is reclassified as a dwarf planet (August 24).", "on": "08-24"},
+      {"text": "Facebook opens to everyone aged 13 and over (September 26).", "on": "09-26"},
+      {"text": "Google agrees to buy YouTube for $1.65 billion (October 9).", "on": "10-09"}
+    ],
+    "tech": {"text": "Nintendo Wii", "on": "11-19"},
+    "searches": [
+      {"q": "bebo", "on": "01-01"},
+      {"q": "world cup", "on": "01-01"},
+      {"q": "podcasting", "on": "01-01"},
+      {"q": "who is borat", "on": "09-07"},
+      {"q": "how to kickflip", "on": "01-01"},
+      {"q": "dancing with the stars", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "MySpace", "url": "http://www.myspace.com/", "first": "19961221174030"},
+      {"name": "Bebo", "url": "http://www.bebo.com/", "first": "20001018114037"},
+      {"name": "Wikipedia", "url": "http://www.wikipedia.org/", "first": "20010727112808"},
+      {"name": "Photobucket", "url": "http://photobucket.com/", "first": "20010723234330"},
+      {"name": "Club Penguin", "url": "http://www.clubpenguin.com/", "first": "20051026004030"}
+    ]
+  },
+  "2007": {
+    "meme": {
+      "title": "LOLcats",
+      "blurb": "Cats with captions in broken English take over the web: I CAN HAS CHEEZBURGER?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wikicat-keyboard.jpeg/500px-Wikicat-keyboard.jpeg",
+      "source": "https://en.wikipedia.org/wiki/Lolcat",
+      "on": "01-11"
+    },
+    "facts": [
+      {"text": "Netflix starts streaming movies online (January 16).", "on": "01-16"},
+      {"text": "Pixar's Ratatouille opens in US cinemas (June 29).", "on": "06-29"},
+      {"text": "The New 7 Wonders of the World are announced in Lisbon (July 7).", "on": "07-07"},
+      {"text": "Harry Potter and the Deathly Hallows, the last book, is out (July 21).", "on": "07-21"},
+      {"text": "Halo 3 makes $170 million on its first day (September 25).", "on": "09-25"},
+      {"text": "Amazon releases the first Kindle e-reader (November 19).", "on": "11-19"}
+    ],
+    "tech": {"text": "The first iPhone", "on": "06-29"},
+    "searches": [
+      {"q": "iphone", "on": "01-09"},
+      {"q": "facebook", "on": "01-01"},
+      {"q": "webkinz", "on": "01-01"},
+      {"q": "club penguin", "on": "01-01"},
+      {"q": "transformers", "on": "01-01"},
+      {"q": "umbrella lyrics", "on": "03-29"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "http://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "MySpace", "url": "http://www.myspace.com/", "first": "19961221174030"},
+      {"name": "Webkinz", "url": "http://www.webkinz.com/", "first": "20040829105306"},
+      {"name": "Second Life", "url": "http://secondlife.com/", "first": "20010201151700"},
+      {"name": "TMZ", "url": "http://www.tmz.com/", "first": "19961230070706"}
+    ]
+  },
+  "2008": {
+    "meme": {
+      "title": "Rickroll",
+      "blurb": "You click a link and get Rick Astley's 'Never Gonna Give You Up'. Rickrolled!",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/First_seconds_of_Never_Gonna_Give_You_Up.gif",
+      "source": "https://en.wikipedia.org/wiki/Rickrolling",
+      "on": "01-01"
+    },
+    "facts": [
+      {"text": "Apple unveils the ultra-thin MacBook Air (January 15).", "on": "01-15"},
+      {"text": "Iron Man kicks off the Marvel Cinematic Universe (May 2).", "on": "05-02"},
+      {"text": "Apple's App Store opens with about 500 apps (July 10).", "on": "07-10"},
+      {"text": "The Beijing Olympics open on 08/08/08 (August 8).", "on": "08-08"},
+      {"text": "Google Chrome is released (September 2).", "on": "09-02"},
+      {"text": "Spotify launches its music streaming service in Europe (October 7).", "on": "10-07"}
+    ],
+    "tech": {"text": "Asus Eee PC netbook", "on": "01-01"},
+    "searches": [
+      {"q": "beijing 2008", "on": "01-01"},
+      {"q": "facebook login", "on": "01-01"},
+      {"q": "jonas brothers", "on": "01-01"},
+      {"q": "twilight", "on": "01-01"},
+      {"q": "miley cyrus", "on": "01-01"},
+      {"q": "dark knight", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "http://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "MySpace", "url": "http://www.myspace.com/", "first": "19961221174030"},
+      {"name": "Wikipedia", "url": "http://www.wikipedia.org/", "first": "20010727112808"},
+      {"name": "I Can Has Cheezburger?", "url": "http://icanhascheezburger.com/", "first": "20070202022933"},
+      {"name": "Pandora", "url": "http://www.pandora.com/", "first": "20011130174217"}
+    ]
+  },
+  "2009": {
+    "meme": {
+      "title": "Keyboard Cat",
+      "blurb": "A cat in a blue shirt plays the keyboard to 'play off' every fail video.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Keyboard_cat.jpg",
+      "source": "https://en.wikipedia.org/wiki/Keyboard_Cat",
+      "on": "04-10"
+    },
+    "facts": [
+      {"text": "Bitcoin's first block is mined (January 3).", "on": "01-03"},
+      {"text": "Susan Boyle stuns Britain's Got Talent with 'I Dreamed a Dream' (April 11).", "on": "04-11"},
+      {"text": "The first version of Minecraft appears online (May 17).", "on": "05-17"},
+      {"text": "Usain Bolt runs 100 m in a record 9.58 seconds in Berlin (August 16).", "on": "08-16"},
+      {"text": "Windows 7 goes on sale (October 22).", "on": "10-22"},
+      {"text": "James Cameron's Avatar opens in 3D (December 18).", "on": "12-18"}
+    ],
+    "tech": {"text": "Flip video camera", "on": "01-01"},
+    "searches": [
+      {"q": "twitter", "on": "01-01"},
+      {"q": "hulu", "on": "01-01"},
+      {"q": "glee", "on": "05-19"},
+      {"q": "lady gaga", "on": "01-01"},
+      {"q": "susan boyle", "on": "04-11"},
+      {"q": "new moon", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "http://www.facebook.com/", "first": "19981212013921"},
+      {"name": "Twitter", "url": "http://twitter.com/", "first": "20010302103333"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Hulu", "url": "http://www.hulu.com/", "first": "19991023065011"},
+      {"name": "FAIL Blog", "url": "http://failblog.org/", "first": "20080512233406"},
+      {"name": "Craigslist", "url": "http://www.craigslist.org/", "first": "19981202212015"}
+    ]
+  },
+  "2010": {
+    "meme": {
+      "title": "Double Rainbow",
+      "blurb": "A man near Yosemite films a double rainbow and asks 'What does it mean?' Millions watch.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/500px-Double-alaskan-rainbow.jpg",
+      "source": "https://en.wikipedia.org/wiki/Double_Rainbow_(viral_video)",
+      "on": "07-03"
+    },
+    "facts": [
+      {"text": "The Burj Khalifa opens in Dubai as the world's tallest building (January 4).", "on": "01-04"},
+      {"text": "The Winter Olympics open in Vancouver, Canada (February 12).", "on": "02-12"},
+      {"text": "Shakira's 'Waka Waka' is the sound of the World Cup in South Africa (June 11).", "on": "06-11"},
+      {"text": "Toy Story 3 (June 18) and Inception (July 16) open in cinemas.", "on": "07-16"},
+      {"text": "Instagram launches on the iPhone (October 6).", "on": "10-06"},
+      {"text": "Microsoft's Kinect lets Xbox 360 players play with their body (November 4).", "on": "11-04"}
+    ],
+    "tech": {"text": "Apple iPad", "on": "04-03"},
+    "searches": [
+      {"q": "chatroulette", "on": "02-05"},
+      {"q": "ipad", "on": "01-27"},
+      {"q": "justin bieber", "on": "01-01"},
+      {"q": "nicki minaj", "on": "01-01"},
+      {"q": "katy perry", "on": "01-01"},
+      {"q": "iphone 4", "on": "06-07"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "http://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Twitter", "url": "http://twitter.com/", "first": "20010302103333"},
+      {"name": "Chatroulette", "url": "http://chatroulette.com/", "first": "20091125112919"},
+      {"name": "Netflix", "url": "http://www.netflix.com/", "first": "19990117011532"},
+      {"name": "Friv", "url": "http://www.friv.com/", "first": "20051208042735"}
+    ]
+  },
+  "2011": {
+    "meme": {
+      "title": "Nyan Cat",
+      "blurb": "A pixel cat with a Pop-Tart body flies through space, trailing a rainbow.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG",
+      "source": "https://en.wikipedia.org/wiki/Nyan_Cat",
+      "on": "04-05"
+    },
+    "facts": [
+      {"text": "IBM's computer Watson beats two Jeopardy! champions (February 16).", "on": "02-16"},
+      {"text": "Game of Thrones premieres on HBO (April 17).", "on": "04-17"},
+      {"text": "Prince William and Kate Middleton marry in London (April 29).", "on": "04-29"},
+      {"text": "The final Harry Potter film opens (July 15).", "on": "07-15"},
+      {"text": "Atlantis lands and the Space Shuttle program ends (July 21).", "on": "07-21"},
+      {"text": "Skyrim is released on 11/11/11.", "on": "11-11"}
+    ],
+    "tech": {"text": "iPhone 4S with Siri", "on": "10-14"},
+    "searches": [
+      {"q": "rebecca black", "on": "03-11"},
+      {"q": "google+", "on": "06-28"},
+      {"q": "battlefield 3", "on": "01-01"},
+      {"q": "iphone 5", "on": "01-01"},
+      {"q": "adele", "on": "01-01"},
+      {"q": "ipad 2", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "http://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Twitter", "url": "http://twitter.com/", "first": "20010302103333"},
+      {"name": "Tumblr", "url": "http://www.tumblr.com/", "first": "20070105095540"},
+      {"name": "Reddit", "url": "http://www.reddit.com/", "first": "20020718215101"},
+      {"name": "9GAG", "url": "http://9gag.com/", "first": "20080913070956"}
+    ]
+  },
+  "2012": {
+    "meme": {
+      "title": "Gangnam Style",
+      "blurb": "Psy's horse-riding dance from Seoul spreads across the web: Oppa Gangnam Style!",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png",
+      "source": "https://en.wikipedia.org/wiki/Gangnam_Style",
+      "on": "07-30"
+    },
+    "facts": [
+      {"text": "The $35 Raspberry Pi computer goes on sale (February 29).", "on": "02-29"},
+      {"text": "Facebook buys Instagram for $1 billion (April 9).", "on": "04-09"},
+      {"text": "London hosts the Summer Olympics (July 27 to August 12).", "on": "07-27"},
+      {"text": "NASA's Curiosity rover lands on Mars (August 6).", "on": "08-06"},
+      {"text": "Felix Baumgartner skydives from the stratosphere (October 14).", "on": "10-14"},
+      {"text": "Gangnam Style is the first YouTube video to hit a billion views (December 21).", "on": "12-21"}
+    ],
+    "tech": {"text": "Samsung Galaxy S III", "on": "05-29"},
+    "searches": [
+      {"q": "gangnam style", "on": "07-15"},
+      {"q": "ipad 3", "on": "03-07"},
+      {"q": "diablo 3", "on": "01-01"},
+      {"q": "olympics 2012", "on": "01-01"},
+      {"q": "hunger games", "on": "01-01"},
+      {"q": "jeremy lin", "on": "02-04"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "http://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Yahoo!", "url": "http://www.yahoo.com/", "first": "19961017235908"},
+      {"name": "Twitter", "url": "http://twitter.com/", "first": "20010302103333"},
+      {"name": "Pinterest", "url": "http://pinterest.com/", "first": "20100202235045"},
+      {"name": "Tumblr", "url": "https://www.tumblr.com/", "first": "20070105095540"}
+    ]
+  },
+  "2013": {
+    "meme": {
+      "title": "Doge",
+      "blurb": "A side-eyeing Shiba Inu and Comic Sans thoughts: such meme, very wow.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/500px-Doge_meme_example.jpg",
+      "source": "https://en.wikipedia.org/wiki/Doge_(meme)",
+      "on": "08-26"
+    },
+    "facts": [
+      {"text": "Vine's six-second videos launch (January 24).", "on": "01-24"},
+      {"text": "Chris Hadfield releases his 'Space Oddity' video, filmed in orbit (May 12).", "on": "05-12"},
+      {"text": "Andy Murray is the first British man to win Wimbledon in 77 years (July 7).", "on": "07-07"},
+      {"text": "Grand Theft Auto V earns $1 billion in three days (September 20).", "on": "09-20"},
+      {"text": "Disney's Frozen opens in cinemas (November 27).", "on": "11-27"},
+      {"text": "China's Chang'e 3 makes the first soft Moon landing since 1976 (December 14).", "on": "12-14"}
+    ],
+    "tech": {"text": "PlayStation 4", "on": "11-15"},
+    "searches": [
+      {"q": "iphone 5s", "on": "09-10"},
+      {"q": "harlem shake", "on": "02-02"},
+      {"q": "royal baby", "on": "01-01"},
+      {"q": "playstation 4", "on": "02-20"},
+      {"q": "miley cyrus", "on": "01-01"},
+      {"q": "gta 5", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "https://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Wikipedia", "url": "http://www.wikipedia.org/", "first": "20010727112808"},
+      {"name": "Amazon", "url": "http://www.amazon.com/", "first": "19990828014913"},
+      {"name": "Twitter", "url": "https://twitter.com/", "first": "20010302103333"},
+      {"name": "Instagram", "url": "http://instagram.com/", "first": "20040905121720"}
+    ]
+  },
+  "2014": {
+    "meme": {
+      "title": "Ice Bucket Challenge",
+      "blurb": "Pour ice water over your head, nominate three friends, give to ALS research.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/500px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg",
+      "source": "https://en.wikipedia.org/wiki/Ice_Bucket_Challenge",
+      "on": "07-29"
+    },
+    "facts": [
+      {"text": "Flappy Bird is pulled from the app stores (February 10).", "on": "02-10"},
+      {"text": "Ellen's Oscar selfie becomes the most retweeted tweet ever (March 2).", "on": "03-02"},
+      {"text": "Germany wins the World Cup in Brazil (July 13).", "on": "07-13"},
+      {"text": "Microsoft agrees to buy Minecraft maker Mojang for $2.5 billion (September 15).", "on": "09-15"},
+      {"text": "Taylor Swift releases her album 1989 (October 27).", "on": "10-27"},
+      {"text": "The Philae lander touches down on a comet (November 12).", "on": "11-12"}
+    ],
+    "tech": {"text": "Selfie stick", "on": "01-01"},
+    "searches": [
+      {"q": "world cup", "on": "01-01"},
+      {"q": "flappy bird", "on": "01-17"},
+      {"q": "conchita wurst", "on": "05-10"},
+      {"q": "frozen", "on": "01-01"},
+      {"q": "sochi olympics", "on": "01-01"},
+      {"q": "iphone 6", "on": "09-09"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "https://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "http://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Amazon", "url": "http://www.amazon.com/", "first": "19990828014913"},
+      {"name": "Reddit", "url": "http://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Imgur", "url": "http://imgur.com/", "first": "20090225014924"},
+      {"name": "BuzzFeed", "url": "http://www.buzzfeed.com/", "first": "20020921163523"}
+    ]
+  },
+  "2015": {
+    "meme": {
+      "title": "The Dress",
+      "blurb": "Blue and black or white and gold? One photo of a dress splits the internet.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/21/The_dress_blueblackwhitegold.jpg",
+      "source": "https://en.wikipedia.org/wiki/The_dress",
+      "on": "02-26"
+    },
+    "facts": [
+      {"text": "Katy Perry's 'Left Shark' steals the Super Bowl halftime show (February 1).", "on": "02-01"},
+      {"text": "The Apple Watch goes on sale (April 24).", "on": "04-24"},
+      {"text": "New Horizons flies past Pluto (July 14).", "on": "07-14"},
+      {"text": "Windows 10 is released (July 29).", "on": "07-29"},
+      {"text": "Back to the Future Day: Marty McFly's future date arrives (October 21).", "on": "10-21"},
+      {"text": "Star Wars: The Force Awakens opens (December 18).", "on": "12-18"}
+    ],
+    "tech": {"text": "Hoverboard (self-balancing scooter)", "on": "01-01"},
+    "searches": [
+      {"q": "agar.io", "on": "04-28"},
+      {"q": "jurassic world", "on": "01-01"},
+      {"q": "furious 7", "on": "01-01"},
+      {"q": "fallout 4", "on": "06-03"},
+      {"q": "ronda rousey", "on": "01-01"},
+      {"q": "iphone 6s", "on": "09-09"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "https://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Wikipedia", "url": "http://www.wikipedia.org/", "first": "20010727112808"},
+      {"name": "Twitter", "url": "https://twitter.com/", "first": "20010302103333"},
+      {"name": "Reddit", "url": "http://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Pinterest", "url": "https://www.pinterest.com/", "first": "20100202235045"}
+    ]
+  },
+  "2016": {
+    "meme": {
+      "title": "Mannequin Challenge",
+      "blurb": "Everyone freezes mid-action while the camera glides past, to 'Black Beatles'.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mannequin_Challenge.jpg/500px-Mannequin_Challenge.jpg",
+      "source": "https://en.wikipedia.org/wiki/Mannequin_Challenge",
+      "on": "11-02"
+    },
+    "facts": [
+      {"text": "Scientists announce the first detection of gravitational waves (February 11).", "on": "02-11"},
+      {"text": "Leicester City win the Premier League as 5000-1 outsiders (May 2).", "on": "05-02"},
+      {"text": "Pokemon Go launches and players head outside to catch them all (July 6).", "on": "07-06"},
+      {"text": "Rio de Janeiro hosts the first Olympics in South America (August 5 to 21).", "on": "08-05"},
+      {"text": "Bob Dylan wins the Nobel Prize in Literature (October 13).", "on": "10-13"},
+      {"text": "The Chicago Cubs win their first World Series since 1908 (November 3).", "on": "11-03"}
+    ],
+    "tech": {"text": "NES Classic Edition", "on": "11-10"},
+    "searches": [
+      {"q": "pokemon go", "on": "07-06"},
+      {"q": "iphone 7", "on": "09-07"},
+      {"q": "deadpool", "on": "01-01"},
+      {"q": "olympics", "on": "01-01"},
+      {"q": "slither.io", "on": "03-25"},
+      {"q": "stranger things", "on": "07-15"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "https://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Twitter", "url": "https://twitter.com/", "first": "20010302103333"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "Netflix", "url": "https://www.netflix.com/", "first": "19990117011532"}
+    ]
+  },
+  "2017": {
+    "meme": {
+      "title": "Distracted Boyfriend",
+      "blurb": "A stock photo of a man turning to look at another woman labels every temptation.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Disloyal_man_with_his_girlfriend_looking_at_another_girl.jpg",
+      "source": "https://en.wikipedia.org/wiki/Distracted_boyfriend",
+      "on": "08-19"
+    },
+    "facts": [
+      {"text": "La La Land is wrongly named Best Picture; Moonlight is the winner (February 26).", "on": "02-26"},
+      {"text": "Fidget spinners become the toy craze of the spring (May 4).", "on": "05-04"},
+      {"text": "'Despacito' becomes YouTube's most-viewed video (August 4).", "on": "08-04"},
+      {"text": "A total solar eclipse crosses the United States (August 21).", "on": "08-21"},
+      {"text": "Fortnite Battle Royale comes out, free to play (September 26).", "on": "09-26"},
+      {"text": "The iPhone X goes on sale with Face ID and no home button (November 3).", "on": "11-03"}
+    ],
+    "tech": {"text": "Nintendo Switch", "on": "03-03"},
+    "searches": [
+      {"q": "iphone x", "on": "09-12"},
+      {"q": "meghan markle", "on": "01-01"},
+      {"q": "fidget spinner", "on": "02-01"},
+      {"q": "despacito", "on": "01-13"},
+      {"q": "how to make slime", "on": "01-01"},
+      {"q": "mayweather vs mcgregor", "on": "06-14"}
+    ],
+    "sites": [
+      {"name": "Facebook", "url": "https://www.facebook.com/", "first": "19981212013921"},
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "Netflix", "url": "https://www.netflix.com/", "first": "19990117011532"},
+      {"name": "Twitch", "url": "https://www.twitch.tv/", "first": "20100802184448"}
+    ]
+  },
+  "2018": {
+    "meme": {
+      "title": "Bongo Cat",
+      "blurb": "A white cartoon cat bangs the bongos to every song the internet can think of.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/Bongo_cat.png",
+      "source": "https://en.wikipedia.org/wiki/Bongo_Cat",
+      "on": "05-07"
+    },
+    "facts": [
+      {"text": "SpaceX's Falcon Heavy launches a Tesla car into space (February 6).", "on": "02-06"},
+      {"text": "Fortnite mania: Drake and Ninja set a Twitch viewing record (March 15).", "on": "03-15"},
+      {"text": "Avengers: Infinity War breaks the opening weekend record (April 29).", "on": "04-29"},
+      {"text": "France beats Croatia 4-2 to win the World Cup (July 15).", "on": "07-15"},
+      {"text": "Apple becomes the first US public company worth $1 trillion (August 2).", "on": "08-02"},
+      {"text": "NASA's InSight lander touches down on Mars (November 26).", "on": "11-26"}
+    ],
+    "tech": {"text": "Echo Dot smart speaker", "on": "01-01"},
+    "searches": [
+      {"q": "world cup", "on": "01-01"},
+      {"q": "black panther", "on": "01-01"},
+      {"q": "royal wedding", "on": "01-01"},
+      {"q": "fortnite", "on": "01-01"},
+      {"q": "red dead redemption 2", "on": "01-01"},
+      {"q": "baby shark", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Amazon", "url": "https://www.amazon.com/", "first": "19990828014913"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "Netflix", "url": "https://www.netflix.com/", "first": "19990117011532"},
+      {"name": "Twitch", "url": "https://www.twitch.tv/", "first": "20100802184448"}
+    ]
+  },
+  "2019": {
+    "meme": {
+      "title": "Woman Yelling at a Cat",
+      "blurb": "A crying reality-TV star meets a confused cat behind a salad. Instant classic.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/WomanYellingAtACat_meme.jpg",
+      "source": "https://en.wikipedia.org/wiki/Woman_yelling_at_a_cat",
+      "on": "06-02"
+    },
+    "facts": [
+      {"text": "China's Chang'e 4 makes the first landing on the Moon's far side (January 3).", "on": "01-03"},
+      {"text": "Astronomers reveal the first image of a black hole (April 10).", "on": "04-10"},
+      {"text": "Game of Thrones airs its final episode (May 19).", "on": "05-19"},
+      {"text": "Avengers: Endgame becomes the top-grossing film of all time (July 21).", "on": "07-21"},
+      {"text": "Eliud Kipchoge runs a marathon distance in under two hours (October 12).", "on": "10-12"},
+      {"text": "Disney+ launches (November 12).", "on": "11-12"}
+    ],
+    "tech": {"text": "AirPods Pro", "on": "10-30"},
+    "searches": [
+      {"q": "copa america", "on": "01-01"},
+      {"q": "iphone 11", "on": "09-10"},
+      {"q": "game of thrones", "on": "01-01"},
+      {"q": "avengers endgame", "on": "01-01"},
+      {"q": "joker", "on": "01-01"},
+      {"q": "disney plus", "on": "04-11"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "Netflix", "url": "https://www.netflix.com/", "first": "19990117011532"},
+      {"name": "Twitch", "url": "https://www.twitch.tv/", "first": "20100802184448"},
+      {"name": "Discord", "url": "https://discordapp.com/", "first": "20150306011245"}
+    ]
+  },
+  "2020": {
+    "meme": {
+      "title": "Coffin Dance",
+      "blurb": "Ghana's dancing pallbearers and the song 'Astronomia' become a worldwide meme.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dancing_Pallbearers.jpg",
+      "source": "https://en.wikipedia.org/wiki/Dancing_Pallbearers",
+      "on": "03-30"
+    },
+    "facts": [
+      {"text": "Parasite is the first non-English film to win Best Picture (February 9).", "on": "02-09"},
+      {"text": "Animal Crossing: New Horizons is everyone's island escape (March 20).", "on": "03-20"},
+      {"text": "SpaceX launches its first astronauts to the space station (May 30).", "on": "05-30"},
+      {"text": "BTS's 'Dynamite' is the first US No. 1 by an all-Korean act (August 31).", "on": "08-31"},
+      {"text": "Among Us mania: 3.8 million people play at the same time (September 29).", "on": "09-29"},
+      {"text": "Jupiter and Saturn meet in the sky, the closest since 1623 (December 21).", "on": "12-21"}
+    ],
+    "tech": {"text": "PlayStation 5", "on": "11-12"},
+    "searches": [
+      {"q": "zoom", "on": "03-11"},
+      {"q": "among us", "on": "07-15"},
+      {"q": "fall guys", "on": "08-04"},
+      {"q": "dalgona coffee", "on": "03-01"},
+      {"q": "the queen's gambit", "on": "10-23"},
+      {"q": "playstation 5", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Zoom", "url": "https://zoom.us/", "first": "20020606091959"},
+      {"name": "Netflix", "url": "https://www.netflix.com/", "first": "19990117011532"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/", "first": "19981206081000"},
+      {"name": "Twitch", "url": "https://www.twitch.tv/", "first": "20100802184448"}
+    ]
+  },
+  "2021": {
+    "meme": {
+      "title": "Ever Given in the Suez Canal",
+      "blurb": "A giant container ship gets stuck in the Suez Canal and one tiny digger tries.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ever_Given_in_Suez_Canal_viewed_from_ISS_%28cropped%29_3_to_2.jpg/500px-Ever_Given_in_Suez_Canal_viewed_from_ISS_%28cropped%29_3_to_2.jpg",
+      "source": "https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction",
+      "on": "03-23"
+    },
+    "facts": [
+      {"text": "Olivia Rodrigo releases her debut single 'drivers license' (January 8).", "on": "01-08"},
+      {"text": "NASA's Ingenuity makes the first powered flight on Mars (April 19).", "on": "04-19"},
+      {"text": "Friends: The Reunion brings the cast back together (May 27).", "on": "05-27"},
+      {"text": "Tokyo hosts the delayed Summer Olympics (July 23 to August 8).", "on": "07-23"},
+      {"text": "Squid Game becomes Netflix's biggest series launch ever (October 13).", "on": "10-13"},
+      {"text": "The James Webb Space Telescope launches (December 25).", "on": "12-25"}
+    ],
+    "tech": {"text": "Oculus Quest 2", "on": "01-01"},
+    "searches": [
+      {"q": "nba", "on": "01-01"},
+      {"q": "euro 2021", "on": "01-01"},
+      {"q": "squid game", "on": "09-17"},
+      {"q": "drivers license", "on": "01-08"},
+      {"q": "wandavision", "on": "01-15"},
+      {"q": "black widow", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "Zoom", "url": "https://zoom.us/", "first": "20020606091959"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/", "first": "19981206081000"},
+      {"name": "Discord", "url": "https://discord.com/", "first": "19961222173516"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"}
+    ]
+  },
+  "2022": {
+    "meme": {
+      "title": "Wordle",
+      "blurb": "Five letters, six tries, one puzzle a day, and everyone posts their green squares.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Wordle_Emoji_Screenshot.png",
+      "source": "https://en.wikipedia.org/wiki/Wordle",
+      "on": "01-01"
+    },
+    "facts": [
+      {"text": "Elden Ring, FromSoftware's open-world epic, is released (February 25).", "on": "02-25"},
+      {"text": "Top Gun: Maverick flies into cinemas, 36 years after the original (May 27).", "on": "05-27"},
+      {"text": "The James Webb telescope's first full-color images are shown (July 12).", "on": "07-12"},
+      {"text": "NASA's DART probe crashes into an asteroid on purpose (September 26).", "on": "09-26"},
+      {"text": "ChatGPT is released to the public (November 30).", "on": "11-30"},
+      {"text": "Argentina and Messi win the World Cup in Qatar (December 18).", "on": "12-18"}
+    ],
+    "tech": {"text": "Steam Deck", "on": "02-25"},
+    "searches": [
+      {"q": "wordle", "on": "01-01"},
+      {"q": "world cup", "on": "01-01"},
+      {"q": "iphone 14", "on": "09-07"},
+      {"q": "top gun maverick", "on": "01-01"},
+      {"q": "elden ring", "on": "01-01"},
+      {"q": "we don't talk about bruno", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/", "first": "19981206081000"},
+      {"name": "Twitter", "url": "https://twitter.com/", "first": "20010302103333"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Discord", "url": "https://discord.com/", "first": "19961222173516"},
+      {"name": "Roblox", "url": "https://www.roblox.com/", "first": "20040825154659"}
+    ]
+  },
+  "2023": {
+    "meme": {
+      "title": "Barbenheimer",
+      "blurb": "Barbie and Oppenheimer open the same day; fans plan a pink-and-black double bill.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Barbenheimer_-_July_2023.jpg/500px-Barbenheimer_-_July_2023.jpg",
+      "source": "https://en.wikipedia.org/wiki/Barbenheimer",
+      "on": "06-30"
+    },
+    "facts": [
+      {"text": "Everything Everywhere All at Once wins Best Picture (March 12).", "on": "03-12"},
+      {"text": "Zelda: Tears of the Kingdom is released (May 12).", "on": "05-12"},
+      {"text": "Lionel Messi signs for Inter Miami in the US (July 15).", "on": "07-15"},
+      {"text": "India's Chandrayaan-3 lands near the Moon's south pole (August 23).", "on": "08-23"},
+      {"text": "OSIRIS-REx drops a sample of asteroid Bennu in the Utah desert (September 24).", "on": "09-24"},
+      {"text": "Taylor Swift's Eras Tour is the first tour to gross $1 billion (December 8).", "on": "12-08"}
+    ],
+    "tech": {"text": "Meta Quest 3", "on": "10-10"},
+    "searches": [
+      {"q": "barbie", "on": "01-01"},
+      {"q": "hogwarts legacy", "on": "01-01"},
+      {"q": "the last of us", "on": "01-01"},
+      {"q": "kylian mbappe", "on": "01-01"},
+      {"q": "travis kelce", "on": "01-01"},
+      {"q": "grimace shake", "on": "06-12"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/", "first": "19981206081000"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "Twitter", "url": "https://twitter.com/", "first": "20010302103333"},
+      {"name": "Discord", "url": "https://discord.com/", "first": "19961222173516"}
+    ]
+  },
+  "2024": {
+    "meme": {
+      "title": "Moo Deng",
+      "blurb": "A baby pygmy hippo from a Thai zoo becomes the internet's sassiest star.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Moo_deng_%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87_%282024-09-11%29_-_img_02.jpg/500px-Moo_deng_%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87_%282024-09-11%29_-_img_02.jpg",
+      "source": "https://en.wikipedia.org/wiki/Moo_Deng",
+      "on": "09-13"
+    },
+    "facts": [
+      {"text": "Dune: Part Two opens in cinemas (March 1).", "on": "03-01"},
+      {"text": "A total solar eclipse crosses North America (April 8).", "on": "04-08"},
+      {"text": "A solar storm brings northern lights as far south as Florida (May 10).", "on": "05-10"},
+      {"text": "Paris hosts the Summer Olympics (July 26 to August 11).", "on": "07-26"},
+      {"text": "SpaceX catches a Starship booster with giant 'chopsticks' (October 13).", "on": "10-13"},
+      {"text": "Wicked opens in US cinemas (November 22).", "on": "11-22"}
+    ],
+    "tech": {"text": "Apple Vision Pro", "on": "02-02"},
+    "searches": [
+      {"q": "copa america", "on": "01-01"},
+      {"q": "iphone 16", "on": "09-09"},
+      {"q": "olympics", "on": "01-01"},
+      {"q": "inside out 2", "on": "01-01"},
+      {"q": "not like us", "on": "05-04"},
+      {"q": "connections", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/", "first": "19981206081000"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "Amazon", "url": "https://www.amazon.com/", "first": "19990828014913"},
+      {"name": "Netflix", "url": "https://www.netflix.com/", "first": "19990117011532"}
+    ]
+  },
+  "2025": {
+    "meme": {
+      "title": "Italian Brainrot",
+      "blurb": "AI-made creatures like Tralalero Tralala take over TikTok with fake-Italian chants.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Italian_brainrot_characters.png/500px-Italian_brainrot_characters.png",
+      "source": "https://en.wikipedia.org/wiki/Italian_brainrot",
+      "on": "03-14"
+    },
+    "facts": [
+      {"text": "Kendrick Lamar headlines the Super Bowl halftime show (February 9).", "on": "02-09"},
+      {"text": "A Minecraft Movie opens; 'Chicken jockey!' becomes a cinema chant (April 4).", "on": "04-04"},
+      {"text": "Labubu mania: a human-sized Labubu sells for $150,000 at auction (June 10).", "on": "06-10"},
+      {"text": "Oasis play their first concert since 2009, in Cardiff (July 4).", "on": "07-04"},
+      {"text": "KPop Demon Hunters becomes Netflix's most-watched film ever (August 26).", "on": "08-26"},
+      {"text": "Taylor Swift releases The Life of a Showgirl (October 3).", "on": "10-03"}
+    ],
+    "tech": {"text": "Nintendo Switch 2", "on": "06-05"},
+    "searches": [
+      {"q": "gemini", "on": "01-01"},
+      {"q": "club world cup", "on": "01-01"},
+      {"q": "deepseek", "on": "01-20"},
+      {"q": "iphone 17", "on": "09-09"},
+      {"q": "kpop demon hunters", "on": "06-20"},
+      {"q": "labubu", "on": "01-01"}
+    ],
+    "sites": [
+      {"name": "YouTube", "url": "https://www.youtube.com/", "first": "20050428014715"},
+      {"name": "ChatGPT", "url": "https://chatgpt.com/", "first": "20221203231603"},
+      {"name": "TikTok", "url": "https://www.tiktok.com/", "first": "19981206081000"},
+      {"name": "Reddit", "url": "https://www.reddit.com/", "first": "20020718215101"},
+      {"name": "Instagram", "url": "https://www.instagram.com/", "first": "20040905121720"},
+      {"name": "X", "url": "https://x.com/", "first": "19961219022100"}
+    ]
+  }
+}

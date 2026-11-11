@@ -1,0 +1,11 @@
+[["timestamp","original","statuscode","mimetype","length"],
+["20000815053039","http://www.google.com:80/help/interpret.html","200","text/html","3212"],
+["20010413160309","http://www.google.com:80/help/interpret.html","200","text/html","3524"],
+["20020409103627","http://www.google.com:80/help/interpret.html","200","text/html","3633"],
+["20030404082201","http://www.google.com:80/help/interpret.html","200","text/html","3645"],
+["20040202015509","http://www.google.com:80/help/interpret.html","200","text/html","3878"],
+["20050101091903","http://www.google.com:80/help/interpret.html","200","text/html","3703"],
+["20060105041636","http://www.google.com:80/help/interpret.html","200","text/html","3651"],
+["20070202091725","http://www.google.com:80/help/interpret.html","200","text/html","3650"],
+["20080102090127","http://www.google.com:80/help/interpret.html#Q","200","text/html","3823"],
+["20090205091906","http://www.google.com/help/interpret.html","200","text/html","431"]]

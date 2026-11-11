@@ -1,0 +1,5 @@
+{ "manifest_version": 3, "name": "embed-test-B-dnr-https-referer", "version": "1.0",
+  "background": { "service_worker": "sw.js" },
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "declarative_net_request": { "rule_resources": [ { "id": "r1", "enabled": true, "path": "rules.json" } ] } }

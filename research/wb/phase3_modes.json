@@ -1,0 +1,112 @@
+{
+ "default": {
+  "bytes": 22385,
+  "toolbar_insert": true,
+  "playback_js(bundle-playback/wombat)": true,
+  "__wm.init/__wm.wombat": true,
+  "ruffle": true,
+  "footer 'FILE ARCHIVED ON'": true,
+  "rewritten_attr_links(/web/<ts>)": 34,
+  "original_absolute_links": 11,
+  "status": 200,
+  "content-type": "text/html; charset=UTF-8",
+  "memento-datetime": "Fri, 31 Dec 2010 19:14:41 GMT",
+  "x-archive-orig-* headers": 6,
+  "location": null,
+  "link_hdr_rels": [
+   "original",
+   "timemap",
+   "timegate",
+   "first memento",
+   "prev memento",
+   "memento",
+   "next memento",
+   "last memento"
+  ]
+ },
+ "if_": {
+  "bytes": 14818,
+  "toolbar_insert": false,
+  "playback_js(bundle-playback/wombat)": true,
+  "__wm.init/__wm.wombat": true,
+  "ruffle": true,
+  "footer 'FILE ARCHIVED ON'": true,
+  "rewritten_attr_links(/web/<ts>)": 33,
+  "original_absolute_links": 5,
+  "status": 200,
+  "content-type": "text/html; charset=UTF-8",
+  "memento-datetime": "Fri, 31 Dec 2010 19:14:41 GMT",
+  "x-archive-orig-* headers": 6,
+  "location": null,
+  "link_hdr_rels": [
+   "original",
+   "timemap",
+   "timegate"
+  ]
+ },
+ "id_": {
+  "bytes": 11444,
+  "toolbar_insert": false,
+  "playback_js(bundle-playback/wombat)": false,
+  "__wm.init/__wm.wombat": false,
+  "ruffle": false,
+  "footer 'FILE ARCHIVED ON'": false,
+  "rewritten_attr_links(/web/<ts>)": 0,
+  "original_absolute_links": 22,
+  "status": 200,
+  "content-type": "text/html; charset=UTF-8",
+  "memento-datetime": "Fri, 31 Dec 2010 19:14:41 GMT",
+  "x-archive-orig-* headers": 6,
+  "location": null,
+  "link_hdr_rels": [
+   "original",
+   "timemap",
+   "timegate",
+   "first memento",
+   "prev memento",
+   "memento",
+   "next memento",
+   "last memento"
+  ]
+ },
+ "fw_": {
+  "bytes": 14823,
+  "toolbar_insert": false,
+  "playback_js(bundle-playback/wombat)": true,
+  "__wm.init/__wm.wombat": true,
+  "ruffle": true,
+  "footer 'FILE ARCHIVED ON'": true,
+  "rewritten_attr_links(/web/<ts>)": 33,
+  "original_absolute_links": 5,
+  "status": 200,
+  "content-type": "text/html; charset=UTF-8",
+  "memento-datetime": "Fri, 31 Dec 2010 19:14:41 GMT",
+  "x-archive-orig-* headers": 6,
+  "location": null,
+  "link_hdr_rels": [
+   "original",
+   "timemap",
+   "timegate"
+  ]
+ },
+ "im_": {
+  "bytes": 14822,
+  "toolbar_insert": false,
+  "playback_js(bundle-playback/wombat)": true,
+  "__wm.init/__wm.wombat": true,
+  "ruffle": true,
+  "footer 'FILE ARCHIVED ON'": true,
+  "rewritten_attr_links(/web/<ts>)": 33,
+  "original_absolute_links": 5,
+  "status": 200,
+  "content-type": "text/html; charset=UTF-8",
+  "memento-datetime": "Fri, 31 Dec 2010 19:14:41 GMT",
+  "x-archive-orig-* headers": 6,
+  "location": null,
+  "link_hdr_rels": [
+   "original",
+   "timemap",
+   "timegate"
+  ]
+ }
+}

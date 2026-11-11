@@ -1,0 +1,1806 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+
+	<html lang="en">
+
+<!-- machid: 467 -->
+<head>
+	
+	<title>YouTube - Broadcast Yourself.</title>
+
+	<link rel="stylesheet" href="http://s.ytimg.com/yt/css/base_all-vfl44776.css" type="text/css">
+
+	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch?locale=en_US" title="YouTube Video Search">
+	<link rel="icon" href="http://s.ytimg.com/yt/favicon-vfl1123.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://s.ytimg.com/yt/favicon-vfl1123.ico" type="image/x-icon">
+	
+
+	<meta name="description" content="Share your videos with friends, family, and the world">
+	<meta name="keywords" content="video, sharing, camera phone, video phone, free, upload">
+
+	<link rel="alternate" type="application/rss+xml" title="YouTube - [RSS]" href="/rssls">
+
+	<link rel="alternate" media="handheld" href="http://m.youtube.com/index?desktop_uri=%2F&">
+
+	<script type="text/javascript">
+			window.google={kHL:"en"};
+	</script>
+
+	<script type="text/javascript" src="http://s.ytimg.com/yt/js/base_all_with_bidi-vfl44799.js"></script>
+
+	<script type="text/javascript">
+
+			function _hbLink (a,b) { return false; }
+			function urchinTracker (a) { }
+			function urchinTrackerDefer(a) { }
+
+		
+	var gXSRF_token = '';
+	var gXSRF_field_name = '';
+	var gXSRF_ql_pair = '';
+
+		gXSRF_token = 'CJsVOVmu95nzmEmeqF7GE1Dnzc18MTIxNTExMjE3OA==';
+		gXSRF_field_name = 'session_token';
+		onLoadFunctionList.push(populate_session_token);
+
+		gXSRF_ql_pair = 'session_token=obOPfznARdz4LWGCPTFkZrK1Ys58MA==';
+
+
+		var gGoogleSuggest = true;
+		var gPixelGif = 'http://s.ytimg.com/yt/img/pixel-vfl73.gif';
+
+		var gIsResultsPage = false;
+	</script>
+
+
+
+<script type="text/javascript">
+
+function swapVideoList(linkObj)
+{
+	var linkId = linkObj.id;
+	var queryData = '';
+	var newDivId = '';
+	var headlineObj = document.getElementById('hpVideoListHead');
+	var moreLinkObj = document.getElementById('homepage-featured-more-top');
+	var bottomMoreLinkObj = document.getElementById('homepage-featured-more-bottom');
+
+	if (linkId == 'hpMostViewedLink') {
+		queryData = 'videoListType=mostViewed';
+		newDivId = 'hpMostViewed';
+		headlineObj.innerHTML = "Most Viewed Videos";
+		moreLinkObj.innerHTML = "<a href=\"/browse?s=mp\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/MostViewed/Top');\">See More Most Viewed Videos</a>";
+		bottomMoreLinkObj.innerHTML = "<a href=\"/browse?s=mp\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/MostViewed/Bottom');\">See More Most Viewed Videos</a>";
+	}
+	else if (linkId == 'hpMostDiscussedLink') {
+		queryData = 'videoListType=mostDiscussed';
+		newDivId = 'hpMostDiscussed';
+		headlineObj.innerHTML = "Most Discussed Videos";
+		moreLinkObj.innerHTML = "<a href=\"/browse?s=md\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/MostDiscussed/Top');\">See More Most Discussed Videos</a>";
+		bottomMoreLinkObj.innerHTML = "<a href=\"/browse?s=md\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/MostDiscussed/Bottom');\">See More Most Discussed Videos</a>";
+	}
+	else if (linkId == 'hpTopFavoritesLink') {
+		queryData = 'videoListType=topFavorites';
+		newDivId = 'hpTopFavorites';
+		headlineObj.innerHTML = "Top Favorites";
+		moreLinkObj.innerHTML = "<a href=\"/browse?s=mf\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/TopFavorites/Top');\">See More Top Favorites</a>";
+		bottomMoreLinkObj.innerHTML = "<a href=\"/browse?s=mf\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/TopFavorites/Bottom');\">See More Top Favorites</a>";
+	}
+	else if (linkId == 'hpFeaturedLink') {
+		newDivId = 'hpFeatured';
+		headlineObj.innerHTML = "Featured Videos";
+		moreLinkObj.innerHTML = "<a href=\"/browse?s=rf\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/Featured/Top');\">See More Featured Videos</a>";
+		bottomMoreLinkObj.innerHTML = "<a href=\"/browse?s=rf\" onmousedown=\"urchinTracker('/Events/Home/SeeMore/Featured/Bottom');\">See More Featured Videos</a>";
+	} 
+	self.containerDiv = 'homepage-video-list'
+	self.fillDiv = fillDiv
+	self.linkId = linkId
+	self.newDivId = newDivId
+	addClass(_gel(newDivId + 'Link'), 'hilite');
+	if (newDivId != 'hpMostViewed') {
+		removeClass(_gel('hpMostViewedLink'), 'hilite');
+	}
+	if (newDivId != 'hpMostDiscussed') {
+		removeClass(_gel('hpMostDiscussedLink'), 'hilite');
+	}
+	if (newDivId != 'hpTopFavorites') {
+		removeClass(_gel('hpTopFavoritesLink'), 'hilite');
+	}
+	if (newDivId != 'hpFeatured') {
+		removeClass(_gel('hpFeaturedLink'), 'hilite');
+	}
+	if (document.getElementById(newDivId))
+	{
+		document.getElementById(newDivId).style.display = 'block';
+		if (newDivId != 'hpMostViewed' && document.getElementById('hpMostViewed')) document.getElementById('hpMostViewed').style.display = 'none';
+		if (newDivId != 'hpMostDiscussed' && document.getElementById('hpMostDiscussed')) document.getElementById('hpMostDiscussed').style.display = 'none';
+		if (newDivId != 'hpTopFavorites' && document.getElementById('hpTopFavorites')) document.getElementById('hpTopFavorites').style.display = 'none';
+		if (newDivId != 'hpFeatured' && document.getElementById('hpFeatured')) document.getElementById('hpFeatured').style.display = 'none';
+	}
+	else if (queryData != '') {
+		postUrlXMLResponse('/ajax_video_list',queryData,self.fillDiv);
+	}
+
+	urchinTracker('/Events/Home/Tabs/' + linkId);
+}
+function fillDiv(req)
+{
+	if (document.getElementById('hpMostViewed')) document.getElementById('hpMostViewed').style.display = 'none';
+	if (document.getElementById('hpMostDiscussed')) document.getElementById('hpMostDiscussed').style.display = 'none';
+	if (document.getElementById('hpTopFavorites')) document.getElementById('hpTopFavorites').style.display = 'none';
+	if (document.getElementById('hpFeatured')) document.getElementById('hpFeatured').style.display = 'none';
+	var newContent = getNodeValue(req.responseXML, "html_content");
+	var newdiv = document.createElement('div');
+	newdiv.setAttribute("id",self.newDivId);
+	newdiv.innerHTML = newContent;
+	var container = document.getElementById(self.containerDiv);
+	container.appendChild(newdiv);
+}
+
+function hide_active_sharing() {
+	hideDiv("active_sharing_div");
+}
+
+
+</script>
+
+</head>
+
+
+<body onload="performOnLoadFunctions();" class="en_US is-english">
+
+
+<div id="baseDiv" class=" date-20080702">
+	
+		<div id="masthead">
+		<a href="/" onmousedown="urchinTracker('/Events/Header/YouTubeLogo');" class="logo"><img src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" width="132" height="63" border="0" alt=""/></a>
+		<div class="user-info">
+				
+
+					<div id="localePickerBox">
+	<div id="flagDiv">
+			<script type="text/javascript">
+				var gLocales = [
+				['ru_RU','&#x420;&#x43E;&#x441;&#x441;&#x438;&#x44F;']									,				['zh_TW','&#x53F0;&#x7063;']									,				['ja_JP','&#x65E5;&#x672C;']									,				['zh_HK','&#x9999;&#x6E2F;']									,				['ko_KR','&#xD55C;&#xAD6D;']									,				['en_AU','Australia']									,				['pt_BR','Brasil']									,				['en_CA','Canada']									,				['de_DE','Deutschland']									,				['es_ES','Espa&#xF1;a']									,				['fr_FR','France']									,				['en_US','Global']									,				['en_IN','India']									,				['en_IE','Ireland']									,				['it_IT','Italia']									,				['es_MX','M&#xE9;xico']									,				['nl_NL','Nederland']									,				['en_NZ','New Zealand']									,				['pl_PL','Polska']									,				['en_GB','United Kingdom']				
+				];
+			</script>
+			<div id="flagDivInner">
+			</div>
+
+		<div class="alignR smallText"><a href="#" onclick="closeLocalePicker(); return false;">Close</a></div>
+	</div>
+	</div>
+
+				
+
+
+
+
+	<div id="util-links" class="normal-utility-links">
+
+		<span class="util-item first"><b><a  href="/signup?next=/" onclick="_hbLink('SignUp','UtilityLinks');" onmousedown="urchinTracker('/Events/Header/UtilLinks/SignUp');">Sign Up</a></b></span>
+		<span class="util-item"><a  href="/watch_queue?all" onmousedown="urchinTracker('/Events/Header/UtilLinks/QuickList');">QuickList</a> (<span id="quicklist-utility">0</span>)</span>
+		<span class="util-item"><a  href="http://help.youtube.com/support/youtube/bin/static.py?page=start.cs&amp;hl=en_US" onmousedown="urchinTracker('/Events/Header/UtilLinks/Help');">Help</a></span>
+				<span class="util-item"><a  href="/login?next=/" onmousedown="urchinTracker('/Events/Header/UtilLinks/SignIn');">Sign In</a></span>
+		<span class="util-item"><a href="#" class="localePickerLink eLink" onclick="loadFlagImgs();toggleDisplay('localePickerBox');return false;" onmousedown="urchinTracker('/Events/Header/UtilLinks/I18n/image');">Site:</a></span>
+		<span class="util-item first">&nbsp;<a href="#" class="localePickerLink" onclick="loadFlagImgs();toggleDisplay('localePickerBox');return false;" onmousedown="urchinTracker('/Events/Header/UtilLinks/I18n/text');"><img src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" class="currentFlag  globalFlag" alt="Site:"></a></span>
+	</div>
+
+	<form name="logoutForm" method="post" target="_top" action="/index">
+		<input type="hidden" name="action_logout" value="1">
+	</form>
+
+
+		</div>
+		<div class="nav">
+			<div class="nav-item first selected" id="nav-item-home">
+				<span class="leftcap"></span>
+				<a class="content" href="/" onmousedown="urchinTracker('/Events/Header/MainTabs/HomeTab');">Home</a>
+				<span class="rightcap"></span>
+			</div>
+			<div class="nav-item" id="nav-item-videos">
+				<div class="nav-tab">
+					<span class="leftcap"></span>
+					<a class="content" href="/browse?s=mp" onmousedown="urchinTracker('/Events/Header/MainTabs/VideosTab');">Videos</a>
+					<span class="rightcap"></span>
+				</div>
+			</div>
+			<div class="nav-item" id="nav-item-channels">
+				<div class="nav-tab">
+					<span class="leftcap"></span>
+					<a class="content" href="/members" onmousedown="urchinTracker('/Events/Header/MainTabs/ChannelsTab');">Channels</a>
+					<span class="rightcap"></span>
+				</div>
+			</div>
+			<div class="nav-item" id="nav-item-community">
+				<div class="nav-tab">
+					<span class="leftcap"></span>
+					<a class="content" href="/community" onmousedown="urchinTracker('/Events/Header/MainTabs/CommunityTab');">Community</a>
+					<span class="rightcap"></span>
+				</div>
+			</div>
+		</div>
+		
+		<form autocomplete="off" action="/results" method="get" name="searchForm" onsubmit="return submitRegularSearchRequest()">
+
+		<div class="bar">
+			<span class="leftcap"></span>
+			<div class="search-bar">
+				<a href="/my_videos_upload" onmousedown="urchinTracker('/Events/Header/UploadButton');" id="upload-button" class="action-button">
+					<span class="action-button-leftcap"></span>
+					<span class="action-button-text">Upload</span>
+					<span class="action-button-rightcap"></span>
+				</a>
+				<div id="search-form">
+					<input id="search-term" name="search_query" type="text" tabindex="1" "goog.i18n.bidi.setDirAttribute(event,this)"  value="" maxlength="128" />
+					<select class="search-type" name="search_type">
+						<option value="">Videos</option>
+						<option value="search_users" >Channels</option>
+					</select>
+					<input id="search-button" type="submit" value="Search" />
+				</div>
+				<div class="search-settings-link">
+				<a href="#" class="eLink" onmousedown="urchinTracker('/Events/Header/AdvancedSearch');" onClick="return toggleAdvSearch('', '', '', '', '', '')">
+					advanced
+				</a></div>
+			</div>
+			<span class="rightcap"></span>
+		</div>
+
+		</form>
+
+		<div id="search-advanced-form" class="hid">
+			<div class="search-setting-inner alignC">Loading...</div>
+		</div>
+
+		<div class="clear"></div>
+	</div> 
+	<div id="search-settings-clr" class="hid"></div>
+
+	
+	
+	
+	
+
+
+
+
+<div id="homepage-main-content"> 
+		<div>
+	<div id="active_sharing_div" name="active_sharing_div" style="display:block"></div>
+	<script type="text/javascript">
+		// <![CDATA[
+		var fo = new SWFObject("active_sharing.swf", "active_sharing", "550", "115", 7, "#FFFFFF");
+		var showstr = "Videos being watched right now...";
+		fo.addParam('wmode', 'opaque');
+		fo.addVariable("t", showstr);
+		fo.write("active_sharing_div");
+		// ]]>
+	</script>
+</div>
+
+			<div class="homepage-content-block" style="margin-left:18px; border:0px #CCC solid;">
+		<div class="homepage-block-heading homepage-block-heading-gray">Promoted Videos</div>
+		<div>
+			<div class="homepage-sponsored-video marB0">
+				<div class="videoIconWrapperOuter">
+					<div class="videoIconWrapperInner">
+					<div class="vstill"><a href="/cthru?key=XEwTizSz_IL_fTtB5h8rfISFDs2NFBVtmf0TcXLNK1xxTL_fGfuQ5GO8vu8zZq_kT8Y0I5cv8h8dQiYfRk44-z6emttapFgk2xD8PwsOdnRh0dS-8xVesYiD7sjHejLS6u9zm9ZKfLjUR3KaEvLcGa4G2HLvJgoHoNgLZ0MSd-REQJpqP-wTY9zv38fkFIGRiUSy5QNEo08=" name="&lid=DV+-+Celebratingthesoyamoratorium+-+GreenpeaceVideo&lpos=hp-s0" onmousedown="urchinTracker('/Events/Home/DV_click/GreenpeaceVideo/Celebratingthesoyamoratorium');"><img src="http://i.ytimg.com/vi/Jd_d95WDfXQ/default.jpg" onload="urchinTrackerDefer('/Events/Home/DV_view/GreenpeaceVideo/Celebratingthesoyamoratorium');" class="vimg120"></a></div>
+					</div>
+				</div>
+				<div class="vtitle smallText">
+					<a href="/cthru?key=XEwTizSz_IL_fTtB5h8rfISFDs2NFBVtmf0TcXLNK1xxTL_fGfuQ5GO8vu8zZq_kT8Y0I5cv8h8dQiYfRk44-z6emttapFgk2xD8PwsOdnRh0dS-8xVesYiD7sjHejLS6u9zm9ZKfLjUR3KaEvLcGa4G2HLvJgoHoNgLZ0MSd-REQJpqP-wTY9zv38fkFIGRiUSy5QNEo08=" name="&lid=DV+-+Celebratingthesoyamoratorium+-+GreenpeaceVideo&lpos=hp-s0">Celebrating the soy...</a>
+				</div>
+				<div class="vfacets" style="margin-bottom: 0px;">
+				<a href="/user/GreenpeaceVideo" class="dg">GreenpeaceVideo</a>
+				</div>
+			</div>
+			<div class="homepage-sponsored-video marB0">
+				<div class="videoIconWrapperOuter">
+					<div class="videoIconWrapperInner">
+					<div class="vstill"><a href="/cthru?key=0YW8XtMmNLggB9Wk9anGaMKxpovO1kGyjxfyEwztzxsthOxME7DfG7xL914OyIT3BJlWMZlnLqPetiwZlnSLpLAE3um_lIfd5hXohd_EWlFEQySBb1OD0NsYFr2OS3DBW_y6Hd-9kajhSpncqCgg8Q08KAIR5zFs-klBru4iBspg7LZB8Q7-UcKp0gW4Dn20xmCzltjG3-I=" name="&lid=DV+-+WantedPremiere+-+wireimage&lpos=hp-s1" onmousedown="urchinTracker('/Events/Home/DV_click/wireimage/WantedPremiere');"><img src="http://i.ytimg.com/vi/HMrJm6nfkw0/default.jpg" onload="urchinTrackerDefer('/Events/Home/DV_view/wireimage/WantedPremiere');" class="vimg120"></a></div>
+					</div>
+				</div>
+				<div class="vtitle smallText">
+					<a href="/cthru?key=0YW8XtMmNLggB9Wk9anGaMKxpovO1kGyjxfyEwztzxsthOxME7DfG7xL914OyIT3BJlWMZlnLqPetiwZlnSLpLAE3um_lIfd5hXohd_EWlFEQySBb1OD0NsYFr2OS3DBW_y6Hd-9kajhSpncqCgg8Q08KAIR5zFs-klBru4iBspg7LZB8Q7-UcKp0gW4Dn20xmCzltjG3-I=" name="&lid=DV+-+WantedPremiere+-+wireimage&lpos=hp-s1">&quot;Wanted&quo t; Premiere</a>
+				</div>
+				<div class="vfacets" style="margin-bottom: 0px;">
+				<a href="/user/wireimage" class="dg">wireimage</a>
+				</div>
+			</div>
+			<div class="homepage-sponsored-video marB0">
+				<div class="videoIconWrapperOuter">
+					<div class="videoIconWrapperInner">
+					<div class="vstill"><a href="/cthru?key=lA-5AhftPH_4L9ujNfxCsNvOypgqCARj0FsypdXYPchasL6CEzVq8dyrDg4TItnJAuDplkT96N_ggufGyl5vYKAOv7Ec6dbKy28psxdzb4wwNrvpOThPdkYktkkZo6NNYa5uBk6sYrrvgHRIgvYP4syRAXoOyD2-5_1CW4QIjJBAVQDB3SCsJTOZwpGpioIHFkIeoLa_E2c=" name="&lid=DV+-+Week5SneakPeek+-+FoodNetworkTV&lpos=hp-s2" onmousedown="urchinTracker('/Events/Home/DV_click/FoodNetworkTV/Week5SneakPeek');"><img src="http://i.ytimg.com/vi/Sw_6R9pBKy0/default.jpg" onload="urchinTrackerDefer('/Events/Home/DV_view/FoodNetworkTV/Week5SneakPeek');" class="vimg120"></a></div>
+					</div>
+				</div>
+				<div class="vtitle smallText">
+					<a href="/cthru?key=lA-5AhftPH_4L9ujNfxCsNvOypgqCARj0FsypdXYPchasL6CEzVq8dyrDg4TItnJAuDplkT96N_ggufGyl5vYKAOv7Ec6dbKy28psxdzb4wwNrvpOThPdkYktkkZo6NNYa5uBk6sYrrvgHRIgvYP4syRAXoOyD2-5_1CW4QIjJBAVQDB3SCsJTOZwpGpioIHFkIeoLa_E2c=" name="&lid=DV+-+Week5SneakPeek+-+FoodNetworkTV&lpos=hp-s2">Week 5 Sneak Peek</a>
+				</div>
+				<div class="vfacets" style="margin-bottom: 0px;">
+				<a href="/user/FoodNetworkTV" class="dg">FoodNetworkTV</a>
+				</div>
+			</div>
+			<div class="homepage-sponsored-video marB0">
+				<div class="videoIconWrapperOuter">
+					<div class="videoIconWrapperInner">
+					<div class="vstill"><a href="/cthru?key=eMFVOydVGp87i1ncUwjJhyGyfnZOmtdSqISmnpadLnBhRW0KDC3coS5T3P_3DhiL1dWVoVNz4EfazlhWwvAj2qM2PlVFODF_cTbWYcTSph1TM_Ft2nPoWYeg94DQxaYeiTYS0LfsFbLllNLOgae8d0MPEbV_gHJ3-Y8n2UFZ22Rx5MGmDiiH9WYx6NDqM3hES3URi4rUvHc=" name="&lid=DV+-+WeedsStonersonPolitics+-+SHOWTIME&lpos=hp-s3" onmousedown="urchinTracker('/Events/Home/DV_click/SHOWTIME/WeedsStonersonPolitics');"><img src="http://i.ytimg.com/vi/uuSuGQN42tU/default.jpg" onload="urchinTrackerDefer('/Events/Home/DV_view/SHOWTIME/WeedsStonersonPolitics');" class="vimg120"></a></div>
+					</div>
+				</div>
+				<div class="vtitle smallText">
+					<a href="/cthru?key=eMFVOydVGp87i1ncUwjJhyGyfnZOmtdSqISmnpadLnBhRW0KDC3coS5T3P_3DhiL1dWVoVNz4EfazlhWwvAj2qM2PlVFODF_cTbWYcTSph1TM_Ft2nPoWYeg94DQxaYeiTYS0LfsFbLllNLOgae8d0MPEbV_gHJ3-Y8n2UFZ22Rx5MGmDiiH9WYx6NDqM3hES3URi4rUvHc=" name="&lid=DV+-+WeedsStonersonPolitics+-+SHOWTIME&lpos=hp-s3">Weeds: Stoners on P...</a>
+				</div>
+				<div class="vfacets" style="margin-bottom: 0px;">
+				<a href="/user/SHOWTIME" class="dg">SHOWTIME</a>
+				</div>
+			</div>
+		<div class="clearL" style="height: 1px;"></div>
+		</div>
+	</div>
+
+
+	<div id="homepage-featured-heading">
+			<div id="homepage-featured-more-top"><a id="hpVideoListMoreLink" href="/browse?s=rf" onmousedown="urchinTracker('/Events/Home/SeeMore/Featured/Top');">See More Featured Videos</a></div>
+		<h1 id="hpVideoListHead">Featured Videos</h1>
+	</div>
+
+	<div id="homepage-featured-tabs">
+		<a href="#" id="hpTopFavoritesLink" name="&lid=hpTopFavoritesTab&lpos=hpTabs" onclick="swapVideoList(this); return false;">Top Favorites</a>
+		<a href="#" id="hpMostDiscussedLink" name="&lid=hpMostDiscussedTab&lpos=hpTabs" onclick="swapVideoList(this); return false;">Most Discussed</a>
+		<a href="#" id="hpMostViewedLink" name="&lid=hpMostViewedTab&lpos=hpTabs" onclick="swapVideoList(this); return false;">Most Viewed</a>
+		<a href="#" id="hpFeaturedLink" name="&lid=hpFeaturedTab&lpos=hpTabs" onclick="swapVideoList(this); return false;" class="first hilite">Featured</a>
+		<div class="clear"></div>
+	</div>
+
+
+
+	<div id="homepage-video-list" class="browseListView">
+		<div id="hpFeatured">
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=9kErrPOK94k" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Gunnin\' for That #1 Spot: Official Movie Trailer');"><img src="http://s2.ytimg.com/vi/9kErrPOK94k/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Gunnin\' for That #1 Spot: Official Movie Trailer');" title="Gunnin' for That #1 Spot: Official Movie Trailer" alt="video"></a><div class="addtoQL90"><a href="#"  ql="9kErrPOK94k" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=9kErrPOK94k" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Gunnin\' for That #1 Spot: Official Movie Trailer');" title="Gunnin' for That #1 Spot: Official Movie Trailer">Gunnin' for That #1 Spot: Offici...</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=9kErrPOK94k" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Gunnin\' for That #1 Spot: Official Movie Trailer');" title="Gunnin' for That #1 Spot: Official Movie Trailer">Gunnin' for That #1 Spot: Official Movie Trailer</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDesc9kErrPOK94k">
+	In September 2006, 24 of the hottest high school hoops players played in the &quot;Elite 24&quot; to
+	</span>
+
+			<span  id="RemainvidDesc9kErrPOK94k" style="display: none">In September 2006, 24 of the hottest high school hoops players played in the &amp;quot;Elite 24&amp;quot; tournament at the Rucker in Harlem, NY. The documentary, (directed and produced by Adam Yauch of the Beastie Boys), follows 8 future NBA Draft prospects, Michael Beasley, Jerryd Bayless and Kevin Love among them, as they get ready to showcase their skills on the legendary court.&lt;br/&gt; &lt;br/&gt;Brought to you by the fine folks at Oscilloscope Laboratories, Gunnin'... hits theaters on June 27th&lt;br/&gt;&lt;br/&gt;www.gunninmovie.com</span>
+			<span id="MorevidDesc9kErrPOK94k" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDesc9kErrPOK94k'); hideDiv('MorevidDesc9kErrPOK94k'); hideDiv('BeginvidDesc9kErrPOK94k'); showDiv('LessvidDesc9kErrPOK94k'); return false;">more</a>)</span>
+			<span id="LessvidDesc9kErrPOK94k" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDesc9kErrPOK94k'); hideDiv('LessvidDesc9kErrPOK94k'); showDiv('BeginvidDesc9kErrPOK94k'); showDiv('MorevidDesc9kErrPOK94k'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/AllBallsDontBounce" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Gunnin\' for That #1 Spot: Official Movie Trailer');">AllBallsDont...</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 20,918<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.0" alt="4.18181818182" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">02:32</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=24" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Gunnin\' for That #1 Spot: Official Movie Trailer)';">Entertainment</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=4gSJpeZslqo" onmousedown="urchinTracker('/Events/VideoClicks/index/image/internet love song - another original song');"><img src="http://i.ytimg.com/vi/4gSJpeZslqo/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/internet love song - another original song');" title="internet love song - another original song" alt="video"></a><div class="addtoQL90"><a href="#"  ql="4gSJpeZslqo" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=4gSJpeZslqo" onmousedown="urchinTracker('/Events/VideoClicks/index/title/internet love song - another original song');" title="internet love song - another original song">internet love song - another ori...</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=4gSJpeZslqo" onmousedown="urchinTracker('/Events/VideoClicks/index/title/internet love song - another original song');" title="internet love song - another original song">internet love song - another original song</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDesc4gSJpeZslqo">
+	In this song the twangy keyboard instrument you can hear is a clavinova. Lovely, isn't it?
+	</span>
+
+			<span  id="RemainvidDesc4gSJpeZslqo" style="display: none">In this song the twangy keyboard instrument you can hear is a clavinova. Lovely, isn't it? I had to pre-record me playing that, then playing the uke, then singing, so this is quite clearly a lip-sync, as you will find is the case with any music video out there. :)&lt;br/&gt;&lt;br/&gt;MYSPACK: http://www.myspace.com/tomandhisuke&lt;br/&gt;&lt;br/&gt;And please BUY THE ALBUM THIS SONG IS ON, my debut album, Awkward Ballads for the Easily-Pleased, which can be found HERE: http://www.tommilsom.com/music/awkwardballads/awkwardballads .html&lt;br/&gt;&lt;br/&gt;Lyrics:&lt;br/&gt;&lt;br/&gt;Please please don't go,&lt;br/&gt;Please, please please don't go&lt;br/&gt;Circumflex underscore circumflex&lt;br/&gt;I love you so.&lt;br/&gt;&lt;br/&gt;Please don't block me, &lt;br/&gt;Please don't go offline.&lt;br/&gt;I wanna be with you &lt;br/&gt;all the time.&lt;br/&gt;&lt;br/&gt;BRB, OMG, LOL.&lt;br/&gt;ROFLMAO.&lt;br/&gt;BRB, OMG, LOL&lt;br/&gt;ROFLMAO.&lt;br/&gt;&lt;br/&gt;We'll pour our hearts out on the screen&lt;br/&gt;One line at a time&lt;br/&gt;And I'll try to figure how to &lt;br/&gt;Make you mine,&lt;br/&gt;&lt;br/&gt;So please, please, please don't go,&lt;br/&gt;Please, please don't go,&lt;br/&gt;Though it's close to midnight&lt;br/&gt;And the conversation's getting slow,&lt;br/&gt;&lt;br/&gt;No don't invite your friends&lt;br/&gt;I don't want this moment here to end.&lt;br/&gt;&lt;br/&gt;BRB, OMG, LOL,&lt;br/&gt;ROFLMAO.&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;&lt;br/&gt;Also, you can download the free mp3 HERE&lt;br/&gt;http://www.tommilsom.com/music/internetlovesong.mp3&lt;br/&gt;Sorry about the wait guys, the internet's been going down on me all day (pfft going down on me giggle giggle)</span>
+			<span id="MorevidDesc4gSJpeZslqo" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDesc4gSJpeZslqo'); hideDiv('MorevidDesc4gSJpeZslqo'); hideDiv('BeginvidDesc4gSJpeZslqo'); showDiv('LessvidDesc4gSJpeZslqo'); return false;">more</a>)</span>
+			<span id="LessvidDesc4gSJpeZslqo" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDesc4gSJpeZslqo'); hideDiv('LessvidDesc4gSJpeZslqo'); showDiv('BeginvidDesc4gSJpeZslqo'); showDiv('MorevidDesc4gSJpeZslqo'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/hexachordal" onmousedown="urchinTracker('/Events/VideoClicks/index/username/internet love song - another original song');">hexachordal</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 171,983<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.43355119826" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">02:13</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=10" onmousedown="urchinTracker('/Events/VideoClicks/index/category/internet love song - another original song)';">Music</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=OAQ_c1C1JfQ" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Rube Goldberg machine from Waiting');"><img src="http://i.ytimg.com/vi/OAQ_c1C1JfQ/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Rube Goldberg machine from Waiting');" title="Rube Goldberg machine from Waiting" alt="video"></a><div class="addtoQL90"><a href="#"  ql="OAQ_c1C1JfQ" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=OAQ_c1C1JfQ" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Rube Goldberg machine from Waiting');" title="Rube Goldberg machine from Waiting">Rube Goldberg machine from Waiting</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=OAQ_c1C1JfQ" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Rube Goldberg machine from Waiting');" title="Rube Goldberg machine from Waiting">Rube Goldberg machine from Waiting</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDescOAQ_c1C1JfQ">
+	The is the Rube Goldberg machine from Waiting
+	</span>
+
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/stonervanpimp" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Rube Goldberg machine from Waiting');">stonervanpimp</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 501,940<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.59180327869" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">00:46</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=26" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Rube Goldberg machine from Waiting)';">Howto &amp; Style</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=7tTNOX8jfno" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Rube Goldberg Dog Food Dispencer');"><img src="http://i.ytimg.com/vi/7tTNOX8jfno/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Rube Goldberg Dog Food Dispencer');" title="Rube Goldberg Dog Food Dispencer" alt="video"></a><div class="addtoQL90"><a href="#"  ql="7tTNOX8jfno" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=7tTNOX8jfno" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Rube Goldberg Dog Food Dispencer');" title="Rube Goldberg Dog Food Dispencer">Rube Goldberg Dog Food Dispencer</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=7tTNOX8jfno" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Rube Goldberg Dog Food Dispencer');" title="Rube Goldberg Dog Food Dispencer">Rube Goldberg Dog Food Dispencer</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDesc7tTNOX8jfno">
+	This is a Rube Goldberg Dog Food Dispencer that me and my friend made for a science projec
+	</span>
+
+			<span  id="RemainvidDesc7tTNOX8jfno" style="display: none">This is a Rube Goldberg Dog Food Dispencer that me and my friend made for a science project.</span>
+			<span id="MorevidDesc7tTNOX8jfno" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDesc7tTNOX8jfno'); hideDiv('MorevidDesc7tTNOX8jfno'); hideDiv('BeginvidDesc7tTNOX8jfno'); showDiv('LessvidDesc7tTNOX8jfno'); return false;">more</a>)</span>
+			<span id="LessvidDesc7tTNOX8jfno" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDesc7tTNOX8jfno'); hideDiv('LessvidDesc7tTNOX8jfno'); showDiv('BeginvidDesc7tTNOX8jfno'); showDiv('MorevidDesc7tTNOX8jfno'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/tevens22" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Rube Goldberg Dog Food Dispencer');">tevens22</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 198,666<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.0" alt="4.12110091743" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">01:52</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=24" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Rube Goldberg Dog Food Dispencer)';">Entertainment</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=q8DjQ2DXs7s" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Burger-making skills put to test at Rube Goldberg contest');"><img src="http://s2.ytimg.com/vi/q8DjQ2DXs7s/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Burger-making skills put to test at Rube Goldberg contest');" title="Burger-making skills put to test at Rube Goldberg contest" alt="video"></a><div class="addtoQL90"><a href="#"  ql="q8DjQ2DXs7s" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=q8DjQ2DXs7s" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Burger-making skills put to test at Rube Goldberg contest');" title="Burger-making skills put to test at Rube Goldberg contest">Burger-making skills put to test...</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=q8DjQ2DXs7s" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Burger-making skills put to test at Rube Goldberg contest');" title="Burger-making skills put to test at Rube Goldberg contest">Burger-making skills put to test at Rube Goldberg contest</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDescq8DjQ2DXs7s">
+	It may not be the fastest food, but teams from around the country will try their best to m
+	</span>
+
+			<span  id="RemainvidDescq8DjQ2DXs7s" style="display: none">It may not be the fastest food, but teams from around the country will try their best to make a hamburger sandwich in the most inefficient way possible during the 21st annual national Rube Goldberg Machine Contest on April 5 at Purdue University.&lt;br/&gt;http://news.uns.purdue.edu/x/2008a/080326RubeNational.html</span>
+			<span id="MorevidDescq8DjQ2DXs7s" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDescq8DjQ2DXs7s'); hideDiv('MorevidDescq8DjQ2DXs7s'); hideDiv('BeginvidDescq8DjQ2DXs7s'); showDiv('LessvidDescq8DjQ2DXs7s'); return false;">more</a>)</span>
+			<span id="LessvidDescq8DjQ2DXs7s" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDescq8DjQ2DXs7s'); hideDiv('LessvidDescq8DjQ2DXs7s'); showDiv('BeginvidDescq8DjQ2DXs7s'); showDiv('MorevidDescq8DjQ2DXs7s'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/PurdueUniversity" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Burger-making skills put to test at Rube Goldberg contest');">PurdueUniver...</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 244,469<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.0" alt="4.14049586777" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">03:34</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=28" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Burger-making skills put to test at Rube Goldberg contest)';">Science &amp; Technology</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=pX8fpPf7Y0g" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Amazing Rube Goldberg Fire Machine');"><img src="http://i.ytimg.com/vi/pX8fpPf7Y0g/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Amazing Rube Goldberg Fire Machine');" title="Amazing Rube Goldberg Fire Machine" alt="video"></a><div class="addtoQL90"><a href="#"  ql="pX8fpPf7Y0g" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=pX8fpPf7Y0g" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Amazing Rube Goldberg Fire Machine');" title="Amazing Rube Goldberg Fire Machine">Amazing Rube Goldberg Fire Machine</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=pX8fpPf7Y0g" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Amazing Rube Goldberg Fire Machine');" title="Amazing Rube Goldberg Fire Machine">Amazing Rube Goldberg Fire Machine</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDescpX8fpPf7Y0g">
+	This machine undoubtedly took FOREVER to make, as well as many tweaks. Enjoy.
+	</span>
+
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/theskilledhunter" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Amazing Rube Goldberg Fire Machine');">theskilledhu...</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 157,756<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.69230769231" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">03:14</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=24" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Amazing Rube Goldberg Fire Machine)';">Entertainment</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=rspYOxcnaTk" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Star Wars Rube Goldberg Machine');"><img src="http://i.ytimg.com/vi/rspYOxcnaTk/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Star Wars Rube Goldberg Machine');" title="Star Wars Rube Goldberg Machine" alt="video"></a><div class="addtoQL90"><a href="#"  ql="rspYOxcnaTk" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=rspYOxcnaTk" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Star Wars Rube Goldberg Machine');" title="Star Wars Rube Goldberg Machine">Star Wars Rube Goldberg Machine</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=rspYOxcnaTk" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Star Wars Rube Goldberg Machine');" title="Star Wars Rube Goldberg Machine">Star Wars Rube Goldberg Machine</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDescrspYOxcnaTk">
+	The Star Wars Rube Golberg project from physics class. Our teacher loved star wars.. (spor
+	</span>
+
+			<span  id="RemainvidDescrspYOxcnaTk" style="display: none">The Star Wars Rube Golberg project from physics class. Our teacher loved star wars.. (sporting his light saber in class now and then and answering any question you can fathom)but now we are out of high school and we do have lives so this will probably never happen again. but it was fun. enjoiiii!!</span>
+			<span id="MorevidDescrspYOxcnaTk" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDescrspYOxcnaTk'); hideDiv('MorevidDescrspYOxcnaTk'); hideDiv('BeginvidDescrspYOxcnaTk'); showDiv('LessvidDescrspYOxcnaTk'); return false;">more</a>)</span>
+			<span id="LessvidDescrspYOxcnaTk" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDescrspYOxcnaTk'); hideDiv('LessvidDescrspYOxcnaTk'); showDiv('BeginvidDescrspYOxcnaTk'); showDiv('MorevidDescrspYOxcnaTk'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/RebrnEmpwrd" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Star Wars Rube Goldberg Machine');">RebrnEmpwrd</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 511,718<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.55069678039" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">04:12</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=24" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Star Wars Rube Goldberg Machine)';">Entertainment</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=2tqdENmulsM" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Zach\'s Rube Goldberg Machine');"><img src="http://i.ytimg.com/vi/2tqdENmulsM/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Zach\'s Rube Goldberg Machine');" title="Zach's Rube Goldberg Machine" alt="video"></a><div class="addtoQL90"><a href="#"  ql="2tqdENmulsM" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=2tqdENmulsM" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Zach\'s Rube Goldberg Machine');" title="Zach's Rube Goldberg Machine">Zach's Rube Goldberg Machine</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=2tqdENmulsM" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Zach\'s Rube Goldberg Machine');" title="Zach's Rube Goldberg Machine">Zach's Rube Goldberg Machine</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDesc2tqdENmulsM">
+	Zach created a Rube Goldberg machine for his 8th grade science class (2008)
+	</span>
+
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/faultywriter" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Zach\'s Rube Goldberg Machine');">faultywriter</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 93,677<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-3.5" alt="3.38461538462" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">03:19</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=27" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Zach\'s Rube Goldberg Machine)';">Education</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=0J16dyV4Du8" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Rube Goldberg Officeplace Contraption');"><img src="http://i.ytimg.com/vi/0J16dyV4Du8/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Rube Goldberg Officeplace Contraption');" title="Rube Goldberg Officeplace Contraption" alt="video"></a><div class="addtoQL90"><a href="#"  ql="0J16dyV4Du8" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=0J16dyV4Du8" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Rube Goldberg Officeplace Contraption');" title="Rube Goldberg Officeplace Contraption">Rube Goldberg Officeplace Contra...</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=0J16dyV4Du8" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Rube Goldberg Officeplace Contraption');" title="Rube Goldberg Officeplace Contraption">Rube Goldberg Officeplace Contraption</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDesc0J16dyV4Du8">
+	A friend and I decided to spend a night at my workplace assembling a contraption using sup
+	</span>
+
+			<span  id="RemainvidDesc0J16dyV4Du8" style="display: none">A friend and I decided to spend a night at my workplace assembling a contraption using supplies from the supply room and my basement.  We started at 11p.m. on 6/26/05, and finished around 5:30a.m.  This is take eight.  Six of the eight worked.  UPDATE:  Thank you for all the views, everyone!  A few quick answers:&lt;br/&gt;-Haha, I didn't get fired, this was done during non-business hours.&lt;br/&gt;-The heavy breathing is me starting to laugh and trying my hardest to stifle it...I was one second away from busting out the whole time.</span>
+			<span id="MorevidDesc0J16dyV4Du8" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDesc0J16dyV4Du8'); hideDiv('MorevidDesc0J16dyV4Du8'); hideDiv('BeginvidDesc0J16dyV4Du8'); showDiv('LessvidDesc0J16dyV4Du8'); return false;">more</a>)</span>
+			<span id="LessvidDesc0J16dyV4Du8" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDesc0J16dyV4Du8'); hideDiv('LessvidDesc0J16dyV4Du8'); showDiv('BeginvidDesc0J16dyV4Du8'); showDiv('MorevidDesc0J16dyV4Du8'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/morebeefplease" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Rube Goldberg Officeplace Contraption');">morebeefplease</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 1,522,811<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.65245478036" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">00:52</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=24" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Rube Goldberg Officeplace Contraption)';">Entertainment</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=Tf15Nlyr5_k" onmousedown="urchinTracker('/Events/VideoClicks/index/image/the incredible machine');"><img src="http://i.ytimg.com/vi/Tf15Nlyr5_k/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/the incredible machine');" title="the incredible machine" alt="video"></a><div class="addtoQL90"><a href="#"  ql="Tf15Nlyr5_k" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=Tf15Nlyr5_k" onmousedown="urchinTracker('/Events/VideoClicks/index/title/the incredible machine');" title="the incredible machine">the incredible machine</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=Tf15Nlyr5_k" onmousedown="urchinTracker('/Events/VideoClicks/index/title/the incredible machine');" title="the incredible machine">the incredible machine</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDescTf15Nlyr5_k">
+	the incredible machine
+	</span>
+
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/bgvsan" onmousedown="urchinTracker('/Events/VideoClicks/index/username/the incredible machine');">bgvsan</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 172,979<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-5.0" alt="4.84324324324" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">00:49</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=1" onmousedown="urchinTracker('/Events/VideoClicks/index/category/the incredible machine)';">Film &amp; Animation</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=lhhGeDBsGA0" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Simple Rube Goldberg Machine II');"><img src="http://i.ytimg.com/vi/lhhGeDBsGA0/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Simple Rube Goldberg Machine II');" title="Simple Rube Goldberg Machine II" alt="video"></a><div class="addtoQL90"><a href="#"  ql="lhhGeDBsGA0" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=lhhGeDBsGA0" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Simple Rube Goldberg Machine II');" title="Simple Rube Goldberg Machine II">Simple Rube Goldberg Machine II</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=lhhGeDBsGA0" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Simple Rube Goldberg Machine II');" title="Simple Rube Goldberg Machine II">Simple Rube Goldberg Machine II</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDesclhhGeDBsGA0">
+	Since so many people ask, the game at the end is called Snafu in the US and Screwball Scra
+	</span>
+
+			<span  id="RemainvidDesclhhGeDBsGA0" style="display: none">Since so many people ask, the game at the end is called Snafu in the US and Screwball Scramble in the UK from what I hear. &lt;br/&gt;&lt;br/&gt;Another &amp;quot;simple&amp;quot; Rube Goldberg machine, but this one is a bit more complex than the previous. It wins a game of Snafu. I guess people could say I &amp;quot;cheated&amp;quot; by using electricity to power on of the cars, but I have done that with most of my non videotaped machines. Anyways, the steps are below:&lt;br/&gt;1) Insert marble into top of wood block marble game.&lt;br/&gt;2) The marble hits some dominoes with just enough force to topple them.&lt;br/&gt;3) The dominoes his another marble which rolls and skids down a Scrabble board.&lt;br/&gt;4) That marble hits another defective marble with a semi-flat bottom (which is how it is balancing on a downhill slope) and bounces it off down a ramp made of scrabble boards. &lt;br/&gt;5) The marble hits dominoes which ascend with the help of wood block &amp;quot;stairs.&amp;quot;&lt;br/&gt;6) The domino at the top hits a cylindrical block which slides down what is meant to be used as a marble slide.&lt;br/&gt;7) The block hits a bridge which has a marble just barely held on by friction and moves it just enough to overcome the friction and descend down the bridge.&lt;br/&gt;8) The marble enters a plastic marble game and exits through a ramp at the bottom. &lt;br/&gt;9) The marble is transfered to another ramp and hits more dominoes at the end. &lt;br/&gt;10) The dominoes hit a toy car/train that goes down a ramp and hits a running electric car.&lt;br/&gt;11) *CHEATER ALERT* The car uses electric power to climb up and around a track before falling onto (what a surprise) more dominoes. &lt;br/&gt;12) The dominoes hit a wooden train set piece which topples and shakes a yardstick ramp. &lt;br/&gt;13) A marble game on the end of the ramp receives the vibration of the block falling and makes a marble roll down though it.&lt;br/&gt;14) The marble falls upon a wooden track and creates just enough vibration to get the train on it to roll down.&lt;br/&gt;15) The train hits a wooden train set piece standing upright which falls onto the button to use the catapult and gets the marble inside in the winning area.&lt;br/&gt;&lt;br/&gt;Zoom in stupidly for victory.&lt;br/&gt;&lt;br/&gt;EDIT: Wow! I can't believe this got featured. Never expected to get any honors for this silly machine. Guess I'll post the honors for the heck of it, thanks all. &lt;br/&gt;&lt;br/&gt;#11 - Featured&lt;br/&gt;#69 - Most Responded (Today) - Entertainment</span>
+			<span id="MorevidDesclhhGeDBsGA0" class="smallText">(<a href="#" class="eLink" onclick="showDiv('RemainvidDesclhhGeDBsGA0'); hideDiv('MorevidDesclhhGeDBsGA0'); hideDiv('BeginvidDesclhhGeDBsGA0'); showDiv('LessvidDesclhhGeDBsGA0'); return false;">more</a>)</span>
+			<span id="LessvidDesclhhGeDBsGA0" style="display: none" class="smallText">(<a href="#" class="eLink" onclick="hideDiv('RemainvidDesclhhGeDBsGA0'); hideDiv('LessvidDesclhhGeDBsGA0'); showDiv('BeginvidDesclhhGeDBsGA0'); showDiv('MorevidDesclhhGeDBsGA0'); return false;">less</a>)</span>
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/Yoshirule" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Simple Rube Goldberg Machine II');">Yoshirule</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 250,216<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.57364341085" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">00:54</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=24" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Simple Rube Goldberg Machine II)';">Entertainment</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+
+			
+
+
+	
+
+	
+
+	<div class="vlentry" >
+
+
+
+
+		<div class="vlcontainer"><div class="v120WideEntry"><div class="v120WrapperOuter"><div class="v120WrapperInner"><a href="/watch?v=HMh1gYTX_do" onmousedown="urchinTracker('/Events/VideoClicks/index/image/Tim Dixon\'s Rube Goldberg');"><img src="http://i.ytimg.com/vi/HMh1gYTX_do/default.jpg" class="vimg120" onload="urchinTrackerDefer('/Events/VideoClicks/index/imageLoaded/Tim Dixon\'s Rube Goldberg');" title="Tim Dixon's Rube Goldberg" alt="video"></a><div class="addtoQL90"><a href="#"  ql="HMh1gYTX_do" title="Add Video to QuickList"><img class="QLIconImg" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0"
+	onclick="clicked_add_icon(this, this.parentNode.getAttribute('ql'), 0);_hbLink('QuickList+AddTo','na');return false;"
+	onmouseover="mouseOverQuickAdd(this, this.parentNode.getAttribute('ql'))"
+	onmouseout="mouseOutQuickAdd(this, this.parentNode.getAttribute('ql'))"></a><div class="hid quicklist-inlist">in <a href="/watch_queue?all">QuickList</a></div></div>
+
+</div></div>
+			</div>
+
+
+			<div class="vldescbox">
+				
+				<div  class="vltitle">
+					<div class="vlshortTitle">
+						<a href="/watch?v=HMh1gYTX_do" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Tim Dixon\'s Rube Goldberg');" title="Tim Dixon's Rube Goldberg">Tim Dixon's Rube Goldberg</a>
+					</div>
+					<div class="vllongTitle">
+						<a href="/watch?v=HMh1gYTX_do" onmousedown="urchinTracker('/Events/VideoClicks/index/title/Tim Dixon\'s Rube Goldberg');" title="Tim Dixon's Rube Goldberg">Tim Dixon's Rube Goldberg</a>
+					</div>
+				</div>
+
+				
+				<div  class="vldesc">
+					
+						<span  id="BeginvidDescHMh1gYTX_do">
+	Rube Goldberg machine that turns on the TV with a 'remote' starting outside
+	</span>
+
+	
+
+	
+				</div>
+			</div>
+
+			<div class="vlclearaltl"></div>
+
+
+
+		</div>
+
+		<div class="vlfacets">
+			<div class="vladded">
+
+			</div>
+				<div><span class="grayText vlfromlbl">From:</span><span class="vlfrom"><a href="/user/axelohren" onmousedown="urchinTracker('/Events/VideoClicks/index/username/Tim Dixon\'s Rube Goldberg');">axelohren</a></span></div>
+				<div class="clearL"></div>
+
+			<span class="grayText">Views:</span> 70,076<br/>
+
+
+
+			<div class="video-thumb-duration-rating">
+								
+
+	<div>
+
+	<img class="ratingVS ratingVS-4.5" alt="4.42857142857" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+
+
+
+	</div>
+
+
+
+
+
+				<div class="runtime">04:08</div>
+			</div>
+
+				<div class="clear"></div>
+				<div class="vlcategory">
+					<span class="smgrayText">More in</span> <a href="/results?search_category=28" onmousedown="urchinTracker('/Events/VideoClicks/index/category/Tim Dixon\'s Rube Goldberg)';">Science &amp; Technology</a>
+				</div>
+
+		</div>
+
+		<div class="vlclearaltl"></div>
+
+
+
+
+		
+	</div> <!-- end vEntry -->
+
+
+		</div>
+	</div> <!-- end Video List -->
+	<div id="homepage-featured-more-bottom">
+		<div class="floatR"><a href="/browse?s=rf" onmousedown="urchinTracker('/Events/Home/SeeMore/Featured/Bottom');">See More Featured Videos</a></div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+<div id="homepage-side-content" style="white-space: normal;">
+	
+	<!-- Begin ad tag -->
+		<div id="ad_creative_1" >
+
+
+
+			<input type="hidden" id="pvaHl" value="en"/>
+	<input type="hidden" id="pvaTag" value="http://n4061ad.doubleclick.net/adj/com.ythome/_default;sz=399x299;kl=N;kga=-1;kgg=-1;kmyd=ad_creative_1;tile=1;dcopt=ist;"/>
+	<input type="hidden" id="burl" value="http://www.youtube.com/pva/"/>
+	<input type="hidden" id="canv" value="False"/>
+	<div id="myAd_banner" style="visibility:hidden;height:35px;"></div>
+	<div id="myAd_pva">
+
+
+		
+	
+	<script type="text/javascript">
+		ord=Math.random()*10000000000000000 + 3;
+		document.write('<script language="JavaScript" src="http://n4061ad.doubleclick.net/adj/com.ythome/_default;sz=399x299;kl=N;kga=-1;kgg=-1;kmyd=ad_creative_1;tile=1;dcopt=ist;ord=' + ord + '?" type="text/javascript"><\/script>');
+	</script>
+	<noscript><a
+		href="http://n4061ad.doubleclick.net/jump/_default;sz=399x299;ord=123456789?" target="_blank"><img
+		src="http://n4061ad.doubleclick.net/ad/_default;sz=399x299;ord=123456789?" width="399" height="299" border="0" alt=""></a>
+	</noscript>
+
+			</div>
+
+
+			<div class="alignC xsmallText grayText padT3">
+				Advertisement
+			</div>
+		</div>
+
+	<!-- End ad tag -->
+
+
+		<div class="homepage-content-block">
+						<div class="signInBoxBorder">
+	<div class="signInBoxContent">
+			<strong>Want to personalize this homepage?</strong><br/>
+		<a href="/login?next=/"><strong>Sign in to YouTube now!</strong></a>
+		<div class="homepage-border-dotted"></div>
+		<span class="smgrayText">
+		<a href="https://www.google.com/accounts/ServiceLogin?service=youtube&hl=en_US&passive=true&continue=http%3A//www.youtube.com/signup%3Fhl%3Den_US">Sign in with your Google Account!</a>
+		</span>
+		<a href="#" onClick="window.open('/t/help_gaia','login_help','width=580,height=480,resizable=yes,scrollbars=yes,status=0').focus();" rel="nofollow"><img src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" border="0" class="alignMid gaiaHelpBtn" alt=""></a>
+	</div>  
+		</div>  
+
+
+		</div> <!-- end homepage-content-block -->
+
+
+	
+	<!-- Begin ad tag -->
+		<div id="ad_creative_2" class="homepage-content-block padT10">
+
+
+
+
+	
+	<script type="text/javascript">
+		ord=Math.random()*10000000000000000 + 6;
+		document.write('<script language="JavaScript" src="http://n4061ad.doubleclick.net/adj/com.ythome/promo1;sz=300x50;kl=N;kga=-1;kgg=-1;kmyd=ad_creative_2;tile=2;ord=' + ord + '?" type="text/javascript"><\/script>');
+	</script>
+	<noscript><a
+		href="http://n4061ad.doubleclick.net/jump/promo1;sz=300x50;ord=123456789?" target="_blank"><img
+		src="http://n4061ad.doubleclick.net/ad/promo1;sz=300x50;ord=123456789?" width="300" height="50" border="0" alt=""></a>
+	</noscript>
+
+
+		</div>
+
+	<!-- End ad tag -->
+
+
+	
+	<!-- Begin ad tag -->
+		<div id="ad_creative_4" class="homepage-content-block padT10">
+
+
+
+
+	
+	<script type="text/javascript">
+		ord=Math.random()*10000000000000000 + 6;
+		document.write('<script language="JavaScript" src="http://n4061ad.doubleclick.net/adj/com.ythome/promo3;sz=300x50;kl=N;kga=-1;kgg=-1;kmyd=ad_creative_4;tile=4;ord=' + ord + '?" type="text/javascript"><\/script>');
+	</script>
+	<noscript><a
+		href="http://n4061ad.doubleclick.net/jump/promo3;sz=300x50;ord=123456789?" target="_blank"><img
+		src="http://n4061ad.doubleclick.net/ad/promo3;sz=300x50;ord=123456789?" width="300" height="50" border="0" alt=""></a>
+	</noscript>
+
+
+		</div>
+
+	<!-- End ad tag -->
+
+
+	<div class="homepage-side-block padT10">
+	<div class="homepage-yellow-block">
+		<div class="homepage-block-heading" style="color:#CC6600">What's New</div>
+
+		<div class="homepage-whatsnew-entry">
+			<div class="homepage-whatsnew-image"><a href="/t/annotations_about"><img src="http://s.ytimg.com/yt/img/whats_new/annotation-vfl42087.gif" border="0" width="30" height="37"/></a></div>
+			<div class="homepage-whatsnew-desc">
+				<b><a href="/t/annotations_about">Video Annotations</a></b><br/>Add interactive commentary and links to your videos
+			</div>
+		</div><div class="clear"></div>
+
+		<div class="homepage-whatsnew-entry">
+			<div class="homepage-whatsnew-image"><a href="/address_book"><img src="http://s.ytimg.com/yt/img/whats_new/addybook-vfl39351.gif" border="0" width="30" height="37"/></a></div>
+			<div class="homepage-whatsnew-desc">
+				<b><a href="/address_book">New Address Book</a></b><br/>Organizing your YouTube friends and contacts just got a lot simpler
+			</div>
+		</div><div class="clear"></div>
+
+		<div class="homepage-whatsnew-entry">
+			<div class="homepage-whatsnew-image"><a href="/inbox"><img src="http://s.ytimg.com/yt/img/whats_new/inbox-vfl39351.gif" border="0" width="30" height="37"/></a></div>
+			<div class="homepage-whatsnew-desc">
+				<b><a href="/inbox">Updated Inbox</a></b><br/>Manage your messages and invites with ease
+			</div>
+		</div><div class="clear"></div>
+
+
+		<div class="homepage-whatsnew-entry">
+			<div class="homepage-whatsnew-image"><a href="/mobile"><img src="http://s.ytimg.com/yt/img/whats_new/pic_home_mobile_30x37-vfl37458.gif" border="0" width="30" height="37"/></a></div>
+			<div class="homepage-whatsnew-desc">
+				<b><a href="/mobile">YouTube Mobile</a></b><br/> Watch and upload YouTube videos on your mobile device.
+			</div>
+		</div><div class="clear"></div>
+
+				<div class="bottomBorderDotted"></div>
+				<b><a href="/blog" style="color:#CC6600">Mobile Tricks Videos: What can you do with your phone?</a></b><br>
+				Our friends over at <a href="http://www.google.com/mobile/">Google Mobile</a> have started a new YouTube channel called <a href="http://www.youtube.com/user/MobileTricks">Mobile Tricks</a>. They want to know what you can do with your cell phone...
+			<div class="alignR padT5">
+				<a href="/blog" style="color:#CC6600">Read more in our Blog</a>
+			</div>
+		<div style="font-size: 1px; height: 1px;"><br/></div>
+	</div><img class="homepage-yellow-block-bot" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" />
+</div>
+
+
+		
+	<!-- Begin ad tag -->
+		<div id="ad_creative_3" class="homepage-side-block">
+
+
+
+
+	
+	<script type="text/javascript">
+		ord=Math.random()*10000000000000000 + 6;
+		document.write('<script language="JavaScript" src="http://n4061ad.doubleclick.net/adj/com.ythome/promo2;sz=300x50;kl=N;kga=-1;kgg=-1;kmyd=ad_creative_3;tile=3;ord=' + ord + '?" type="text/javascript"><\/script>');
+	</script>
+	<noscript><a
+		href="http://n4061ad.doubleclick.net/jump/promo2;sz=300x50;ord=123456789?" target="_blank"><img
+		src="http://n4061ad.doubleclick.net/ad/promo2;sz=300x50;ord=123456789?" width="300" height="50" border="0" alt=""></a>
+	</noscript>
+
+
+		</div>
+
+	<!-- End ad tag -->
+
+
+
+</div> <!-- end homepage-side-content -->
+
+<div class="clear"></div>
+
+
+
+		<div class="clear"></div>
+	<div id="footer">
+		<div class="search">
+			<div class="promo">
+				<a href="/youchoose" onclick="_hbLink('FooterPromo','Footer');"><img id="debates_footer_img" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" alt="footer-promo" /></a>
+				<a href="/youchoose" onclick="_hbLink('FooterPromo','Footer');">Face The Candidates</a>
+			</div>
+			<form autocomplete="off" name="footer-search-form" method="get" action="/results" style="width: 73.5%;">
+					<a href="http://www.google.com/webmasters/igoogle/youtube.html"><img id="igoogle_footer_img" src="http://s.ytimg.com/yt/img/pixel-vfl73.gif" alt=""/> <em id="igoogle_footer_text">Add to iGoogle</em></a>
+				<input  type="text" name="search_query" maxlength="128" class="query" "goog.i18n.bidi.setDirAttribute(event,this)" value="" id="footer-search-term">
+				<select class="search-type" name="search_type">
+					<option value="">Videos</option>
+					<option value="search_users" >Channels</option>
+				</select>
+				<input type="submit" name="search" value="Search" class="submit-button">
+			</form>
+		</div>
+		<div class="links">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<th colspan="2">Your Account</th>
+					<th class="separator" colspan="2">Help &amp; Info</th>
+					<th class="separator" colspan="2">YouTube</th>
+				</tr>
+				<tr>
+					<td><a href="/my_videos">Videos</a></td>
+					<td><a href="/inbox">Inbox</a></td>
+					<td class="separator"><a href="http://help.youtube.com/support/youtube/bin/static.py?page=start.cs&amp;hl=en_US">Help Resources</a></td>
+					<td><a href="/t/safety">Safety Tips</a></td>
+					<td class="separator"><a href="/t/about">Company Info</a></td>
+					<td><a href="/press_room">Press</a></td>
+				</tr>
+				<tr>
+					<td><a href="/my_favorites">Favorites</a></td>
+					<td><a href="/subscription_center">Subscriptions</a></td>
+					<td class="separator"><a href="/t/yt_handbook_home">YouTube Handbook</a></td>
+					<td><a href="/t/dmca_policy">Copyright Notices</a></td>
+					<td class="separator"><a href="/testtube">TestTube</a></td>
+					<td><a href="/t/contact_us">Contact</a></td>
+				</tr>
+				<tr>
+					<td><a href="/my_playlists">Playlists</a></td>
+					<td><a href="/my_account">more...</a></td>
+					<td class="separator"><a href="/dev">Developer APIs</a></td>
+					<td><a href="/t/community_guidelines">Community Guidelines</a></td>
+					<td class="separator"><a href="/t/terms">Terms of Use</a></td>
+					<td>
+						<a href="/blog">Blog</a>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+					<td class="separator"><a href="/advertise">Advertising</a></td>
+					<td><a href="/youtubeonyoursite">YouTube On Your Site</a></td>
+					<td class="separator"><a href="/t/privacy">Privacy Policy</a></td>
+					<td>
+						<a href="http://www.google.com/jobs/youtube">Jobs</a><br/>
+					</td>
+				</tr>
+
+
+
+							</table>
+		</div>
+	</div>
+	<div id="copyright">
+		&copy; 2008 YouTube, LLC
+	</div>
+
+
+</div> <!-- end baseDiv -->
+<a name="pageBottom"></a>
+</body>
+<script type="text/javascript">
+	window.setTimeout('window.google.ac.install(document.searchForm,document.searchForm.search_query,"yt",true,"close",true,"Suggestions")', 100);
+</script>
+
+
+
+</html>

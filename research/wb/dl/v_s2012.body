@@ -1,0 +1,402 @@
+<!doctype html><html itemscope itemtype="http://schema.org/WebPage"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><meta itemprop="image" content="/images/google_favicon_128.png"><title>New Year's Eve - Google Search</title><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}</style><style>
+    body,td,div,.p,a{
+      font-family:arial,sans-serif
+    }
+    body {
+      margin:0
+    }
+    #gbar{
+      float:left;
+      height:22px;padding-left:2px;
+      font-size:13px
+    }
+    
+    .gssb_c table{
+      font-size:1em
+    }
+    .gsfi,.gsfs{
+      font-size:17px
+    }
+    
+      .j{
+        width:34em
+      }
+    
+    a:link,.w,.q:active,.q:visited,.tbotu{
+      color:#11c
+    }
+    a.fl,.flc a{
+      color:#4272db;text-decoration:none
+    }
+    
+    a.gl{
+      text-decoration:none
+    }
+    cite, cite a:link{
+      color:#0E774A;
+      font-style:normal
+    }
+    #foot {
+      padding:0 8px;
+    }
+    #foot a{
+      white-space:nowrap
+    }
+    h3{
+      font-size:16px;
+      font-weight:normal;
+      margin:0;
+      padding:0
+    }
+    #res h3{
+      display:inline
+    }
+    .hd{
+      height:1px;
+      position:absolute;
+      top:-1000em
+    }
+    li.g,body,html,table,.std{
+      font-size:13px
+    }
+    li.g{
+      margin-bottom:14px;
+      margin-top:0;
+      zoom:1;
+    }
+    ol li,ul li{
+      list-style:none
+    }
+    h1,ol,ul,li{
+      margin:0;padding:0
+    }
+    #mbEnd li{
+      margin:1em 0
+    }
+    #mbEnd h2{
+      color:#676767;
+      font-family:arial,sans-serif;
+      font-size:11px;
+      font-weight:normal
+    }
+    #center_col{
+      border-left:1px solid #d3e1f9;
+      padding:0 8px
+    }
+    
+      #fll a,#bfl a{
+        margin:0 10px
+      }
+    
+    .f{
+      color:#767676
+    }
+    .grn{
+      color:#393
+    }
+    .ds{
+      border-right:1px solid #e7e7e7;
+      position:relative;
+      height:32px;
+      
+      z-index:100
+    }
+    .e{
+      margin:2px 0px 0.75em
+    }
+    #leftnav a,.slk a{
+      text-decoration:none
+    }
+    #leftnav h2{
+      color: #767676;
+      font-weight: normal;
+      margin:0
+    }
+    #logo{
+      display:block;
+      height:49px;
+      margin-top:12px;
+      margin-left:12px;
+      overflow:hidden;
+      position:relative;
+      width:137px
+    }
+    #logo img{
+      
+      left:0;
+      position:absolute;
+      top:-41px
+    }
+    .lnsec{
+      font-size:13px;
+      border-top:1px solid #c9d7f1;
+      margin-top:5px;
+      padding-top:8px
+    }
+    .lsb,.micon,.csb,.star,.star div{
+      background:url(/images/nav_logo_hp2.png) no-repeat;
+      overflow:hidden
+    }
+    .lst{
+      background:#fff;
+      border:1px solid #ccc;
+      border-bottom:none;
+      color:#000;
+      font:18px arial,sans-serif;
+      
+      float:left;
+      height:26px;
+      margin:0;
+      padding:4px 0 0;
+      padding-left:6px;
+      padding-right:10px;
+      vertical-align:top;
+      width:100%;
+      
+      word-break:break-all
+    }
+    .lst:focus{
+      outline:none
+    }
+    .lst-td{
+      border-bottom:1px solid #999;
+      padding:0
+    }
+    .lst-b{
+      border:1px solid #CCC;
+      border-bottom:none;
+      padding-right:0;
+      height:29px;
+      padding-top:1px
+    }
+    .tia input{
+      border-right:none;
+      padding-right:0
+    }
+    .tia{
+      padding-right:0
+    }
+    .lsbb{
+      background:#eee;
+      border:1px solid #999;
+      border-top-color:#ccc;
+      border-left-color:#ccc;
+      height:30px
+    }
+    .lsb{
+      background-position:bottom;
+      border:none;
+      color:#000;
+      cursor:pointer;
+      font:15px arial,sans-serif;
+      height:30px;
+      margin:0;
+      vertical-align:top
+    }
+    .lsb:active{
+      background:#ccc
+    }
+    .micon {
+      float:left;
+      height:19px;
+      margin-top:2px;
+      margin-right: 6px;
+      width:19px;
+    }
+    #nav{
+      
+      border-collapse:collapse;
+      margin-top:17px;
+      text-align:left
+    }
+    #nav td{
+      text-align:center;
+    }
+    .nobr{
+      white-space:nowrap
+    }
+    #showmodes .micon{
+      background-position:-150px -114px;
+      height:17px;
+      margin-left:9px;
+      width:17px;
+    }
+    #subform_ctrl{
+      font-size:11px;
+      height:26px;
+      margin:5px 3px 0;
+      margin-left:17px
+    }
+    .ts{
+      border-collapse:collapse
+    }
+    #mn{
+      table-layout:fixed;width:996px
+    }
+    .mitem{
+      font-size:15px;
+      line-height:24px;
+      margin-bottom:2px;
+      padding-left:0
+    }
+    .msel{
+      font-weight:bold;
+      margin:-1px 0 0 0;
+      border:solid #fff;
+      border-width:1px 0
+    }
+    .r{
+      margin:0
+    }
+    #res{
+      padding:4px 8px 0
+    }
+    .s br{
+      display:none
+    }
+    .spon{
+      font-size:11px;
+      font-weight:normal;
+      color:#767676
+    }
+    .mitem,.lnsec{
+      padding-left:8px
+    }
+    #showmodes{
+      font-size:15px;
+      line-height:24px;
+    }
+    #swr{
+      margin-top:4px
+    }
+    #swr li{
+      line-height:1.2;
+      margin-bottom:4px
+    }
+    .csb{
+      display:block;
+      height:40px;
+    }
+    .images_table td{line-height:17px;padding-bottom:16px}
+    .images_table img{border:1px solid #ccc;padding:1px}
+    .taf{
+      padding:1px 0 0
+    }
+    .tam{
+      padding:14px 0 0
+    }
+    .tal{
+      padding:14px 0 1px
+    }
+    #tbd,#abd{
+      display:block;
+      min-height:1px;
+      padding-top:3px
+    }
+    #tbd li{
+      
+      display:inline
+    }
+    .tbfo,.tbt,.tbpd{
+      margin-bottom:8px
+    }
+    #tbd .tbt li{
+      display:block;
+      font-size:13px;
+      line-height:1.2;
+      padding-bottom:3px;
+      padding-left:8px;
+      text-indent:-8px
+    }
+    .tbos,.b{
+      font-weight:bold;
+    }
+    a:hover{
+      text-decoration:underline
+    }
+    #leftnav a:hover {
+      text-decoration:underline;
+    }
+    em{
+      font-weight:bold;
+      font-style:normal
+    }
+    
+    .gac_wd{
+      right:-2px !important;
+      
+      overflow:hidden
+    }
+    
+    .fmg{
+      display:inline-block;
+      margin-top:7px;
+      padding-right:8px;
+      text-align-left;
+      vertical-align:top;
+      width:90px;
+      zoom:1
+    }
+    .star{
+      
+          background-position:0 -120px;
+        
+      height:9px;
+      overflow-hidden;
+      width:50px
+    }
+    .star div{
+      
+          background-position:0 -110px
+        
+    }
+    
+    .pslires{
+      padding-top:6px;
+      overflow:hidden;
+      width:99.5%
+    }
+    .psliimg{
+      float:left;
+      height:90px;
+      text-align:top;
+      width:90px
+    }
+    .pslimain{
+      margin-left:100px;
+      margin-right:9em
+    }
+    .psliprice{
+      float:right;
+      width:7em
+    }
+    .psliprice b{
+      font-size:medium;
+      font-weight:bold;
+      white-space:nowrap
+    }
+    .psliimg img{
+      border:none
+    }
+    </style><script type="text/javascript">
+      window.google = { y: {} };
+      </script><script type="text/javascript"></script></head>
+    <body bgcolor="#ffffff" topmargin="3" marginheight="3" marginwidth="0"
+  ><div id=gbar><nobr><b class=gb1>Search</b> <a class=gb1 href="http://www.google.com/search?q=New+Year%27s+Eve&um=1&ie=UTF-8&hl=en&tbm=isch&source=og&sa=N&tab=wi">Images</a> <a class=gb1 href="http://www.google.com/search?q=New+Year%27s+Eve&um=1&ie=UTF-8&hl=en&tbo=u&tbm=vid&source=og&sa=N&tab=wv">Videos</a> <a class=gb1 href="http://maps.google.com/maps?q=New+Year%27s+Eve&um=1&ie=UTF-8&hl=en&sa=N&tab=wl">Maps</a> <a class=gb1 href="http://news.google.com/nwshp?hl=en&tab=wn">News</a> <a class=gb1 href="http://www.google.com/search?q=New+Year%27s+Eve&um=1&ie=UTF-8&hl=en&tbo=u&tbm=shop&source=og&sa=N&tab=wf">Shopping</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 style="text-decoration:none" href="http://www.google.com/intl/en/options/"><u>More</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.com/history/optout?hl=en" class=gb4>Web History</a> | <a  href="/preferences?hl=en" class=gb4>Settings</a> | <a id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=en&continue=http://www.google.com/search%3Fq%3DNew%2BYear%27s%2BEve%26ct%3Dnewyear11-hp%26oi%3Dddle" class=gb4>Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div><br clear="all"><table border="0" cellpadding="0" cellspacing="0" id="mn" style="position:relative"><tr><td rowspan="2" valign="top" width="157"><h1><a href="/webhp?hl=" id="logo" title="Go to Google Home"><img src="/images/nav_logo_hp2.png" alt="" height="222" style="border:0" width="167"></a></h1></td><td valign="top" style="padding-left:9px" width="559"><form name="gs" id="tsf" method="GET" action="/search" style="display:block;margin:0;background:none"><table border="0" cellpadding="0" cellspacing="0" id="sbhost" style="border-bottom:1px solid #e7e7e7;margin-top:18px;position:relative"><tr><td class="lst-td" width="100%" valign="bottom" style=""><div style="position:relative;zoom:1"><input autocomplete="off" class="lst" type="text" name="q" maxlength="2048" title="Search" value="New Year's Eve"></div></td><td><div class="ds"><div class="lsbb"><input type="submit" name="btnG" class="lsb" value="Search"></div></div></td></tr></table><input type="hidden" name="ct" value="newyear11-hp"><input type="hidden" name="oi" value="ddle"></form></td><td style="padding-left:5px" width="259"></td></tr><tr><td width="100%"><div id="subform_ctrl"><div style="float:right"><a class="fl" href="/advanced_search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb">Advanced search</a></div><div>About 180,000,000 results</div></div></td><td></td></tr><tr><td valign="top" id="leftnav" style="padding:4px"><div id="modeselector" style="padding-bottom:4px"><ul><li class="mitem msel"><span class="micon" style="
+          background-position:-20px -132px
+        "></span>Everything</li><li class="mitem"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnms&amp;tbm=isch&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=2&amp;ved=0CAcQ_AUoAQ" class="q"><span class="micon" style="
+          background-position:-40px -132px
+        "></span>Images</a></li><li class="mitem"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnms&amp;tbm=vid&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=3&amp;ved=0CAgQ_AUoAg" class="q"><span class="micon" style="
+          background-position:-80px -132px
+        "></span>Videos</a></li><li class="mitem"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnms&amp;tbm=nws&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=4&amp;ved=0CAkQ_AUoAw" class="q"><span class="micon" style="
+          background-position:-120px -132px
+        "></span>News</a></li><li class="mitem"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnms&amp;tbm=shop&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=5&amp;ved=0CAoQ_AUoBA" class="q"><span class="micon" style="
+          background-position:-120px -152px
+        "></span>Shopping</a></li><li class="mitem"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnms&amp;tbm=bks&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=6&amp;ved=0CAsQ_AUoBQ" class="q"><span class="micon" style="
+          background-position:-40px -152px
+        "></span>Books</a></li></ul><a id="showmodes" class="q" href="/search?q=New+Year%27s+Eve&amp;ct=newyear11-hp&amp;hl=en&amp;prmdo=1&amp;sa=X"><span class="micon"></span><span class="msm">More</span></a></div><div class="lnsec"><h2 class="hd">Search Options</h2><ul id="tbd" class="med"><li><ul class="tbt"><li class="tbos">Any time</li><li class="tbou"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CBIQpwUoAQ" class="q">Past hour</a></li><li class="tbou"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CBQQpwUoAg" class="q">Past 24 hours</a></li><li class="tbou"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnt&amp;tbs=qdr:d2&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CBYQpwUoAw" class="q">Past 2 days</a></li><li class="tbou"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CBgQpwUoBA" class="q">Past week</a></li><li class="tbou"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CBoQpwUoBQ" class="q">Past month</a></li><li class="tbou"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CBwQpwUoBg" class="q">Past year</a></li></ul></li><li><ul class="tbt"></ul></li></ul><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;tbo=1" class="q" style="display:block;margin-bottom:16px">More search tools</a></div></td><td valign="top"><div id="center_col"><div id="res"><div id="ires"><ol><li class="g"><h3 class="r"><a href="/url?q=http://www.imdb.com/title/tt1598822/&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CB8QFjAA&amp;usg=AFQjCNH_CylTKpiMlqkE9cLsbLTqWVPHiA"><b>New Year&#39;s Eve</b> (2011) - IMDb</a></h3><div class="f"><div class="star" style="float:left;margin-top:3px"><div style="width:25px">
+      .
+    </div></div>&nbsp;Rating: 5.2/10&nbsp;-&nbsp;13,130 votes</div><div class="s">Directed by Garry Marshall. With Sarah Jessica Parker, Jessica Biel, Ashton <br>  Kutcher, Michelle Pfeiffer. The lives of several couples and singles in <b>New</b> York <b>...</b><br><div><cite>www.imdb.com/title/tt1598822/</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:33ocqmIt_XIJ:http://www.imdb.com/title/tt1598822/+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://www.imdb.com/title/tt1598822/+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="/url?q=http://en.wikipedia.org/wiki/New_Year's_Eve&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CCcQFjAB&amp;usg=AFQjCNGe3iRcGJ-29c-wGGWbEk5-n9t0ag"><b>New Year&#39;s Eve</b> - Wikipedia, the free encyclopedia</a></h3><div class="s">In the Gregorian calendar, <b>New Year&#39;s Eve</b>, the last day of the year, is on <br>  December 31. In many countries, <b>New Year&#39;s Eve</b> is celebrated at evening social <b>...</b><br><div><cite>en.wikipedia.org/wiki/<b>New</b>_<b>Year&#39;s</b>_<b>Eve</b></cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:EcD1UqH8aRYJ:http://en.wikipedia.org/wiki/New_Year's_Eve+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://en.wikipedia.org/wiki/New_Year's_Eve+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><blockquote style="margin-bottom:0"><h3 class="r"><a href="/url?q=http://en.wikipedia.org/wiki/New_Year's_Eve_(film)&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CC8QFjAC&amp;usg=AFQjCNEYtLyAPH_J9vKq6O7Degujsq5bxA"><b>New Year&#39;s Eve</b> (film) - Wikipedia, the free encyclopedia</a></h3><div class="s"><b>New Year&#39;s Eve</b> is a 2011 romantic comedy film directed by Garry Marshall. Like <br>  Valentine&#39;s Day, Marshall&#39;s previous film, it depicts a series of holiday vignettes <b>...</b><br><div><cite>en.wikipedia.org/wiki/<b>New</b>_<b>Year&#39;s</b>_<b>Eve</b>_(film)</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:QeNisDTIt1MJ:http://en.wikipedia.org/wiki/New_Year's_Eve_(film)+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://en.wikipedia.org/wiki/New_Year's_Eve_(film)+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></blockquote></li><li class="g"><h3 class="r"><a href="/url?q=http://newyearsevemovie.warnerbros.com/&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CDEQFjAD&amp;usg=AFQjCNHEo0OjQJXG1EgiEQaK39STrJvpFQ"><b>NEW YEAR&#39;S EVE</b></a></h3><div class="s">Director Garry Marshall and a stellar ensemble cast will ring in the 2011 holiday <br>  season with <b>NEW YEAR&#39;S EVE</b>, a romantic comedy starring Halle Berry, Jessica <b>...</b><br><div><cite><b>newyearseve</b>movie.warnerbros.com/</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:qqRH6xj_TtoJ:http://newyearsevemovie.warnerbros.com/+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://newyearsevemovie.warnerbros.com/+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="/search?q=New+Year's+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;source=univ&amp;tbm=nws&amp;tbo=u&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CDoQqAI">News for <b>New Year's Eve</b></a></h3><table class="ts"><tr><td valign="top" style="font-size:78%;line-height:normal;padding:7px 8px 0 0;text-align:center"><a href="/url?q=http://www.nj.com/hunterdon-county-democrat/index.ssf/2012/03/second_trenton_man_charged_in.html&amp;sa=X&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CDkQpwIwBA&amp;usg=AFQjCNFIVZsXy5vjNumiV3AuSwhBfoAycA"><img src="http://news.google.com/news/tbn/fb-Ay9uRCCQJ/6.jpg" border="1" height="80" style="padding:1px" width="80"><br></a><span class="grn" style="text-decoration:none"></span></td><td align="top"><a href="http://www.nj.com/hunterdon-county-democrat/index.ssf/2012/03/second_trenton_man_charged_in.html">Second Trenton man charged in <b>New Year&#39;s Eve</b> burglary in Delaware <b>...</b></a> - <span class="nobr">14 hours ago</span><br><div class="j">A second Trenton man has been charged with a <b>New Year&#39;s Eve</b> burglary here on Yard Road. Robert Stanley, 41, was served notice of the charges yesterday, <b>...</b></div><span class="nobr"><cite>Hunterdon County Democrat -  NJ.com</cite></span><br><a dir="ltr" href="http://districtsportspage.com/washington-nationals-spring-training-postcard-better-than-new-years-eve/6196">Washington Nationals Spring Training Postcard: Better than <b>New</b> <b>...</b></a> - &lrm;<nobr><cite>District Sports Page</cite></nobr><br><a dir="ltr" href="http://www.utsandiego.com/news/2012/mar/23/man-sentenced-in-killing-of-14-year-old-girl/">Man sentenced in killing of 14-<b>year</b>-old girl</a> - &lrm;<nobr><cite>U-T San Diego</cite></nobr><br></td></tr></table></li><li class="g"><h3 class="r"><a href="/url?q=http://www.timessquarenyc.org/new-years-eve/index.aspx&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CDwQFjAH&amp;usg=AFQjCNH6hW-E2KLiKvGY13LqXaZ4nAZhTg">Times Square Alliance : <b>New Year&#39;s Eve</b></a></h3><div class="s">Every <b>year</b> as the clock nears midnight on December 31, the eyes of the world <br>  turn to the dazzling lights and bustling energy of Times Square.<br><div><cite>www.timessquarenyc.org/<b>new</b>-<b>years</b>-<b>eve</b>/index.aspx</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:cYbZ3PrTAFAJ:http://www.timessquarenyc.org/new-years-eve/index.aspx+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://www.timessquarenyc.org/new-years-eve/index.aspx+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><h3><a href="/url?q=http://www.youtube.com/watch%3Fv%3Dk1Y2uXjsKjs&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CD4QtwIwCA&amp;usg=AFQjCNE4gTTo_uHEDrsORQmwzWOVYHbZ3w"><b>New Year&#39;s Eve</b> - Official Trailer [HD] - YouTube</a></h3><table class="ts" style="margin-top:-1px"><tr><td valign="top" colspan="1"><table class="ts"><tr><td valign="top" style="padding:7px 0 0;padding-right:8px"><a href="/url?q=http://www.youtube.com/watch%3Fv%3Dk1Y2uXjsKjs&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CD4QtwIwCA&amp;usg=AFQjCNE4gTTo_uHEDrsORQmwzWOVYHbZ3w"><img src="http://img.youtube.com/vi/k1Y2uXjsKjs/default.jpg" alt="" align="left" border="1" height="90" width="120"></a></td><td valign="top" style="padding:5px 10px 0 0"><span class="f">2 min - Jul 27, 2011<br>Uploaded by trailers</span><br>Subscribe http://ow.ly/3UVvY | Facebook http://ow.ly/3UVxn | Twitter http://ow.ly/ 3UVyA Release <b>...</b><br><cite>www.youtube.com/watch?v=k1Y2uXjsKjs</cite></td></tr></table></td></tr></table></li><li class="g"><h3 class="r"><a href="/url?q=http://www.rottentomatoes.com/m/new_years_eve_2011/&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CEMQFjAJ&amp;usg=AFQjCNE4xJN4toyL-OX5i0uvqc2G_tF5MA"><b>New Year&#39;s Eve</b> - Rotten Tomatoes</a></h3><div class="f"><div class="star" style="float:left;margin-top:3px"><div style="width:10px">
+      .
+    </div></div>&nbsp;Rating: 8%&nbsp;-&nbsp;128 reviews</div><div class="s">Dec 9, 2011 <b>...</b> Review: Shallow, sappy, and dull, <b>New Year&#39;s Eve</b> assembles a star-studded cast <br>  for no discernible purpose.<br><div><cite>www.rottentomatoes.com/m/<b>new</b>_<b>years</b>_<b>eve</b>_2011/</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:1HuapL-n5NoJ:http://www.rottentomatoes.com/m/new_years_eve_2011/+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://www.rottentomatoes.com/m/new_years_eve_2011/+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="/url?q=http://newyears.earthcam.com/&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CEUQFjAK&amp;usg=AFQjCNHfrN4D1ENLwuo0S1u5EfZ8CkTuCw">EarthCam - New Year&#39;s 2012 / <b>New Year&#39;s Eve</b> 2011</a></h3><div class="s">Webcam Network | EarthCam. EarthCam is proud to present <b>New Year&#39;s</b> 2012 in <br>  3D from Times Square and a host of cities around the world. Enjoy multiple <b>...</b><br><div><cite><b>newyears</b>.earthcam.com/</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:lrfiXmm0JpQJ:http://newyears.earthcam.com/+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://newyears.earthcam.com/+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="/url?q=http://trailers.apple.com/trailers/wb/newyearseve/&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CEgQFjAL&amp;usg=AFQjCNGdNsGzFMr7BWONxWiK-JZFLYfL_A"><b>New Year&#39;s Eve</b> - Movie Trailers - iTunes</a></h3><div class="s">Dec 9, 2011 <b>...</b> &quot;<b>New Year&#39;s Eve</b>&quot; celebrates love, hope, forgiveness, second chances and fresh <br>  starts, in intertwining stories told amidst the pulse and promise <b>...</b><br><div><cite>trailers.apple.com/trailers/wb/<b>newyearseve</b>/</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:576Zjq4KceoJ:http://trailers.apple.com/trailers/wb/newyearseve/+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://trailers.apple.com/trailers/wb/newyearseve/+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li><li class="g"><h3 class="r"><a href="/url?q=http://topics.nytimes.com/topics/reference/timestopics/subjects/n/new_year/index.html&amp;sa=U&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;ved=0CEoQFjAM&amp;usg=AFQjCNFtq6Pgy9bdyQDVc6q2w-95qDnJPQ"><b>New Year&#39;s Eve</b> - News - Times Topics - The New York Times</a></h3><div class="s">News about <b>New Year&#39;s Eve</b>. Commentary and archival information about <b>New</b> <br>  <b>Year&#39;s Eve</b> from The New York Times.<br><div><cite>topics.nytimes.com/topics/reference/.../n/<b>new</b>_<b>year</b>/index.html</cite><span class="flc"> - <a href="//webcache.googleusercontent.com/search?hl=en&amp;q=cache:iFCmqhWXsD0J:http://topics.nytimes.com/topics/reference/timestopics/subjects/n/new_year/index.html+New+Year%27s+Eve&amp;ct=clnk">Cached</a> - <a href="/search?ct=newyear11-hp&amp;hl=en&amp;tbo=1&amp;q=related:http://topics.nytimes.com/topics/reference/timestopics/subjects/n/new_year/index.html+New+Year%27s+Eve&amp;sa=X">Similar</a></span></div></div></li></ol></div></div><div><div style="font-size:16px;padding:4px 8px 0">Searches related to: <strong>New Year's Eve</strong></div><table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20destinations&amp;ct=broad-revision&amp;cd=1&amp;ie=UTF-8&amp;sa=X">new year's eve destinations</a></p><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20celebration&amp;ct=broad-revision&amp;cd=2&amp;ie=UTF-8&amp;sa=X">new year's eve celebration</a></p><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20traditions&amp;ct=broad-revision&amp;cd=3&amp;ie=UTF-8&amp;sa=X">new year's eve traditions</a></p><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20party&amp;ct=broad-revision&amp;cd=4&amp;ie=UTF-8&amp;sa=X">new year's eve party</a></p></td><td style="padding-left:10px" valign="top"><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20song&amp;ct=broad-revision&amp;cd=5&amp;ie=UTF-8&amp;sa=X">new year's eve song</a></p><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20party%20ideas&amp;ct=broad-revision&amp;cd=6&amp;ie=UTF-8&amp;sa=X">new year's eve party ideas</a></p><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20trailer&amp;ct=broad-revision&amp;cd=7&amp;ie=UTF-8&amp;sa=X">new year's eve trailer</a></p><p style="margin:4px 8px"><a href="/search?hl=en&amp;q=new%20year's%20eve%20soundtrack&amp;ct=broad-revision&amp;cd=8&amp;ie=UTF-8&amp;sa=X">new year's eve soundtrack</a></p></td></tr></table></div></div><div id="foot"><table align="center" border="0" cellpadding="0" cellspacing="0" id="nav"><tr valign="top"><td class="b" align="left"><span class="csb ch" style="background-position:-24px 0;width:28px"></span><b></b></td><td><span class="csb ch" style="background-position:-53px 0;width:20px"></span><b>1</b></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=10&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>2</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=20&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>3</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=30&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>4</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=40&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>5</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=50&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>6</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=60&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>7</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=70&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>8</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=80&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>9</a></td><td><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=90&amp;sa=N" class="fl"><span class="csb ch" style="background-position:-74px 0;width:20px"></span>10</a></td><td class="b" style="text-align:left"><a href="/search?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb&amp;ei=66ptT8_7M-qXiAKTgvH7BA&amp;start=10&amp;sa=N" style="text-align:left"><span class="csb ch" style="background-position:-96px 0;width:71px"></span><span style="display:block;margin-left:53px">Next</span></a></td></tr></table><p id="bfl" class="flc" style="margin:19px 0 0;text-align:center"><a href="/support/websearch/bin/answer.py?answer=134479&amp;hl=en">Search Help</a> <a href="/quality_form?q=New+Year%27s+Eve&amp;hl=en&amp;ie=UTF-8&amp;prmd=ivnsb">Give us feedback</a></p><div id="fll" class="flc" style="margin:19px auto 19px auto;text-align:center"><a href="/">Google&#160;Home</a> <a href="
+         /intl/en/ads/">Advertising&#160;Programs</a> <a href="/services">Business Solutions</a> <a href="/intl/en/policies/">Privacy</a> <a href="/intl/en/about.html">About Google</a></div></div></td><td valign="top"></td></tr></table><script src="/extern_js/f/CgJlbhICdXMgACswWjgALCswDjgALCswCjgAmgICaGUsKzAYOAAsgAJQkAJu/vwzbKdoxw18.js"></script><script type="text/javascript">google.ac.c({"client":"serp","dh":true,"ds":"","exp":"frgbld","fl":true,"host":"google.com","jsonp":true,"msgs":{"lcky":"I\u0026#39;m Feeling Lucky","lml":"Learn more","psrc":"This search was removed from your \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","srch":"Google Search"},"ovr":{"fm":1,"l":1,"p":1,"pf":1,"ps":1,"sw":1},"pq":"New Year's Eve","scd":10,"sce":5})</script></body></html>

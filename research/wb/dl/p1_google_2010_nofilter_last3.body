@@ -1,0 +1,4 @@
+[["timestamp","original","statuscode","mimetype","digest","length"],
+["20101231182011","http://www.google.com/","200","text/html","7WFVBIEF4LNSBONR5PYEMQ5GVHQX4KA3","4437"],
+["20101231191441","http://www.google.com/","200","text/html","BWEYXJCX5YMKFXKQEWJRV5QWKWRWSMK6","5016"],
+["20101231191548","http://google.com/","-","warc/revisit","Y6PVK4XWOI3BXQEXM5WLLWU5JKUVNSFZ","490"]]

@@ -1,0 +1,3 @@
+[ { "id": 1, "priority": 1,
+    "action": { "type": "modifyHeaders", "requestHeaders": [ { "header": "referer", "operation": "set", "value": "chrome-extension://timemachine-test/" } ] },
+    "condition": { "urlFilter": "||youtube.com/embed/", "resourceTypes": ["sub_frame"] } } ]

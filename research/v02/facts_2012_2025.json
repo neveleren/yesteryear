@@ -1,0 +1,698 @@
+[
+  {
+    "year": 2012,
+    "meme": {
+      "ok": false,
+      "on": "07-30",
+      "on_source": "https://en.wikipedia.org/wiki/Gangnam_Style",
+      "note": "Right meme for 2012 (released Jul 15; spread via Reddit Jul 28, T-Pain Jul 29, Gawker Jul 30; WP: went viral in August, No. 1 on the iTunes video chart Aug 21). Old blurb names the billion views, which only happened Dec 21, so the blurb is rewritten and the billion views is now a fact dated 12-21. Image checked: loads, 316x316 PNG.",
+      "replacement": {
+        "title": "Gangnam Style",
+        "blurb": "Psy's horse-riding dance from Seoul spreads across the web: Oppa Gangnam Style!",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png",
+        "source": "https://en.wikipedia.org/wiki/Gangnam_Style"
+      }
+    },
+    "facts": [
+      {
+        "text": "The $35 Raspberry Pi computer goes on sale (February 29).",
+        "on": "02-29",
+        "source": "https://en.wikipedia.org/wiki/Raspberry_Pi"
+      },
+      {
+        "text": "Facebook buys Instagram for $1 billion (April 9).",
+        "on": "04-09",
+        "source": "https://en.wikipedia.org/wiki/Instagram"
+      },
+      {
+        "text": "London hosts the Summer Olympics (July 27 to August 12).",
+        "on": "07-27",
+        "source": "https://en.wikipedia.org/wiki/2012_Summer_Olympics"
+      },
+      {
+        "text": "NASA's Curiosity rover lands on Mars (August 6).",
+        "on": "08-06",
+        "source": "https://en.wikipedia.org/wiki/Curiosity_(rover)"
+      },
+      {
+        "text": "Felix Baumgartner skydives from the stratosphere (October 14).",
+        "on": "10-14",
+        "source": "https://en.wikipedia.org/wiki/Red_Bull_Stratos"
+      },
+      {
+        "text": "Gangnam Style is the first YouTube video to hit a billion views (December 21).",
+        "on": "12-21",
+        "source": "https://en.wikipedia.org/wiki/Gangnam_Style"
+      }
+    ],
+    "facts_note": "Kept all 3 (correct). Curiosity landed Aug 6 05:17 UTC (still Aug 5 in California). Added Raspberry Pi, Instagram, Gangnam billion views.",
+    "tech": {
+      "text": "Samsung Galaxy S III",
+      "on": "05-29",
+      "source": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III",
+      "note": "Fits: unveiled May 3, on sale May 29 (28 countries); best-selling smartphone in Q3 2012, ahead of the iPhone 4S."
+    }
+  },
+  {
+    "year": 2013,
+    "meme": {
+      "ok": true,
+      "on": "08-26",
+      "on_source": "https://knowyourmeme.com/memes/doge",
+      "note": "Right year (WP: became popular in late 2013; searches rising from July 2013). KYM: 4chan flooded Reddit's r/MURICA with doge images on the evening of Aug 26, 2013 (WP: 'In August 2013'). Dogecoin followed Dec 6. Blurb fine. Image checked: loads, 500x452 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Vine's six-second videos launch (January 24).",
+        "on": "01-24",
+        "source": "https://en.wikipedia.org/wiki/Vine_(service)"
+      },
+      {
+        "text": "Chris Hadfield releases his 'Space Oddity' video, filmed in orbit (May 12).",
+        "on": "05-12",
+        "source": "https://en.wikipedia.org/wiki/Chris_Hadfield"
+      },
+      {
+        "text": "Andy Murray is the first British man to win Wimbledon in 77 years (July 7).",
+        "on": "07-07",
+        "source": "https://www.tennismajors.com/wimbledon-news/july-7-2013-the-day-andy-murray-won-his-first-wimbledon-270414.html"
+      },
+      {
+        "text": "Grand Theft Auto V earns $1 billion in three days (September 20).",
+        "on": "09-20",
+        "source": "https://www.engadget.com/2013-09-20-grand-theft-auto-5-sales-surpass-1-billion.html"
+      },
+      {
+        "text": "Disney's Frozen opens in cinemas (November 27).",
+        "on": "11-27",
+        "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)"
+      },
+      {
+        "text": "China's Chang'e 3 makes the first soft Moon landing since 1976 (December 14).",
+        "on": "12-14",
+        "source": "https://en.wikipedia.org/wiki/Chang%27e_3"
+      }
+    ],
+    "facts_note": "GTA V: released Sep 17, Take-Two announced the $1 billion on Sep 20. Frozen reworded: \"'Let It Go' is everywhere\" was not true on Nov 27 (the song peaked in early 2014). Vine kept. Added Hadfield, Murray, Chang'e 3.",
+    "tech": {
+      "text": "PlayStation 4",
+      "on": "11-15",
+      "source": "https://en.wikipedia.org/wiki/PlayStation_4",
+      "note": "Fits: North America Nov 15, Europe Nov 29; 1 million sold at the North American launch."
+    }
+  },
+  {
+    "year": 2014,
+    "meme": {
+      "ok": true,
+      "on": "07-29",
+      "on_source": "https://en.wikipedia.org/wiki/Ice_Bucket_Challenge",
+      "note": "Right year. Media attention from Jun 30 (Chris Kennedy), Matt Lauer on TV Jul 15; the surge starts Jul 29 (WP counts 2.2 million tweets and $41.8 million in donations from Jul 29). Blurb fine. Image checked: loads, 500x755 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Flappy Bird is pulled from the app stores (February 10).",
+        "on": "02-10",
+        "source": "https://en.wikipedia.org/wiki/Flappy_Bird"
+      },
+      {
+        "text": "Ellen's Oscar selfie becomes the most retweeted tweet ever (March 2).",
+        "on": "03-02",
+        "source": "https://en.wikipedia.org/wiki/86th_Academy_Awards"
+      },
+      {
+        "text": "Germany wins the World Cup in Brazil (July 13).",
+        "on": "07-13",
+        "source": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_final"
+      },
+      {
+        "text": "Microsoft agrees to buy Minecraft maker Mojang for $2.5 billion (September 15).",
+        "on": "09-15",
+        "source": "https://en.wikipedia.org/wiki/Mojang_Studios"
+      },
+      {
+        "text": "Taylor Swift releases her album 1989 (October 27).",
+        "on": "10-27",
+        "source": "https://en.wikipedia.org/wiki/1989_(album)"
+      },
+      {
+        "text": "The Philae lander touches down on a comet (November 12).",
+        "on": "11-12",
+        "source": "https://en.wikipedia.org/wiki/Philae_(spacecraft)"
+      }
+    ],
+    "facts_note": "Flappy Bird: announced Feb 8, removed Feb 10 (date added). Germany and Philae kept. Ellen's selfie broke the retweet record within about 35 minutes on Oscar night.",
+    "tech": {
+      "text": "Selfie stick",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Selfie_stick",
+      "note": "Fits 2014: WP says the term was not widely used until 2014; Time's 25 best inventions of 2014; Bloomberg: the must-have gift of the 2014 holidays. On sale in the US since 2006 (Quik Pod), so 01-01 (already available on every day of 2014)."
+    }
+  },
+  {
+    "year": 2015,
+    "meme": {
+      "ok": true,
+      "on": "02-26",
+      "on_source": "https://en.wikipedia.org/wiki/The_dress",
+      "note": "Right year: reposted on Tumblr and BuzzFeed's 'What Colors Are This Dress?' on Feb 26, 2015; 37 million BuzzFeed views by Mar 1. Blurb fine. Image checked: loads, 256x389 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Katy Perry's 'Left Shark' steals the Super Bowl halftime show (February 1).",
+        "on": "02-01",
+        "source": "https://en.wikipedia.org/wiki/Super_Bowl_XLIX_halftime_show"
+      },
+      {
+        "text": "The Apple Watch goes on sale (April 24).",
+        "on": "04-24",
+        "source": "https://en.wikipedia.org/wiki/Apple_Watch"
+      },
+      {
+        "text": "New Horizons flies past Pluto (July 14).",
+        "on": "07-14",
+        "source": "https://en.wikipedia.org/wiki/New_Horizons"
+      },
+      {
+        "text": "Windows 10 is released (July 29).",
+        "on": "07-29",
+        "source": "https://en.wikipedia.org/wiki/Windows_10"
+      },
+      {
+        "text": "Back to the Future Day: Marty McFly's future date arrives (October 21).",
+        "on": "10-21",
+        "source": "https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II"
+      },
+      {
+        "text": "Star Wars: The Force Awakens opens (December 18).",
+        "on": "12-18",
+        "source": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens"
+      }
+    ],
+    "facts_note": "Kept all 3 (correct; Force Awakens premiered Dec 14, US release Dec 18). Added Left Shark, Apple Watch, Back to the Future Day.",
+    "tech": {
+      "text": "Hoverboard (self-balancing scooter)",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Self-balancing_scooter",
+      "note": "Fits 2015: celebrity-driven craze and the gift of Christmas 2015. Mass production began in China in 2014, so 01-01 (on sale before the year began). Fire reports and recalls came from Dec 2015 into 2016."
+    }
+  },
+  {
+    "year": 2016,
+    "meme": {
+      "ok": true,
+      "on": "11-02",
+      "on_source": "https://knowyourmeme.com/memes/mannequin-challenge",
+      "note": "Right year (WP: became popular in November 2016). First viral clip Oct 26 (Jacksonville students); KYM: by Nov 2 a full social media trend, set to 'Black Beatles'. Blurb fine. Image checked: loads, 500x281 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Scientists announce the first detection of gravitational waves (February 11).",
+        "on": "02-11",
+        "source": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+      },
+      {
+        "text": "Leicester City win the Premier League as 5000-1 outsiders (May 2).",
+        "on": "05-02",
+        "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Leicester_City_F.C._season"
+      },
+      {
+        "text": "Pokemon Go launches and players head outside to catch them all (July 6).",
+        "on": "07-06",
+        "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+      },
+      {
+        "text": "Rio de Janeiro hosts the first Olympics in South America (August 5 to 21).",
+        "on": "08-05",
+        "source": "https://en.wikipedia.org/wiki/2016_Summer_Olympics"
+      },
+      {
+        "text": "Bob Dylan wins the Nobel Prize in Literature (October 13).",
+        "on": "10-13",
+        "source": "https://en.wikipedia.org/wiki/2016_Nobel_Prize_in_Literature"
+      },
+      {
+        "text": "The Chicago Cubs win their first World Series since 1908 (November 3).",
+        "on": "11-03",
+        "source": "https://en.wikipedia.org/wiki/2016_World_Series"
+      }
+    ],
+    "facts_note": "'Pokemon' was non-ASCII (e acute), fixed; reworded so it is true on launch day (Jul 6 in AU, NZ, US). Leicester (May 2) and gravitational waves (Feb 11) dated. Cubs: Game 7 began Nov 2 but ended after midnight on Nov 3, hence 11-03.",
+    "tech": {
+      "text": "NES Classic Edition",
+      "on": "11-10",
+      "source": "https://en.wikipedia.org/wiki/NES_Classic_Edition",
+      "note": "Fits: released Nov 10 (Japan, Australia), Nov 11 (US, Europe); sold out within hours."
+    }
+  },
+  {
+    "year": 2017,
+    "meme": {
+      "ok": true,
+      "on": "08-19",
+      "on_source": "https://en.wikipedia.org/wiki/Distracted_boyfriend",
+      "note": "Right year. WP: 'The meme started going viral on August 19, 2017' (first used in a Facebook group in January). Blurb fine. Image checked: loads, 387x258 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "La La Land is wrongly named Best Picture; Moonlight is the winner (February 26).",
+        "on": "02-26",
+        "source": "https://en.wikipedia.org/wiki/89th_Academy_Awards"
+      },
+      {
+        "text": "Fidget spinners become the toy craze of the spring (May 4).",
+        "on": "05-04",
+        "source": "https://www.wusf.org/2017-05-04/fidget-spinner-emerges-as-must-have-toy-of-the-year"
+      },
+      {
+        "text": "'Despacito' becomes YouTube's most-viewed video (August 4).",
+        "on": "08-04",
+        "source": "https://en.wikipedia.org/wiki/Despacito"
+      },
+      {
+        "text": "A total solar eclipse crosses the United States (August 21).",
+        "on": "08-21",
+        "source": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_21,_2017"
+      },
+      {
+        "text": "Fortnite Battle Royale comes out, free to play (September 26).",
+        "on": "09-26",
+        "source": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"
+      },
+      {
+        "text": "The iPhone X goes on sale with Face ID and no home button (November 3).",
+        "on": "11-03",
+        "source": "https://en.wikipedia.org/wiki/IPhone_X"
+      }
+    ],
+    "facts_note": "Fidget spinners: WP has no day, so dated by NPR 'Fidget Spinner Emerges As Must-Have Toy Of The Year' (May 4; source is the WUSF copy because npr.org timed out). Despacito: most-viewed from Aug 4. Eclipse kept.",
+    "tech": {
+      "text": "Nintendo Switch",
+      "on": "03-03",
+      "source": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+      "note": "Fits: released worldwide March 3, 2017."
+    }
+  },
+  {
+    "year": 2018,
+    "meme": {
+      "ok": true,
+      "on": "05-07",
+      "on_source": "https://en.wikipedia.org/wiki/Bongo_Cat",
+      "note": "Right year. WP: the original GIF originated May 7, 2018 and the reply set to music went viral. Blurb fine. Image checked: loads, 248x251 PNG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "SpaceX's Falcon Heavy launches a Tesla car into space (February 6).",
+        "on": "02-06",
+        "source": "https://en.wikipedia.org/wiki/Falcon_Heavy_test_flight"
+      },
+      {
+        "text": "Fortnite mania: Drake and Ninja set a Twitch viewing record (March 15).",
+        "on": "03-15",
+        "source": "https://www.engadget.com/2018-03-15-ninja-drake-twitch.html"
+      },
+      {
+        "text": "Avengers: Infinity War breaks the opening weekend record (April 29).",
+        "on": "04-29",
+        "source": "https://www.fox13seattle.com/2018/04/29/avengers-infinity-war-opens-with-record-250-million-passing-star-wars/"
+      },
+      {
+        "text": "France beats Croatia 4-2 to win the World Cup (July 15).",
+        "on": "07-15",
+        "source": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_final"
+      },
+      {
+        "text": "Apple becomes the first US public company worth $1 trillion (August 2).",
+        "on": "08-02",
+        "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc."
+      },
+      {
+        "text": "NASA's InSight lander touches down on Mars (November 26).",
+        "on": "11-26",
+        "source": "https://en.wikipedia.org/wiki/InSight"
+      }
+    ],
+    "facts_note": "Fortnite craze anchored to the Drake/Ninja stream (began the evening of Mar 14 US time, ran overnight, reported Mar 15; WP gives only 'March 2018'). Infinity War opened Apr 27; the record weekend was reported Apr 29. Falcon Heavy kept. Apple date from History of Apple Inc. (Apple Inc. lead: first US public company over $1 trillion in 2018).",
+    "tech": {
+      "text": "Echo Dot smart speaker",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Amazon_Echo",
+      "note": "Fits: WP says the Echo Dot was among Amazon's top-selling products in 2017 and 2018. 2nd gen on sale since Oct 20, 2016, so 01-01; 3rd gen introduced Sep 2018."
+    }
+  },
+  {
+    "year": 2019,
+    "meme": {
+      "ok": true,
+      "on": "06-02",
+      "on_source": "https://en.wikipedia.org/wiki/Woman_yelling_at_a_cat",
+      "note": "Right year. First combined by @MISSINGEGIRL on May 1, 2019; WP: a Reddit post on June 2 'surged the meme into massive notoriety'. Blurb fine. Image checked: loads, 447x223 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "China's Chang'e 4 makes the first landing on the Moon's far side (January 3).",
+        "on": "01-03",
+        "source": "https://en.wikipedia.org/wiki/Chang%27e_4"
+      },
+      {
+        "text": "Astronomers reveal the first image of a black hole (April 10).",
+        "on": "04-10",
+        "source": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+      },
+      {
+        "text": "Game of Thrones airs its final episode (May 19).",
+        "on": "05-19",
+        "source": "https://en.wikipedia.org/wiki/The_Iron_Throne_(Game_of_Thrones)"
+      },
+      {
+        "text": "Avengers: Endgame becomes the top-grossing film of all time (July 21).",
+        "on": "07-21",
+        "source": "https://www.fox2detroit.com/news/avengers-endgame-has-passed-avatar-as-biggest-film-ever"
+      },
+      {
+        "text": "Eliud Kipchoge runs a marathon distance in under two hours (October 12).",
+        "on": "10-12",
+        "source": "https://en.wikipedia.org/wiki/Ineos_1:59_Challenge"
+      },
+      {
+        "text": "Disney+ launches (November 12).",
+        "on": "11-12",
+        "source": "https://en.wikipedia.org/wiki/Disney%2B"
+      }
+    ],
+    "facts_note": "Endgame: passed Avatar with the Jul 20-21 weekend grosses (Disney said Saturday night it was set to pass; AP story Jul 21), so 07-21. Black hole and Disney+ kept. Kipchoge: 'marathon distance' because the Vienna run was not an official record.",
+    "tech": {
+      "text": "AirPods Pro",
+      "on": "10-30",
+      "source": "https://en.wikipedia.org/wiki/AirPods_Pro",
+      "note": "Fits: announced Oct 28, released Oct 30, 2019."
+    }
+  },
+  {
+    "year": 2020,
+    "meme": {
+      "ok": true,
+      "on": "03-30",
+      "on_source": "https://en.wikipedia.org/wiki/Dancing_Pallbearers",
+      "note": "Right year. WP: became a meme in March 2020; TikTok versions Mar 6 and Mar 14 (KYM), a YouTube video 'elevating the trend' Mar 30, on Twitter and Instagram by late March. Blurb fine. Note: WP ties its popularity to the COVID-19 pandemic. Image checked: loads, 400x225 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Parasite is the first non-English film to win Best Picture (February 9).",
+        "on": "02-09",
+        "source": "https://en.wikipedia.org/wiki/92nd_Academy_Awards"
+      },
+      {
+        "text": "Animal Crossing: New Horizons is everyone's island escape (March 20).",
+        "on": "03-20",
+        "source": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons"
+      },
+      {
+        "text": "SpaceX launches its first astronauts to the space station (May 30).",
+        "on": "05-30",
+        "source": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2"
+      },
+      {
+        "text": "BTS's 'Dynamite' is the first US No. 1 by an all-Korean act (August 31).",
+        "on": "08-31",
+        "source": "https://www.thefader.com/2020/08/31/btss-dynamite-is-no1-on-the-billboard-hot-100"
+      },
+      {
+        "text": "Among Us mania: 3.8 million people play at the same time (September 29).",
+        "on": "09-29",
+        "source": "https://www.altchar.com/game-news/among-us-hit-an-incredible-3.8-million-concurrent-users-azyGJ5m8rLOE"
+      },
+      {
+        "text": "Jupiter and Saturn meet in the sky, the closest since 1623 (December 21).",
+        "on": "12-21",
+        "source": "https://en.wikipedia.org/wiki/Great_conjunction"
+      }
+    ],
+    "facts_note": "BTS: The Fader (Aug 31) dates the No. 1 debut; 'first all-South Korean act to top the Hot 100' is from WP Dynamite_(BTS_song). SpaceX reworded to 'launches' (launched May 30, docked May 31). Among Us dated: 3.8 million concurrent players over the last September weekend, reported Sep 29 (WP: 'late September'). Animal Crossing kept (5 million digital copies in March).",
+    "tech": {
+      "text": "PlayStation 5",
+      "on": "11-12",
+      "source": "https://en.wikipedia.org/wiki/PlayStation_5",
+      "note": "Fits: Nov 12 (US, Japan, Australia, NZ, South Korea), Nov 19 elsewhere; scarce for months (chip shortage)."
+    }
+  },
+  {
+    "year": 2021,
+    "meme": {
+      "ok": true,
+      "on": "03-23",
+      "on_source": "https://knowyourmeme.com/memes/events/suez-canal-jam",
+      "note": "Right year. Ever Given ran aground Mar 23, 2021 (07:40 local); KYM: the cropped excavator photo went viral the same day (1,400 retweets in a day), with more memes Mar 24-26. Blurb fine. Image checked: loads, 500x333 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Olivia Rodrigo releases her debut single 'drivers license' (January 8).",
+        "on": "01-08",
+        "source": "https://en.wikipedia.org/wiki/Drivers_License_(song)"
+      },
+      {
+        "text": "NASA's Ingenuity makes the first powered flight on Mars (April 19).",
+        "on": "04-19",
+        "source": "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)"
+      },
+      {
+        "text": "Friends: The Reunion brings the cast back together (May 27).",
+        "on": "05-27",
+        "source": "https://en.wikipedia.org/wiki/Friends:_The_Reunion"
+      },
+      {
+        "text": "Tokyo hosts the delayed Summer Olympics (July 23 to August 8).",
+        "on": "07-23",
+        "source": "https://en.wikipedia.org/wiki/2020_Summer_Olympics"
+      },
+      {
+        "text": "Squid Game becomes Netflix's biggest series launch ever (October 13).",
+        "on": "10-13",
+        "source": "https://www.cbsnews.com/news/squid-game-netflix-111-million-accounts/"
+      },
+      {
+        "text": "The James Webb Space Telescope launches (December 25).",
+        "on": "12-25",
+        "source": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+      }
+    ],
+    "facts_note": "Squid Game: premiered Sep 17; Netflix announced 111 million accounts and its 'biggest series launch ever' on Oct 12 (US), Oct 13 in Asia and Europe, so 10-13. 'Most-watched series ever' only came with the Nov 16 hours metric. Ingenuity and JWST kept.",
+    "tech": {
+      "text": "Oculus Quest 2",
+      "on": "01-01",
+      "source": "https://en.wikipedia.org/wiki/Oculus_Quest_2",
+      "note": "Fits 2021: 10 million shipped by Nov 2021; the Oculus app was the top US app at Christmas 2021. Released Oct 13, 2020, so 01-01 (available all of 2021)."
+    }
+  },
+  {
+    "year": 2022,
+    "meme": {
+      "ok": true,
+      "on": "01-01",
+      "on_source": "https://en.wikipedia.org/wiki/Wordle",
+      "note": "Right year. WP: widespread popularity in late 2021 after the emoji share grid; 90 players on Nov 1, 2021, over 300,000 by Jan 2, 2022; NYT bought it Jan 31. Viral before the year began, so 01-01. Blurb fine. Image checked: loads, 223x232 PNG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Elden Ring, FromSoftware's open-world epic, is released (February 25).",
+        "on": "02-25",
+        "source": "https://en.wikipedia.org/wiki/Elden_Ring"
+      },
+      {
+        "text": "Top Gun: Maverick flies into cinemas, 36 years after the original (May 27).",
+        "on": "05-27",
+        "source": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick"
+      },
+      {
+        "text": "The James Webb telescope's first full-color images are shown (July 12).",
+        "on": "07-12",
+        "source": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+      },
+      {
+        "text": "NASA's DART probe crashes into an asteroid on purpose (September 26).",
+        "on": "09-26",
+        "source": "https://en.wikipedia.org/wiki/Double_Asteroid_Redirection_Test"
+      },
+      {
+        "text": "ChatGPT is released to the public (November 30).",
+        "on": "11-30",
+        "source": "https://en.wikipedia.org/wiki/ChatGPT"
+      },
+      {
+        "text": "Argentina and Messi win the World Cup in Qatar (December 18).",
+        "on": "12-18",
+        "source": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
+      }
+    ],
+    "facts_note": "Kept all 3 (correct; the single preview image was Jul 11, the full-color set Jul 12). DART hit at 23:14 UTC Sep 26.",
+    "tech": {
+      "text": "Steam Deck",
+      "on": "02-25",
+      "source": "https://en.wikipedia.org/wiki/Steam_Deck",
+      "note": "Fits: released Feb 25, 2022 (North America, Europe); first-day reservations crashed Steam's servers."
+    }
+  },
+  {
+    "year": 2023,
+    "meme": {
+      "ok": false,
+      "on": "06-30",
+      "on_source": "https://www.gamesradar.com/barbie-oppenheimer-memes/",
+      "note": "Right year. Viral from late June: KYM logs a Jun 29 'I survived Barbenheimer' tweet, GamesRadar 'The internet is exploding with Barbie and Oppenheimer memes' (Jun 30, cited in WP). Old blurb describes opening day (Jul 21: fans in pink at double bills), so it is rewritten to be true from 06-30. If you prefer the old blurb, use on 07-21. Image checked: loads, 500x375 JPEG.",
+      "replacement": {
+        "title": "Barbenheimer",
+        "blurb": "Barbie and Oppenheimer open the same day; fans plan a pink-and-black double bill.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Barbenheimer_-_July_2023.jpg/500px-Barbenheimer_-_July_2023.jpg",
+        "source": "https://en.wikipedia.org/wiki/Barbenheimer"
+      }
+    },
+    "facts": [
+      {
+        "text": "Everything Everywhere All at Once wins Best Picture (March 12).",
+        "on": "03-12",
+        "source": "https://en.wikipedia.org/wiki/95th_Academy_Awards"
+      },
+      {
+        "text": "Zelda: Tears of the Kingdom is released (May 12).",
+        "on": "05-12",
+        "source": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"
+      },
+      {
+        "text": "Lionel Messi signs for Inter Miami in the US (July 15).",
+        "on": "07-15",
+        "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
+      },
+      {
+        "text": "India's Chandrayaan-3 lands near the Moon's south pole (August 23).",
+        "on": "08-23",
+        "source": "https://en.wikipedia.org/wiki/Chandrayaan-3"
+      },
+      {
+        "text": "OSIRIS-REx drops a sample of asteroid Bennu in the Utah desert (September 24).",
+        "on": "09-24",
+        "source": "https://en.wikipedia.org/wiki/OSIRIS-REx"
+      },
+      {
+        "text": "Taylor Swift's Eras Tour is the first tour to gross $1 billion (December 8).",
+        "on": "12-08",
+        "source": "https://www.news4jax.com/business/2023/12/08/taylor-swifts-eras-tour-is-the-first-tour-to-gross-over-1-billion-pollstar-says/"
+      }
+    ],
+    "facts_note": "Eras Tour dated: Pollstar's report of Dec 8, 2023 (WP: 'in December 2023'). Zelda and Chandrayaan-3 kept.",
+    "tech": {
+      "text": "Meta Quest 3",
+      "on": "10-10",
+      "source": "https://en.wikipedia.org/wiki/Meta_Quest_3",
+      "note": "Acceptable: released Oct 10, 2023; the Meta Quest app was the No. 1 free iPhone app on Christmas Day 2023 (UploadVR), but Quest 2 outsold Quest 3 that holiday. Consider the label 'Meta Quest VR headset'."
+    }
+  },
+  {
+    "year": 2024,
+    "meme": {
+      "ok": true,
+      "on": "09-13",
+      "on_source": "https://www.the-star.co.ke/news/2024-09-13-a-baby-hippo-is-going-viral-and-paying-the-price",
+      "note": "Right year. Born Jul 10; WP: photos went viral in September 2024, zoo visitors doubled in early September. Earliest page I could load: 'is going viral' on Sep 13 (Khaosod English called her the viral pygmy hippo on Sep 12 but blocks fetches). Blurb fine. Image checked: loads, 500x375 JPEG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Dune: Part Two opens in cinemas (March 1).",
+        "on": "03-01",
+        "source": "https://en.wikipedia.org/wiki/Dune:_Part_Two"
+      },
+      {
+        "text": "A total solar eclipse crosses North America (April 8).",
+        "on": "04-08",
+        "source": "https://en.wikipedia.org/wiki/Solar_eclipse_of_April_8,_2024"
+      },
+      {
+        "text": "A solar storm brings northern lights as far south as Florida (May 10).",
+        "on": "05-10",
+        "source": "https://en.wikipedia.org/wiki/May_2024_solar_storms"
+      },
+      {
+        "text": "Paris hosts the Summer Olympics (July 26 to August 11).",
+        "on": "07-26",
+        "source": "https://en.wikipedia.org/wiki/2024_Summer_Olympics"
+      },
+      {
+        "text": "SpaceX catches a Starship booster with giant 'chopsticks' (October 13).",
+        "on": "10-13",
+        "source": "https://en.wikipedia.org/wiki/Starship_flight_test_5"
+      },
+      {
+        "text": "Wicked opens in US cinemas (November 22).",
+        "on": "11-22",
+        "source": "https://en.wikipedia.org/wiki/Wicked_(2024_film)"
+      }
+    ],
+    "facts_note": "Kept all 3 (correct). Northern lights: storm arrived May 10, auroras that night as far south as the Florida Keys and Spain.",
+    "tech": {
+      "text": "Apple Vision Pro",
+      "on": "02-02",
+      "source": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+      "note": "Acceptable: US release Feb 2, 2024; launch stock sold out in 18 minutes, up to 200,000 pre-orders. The year's most talked-about gadget, not a mass-market hit."
+    }
+  },
+  {
+    "year": 2025,
+    "meme": {
+      "ok": true,
+      "on": "03-14",
+      "on_source": "https://knowyourmeme.com/memes/italian-brainrot-ai-italian-animals",
+      "note": "Right year (WP: emerged in early 2025). First viral Tralalero Tralala clip Jan 13 (17 million plays); KYM: by Mar 14 TikTok users ranked 'all the brainrot Italian animal memes', so the whole cast the blurb names was viral by then. Image checked: loads, 500x500 PNG.",
+      "replacement": null
+    },
+    "facts": [
+      {
+        "text": "Kendrick Lamar headlines the Super Bowl halftime show (February 9).",
+        "on": "02-09",
+        "source": "https://en.wikipedia.org/wiki/Super_Bowl_LIX_halftime_show"
+      },
+      {
+        "text": "A Minecraft Movie opens; 'Chicken jockey!' becomes a cinema chant (April 4).",
+        "on": "04-04",
+        "source": "https://en.wikipedia.org/wiki/A_Minecraft_Movie"
+      },
+      {
+        "text": "Labubu mania: a human-sized Labubu sells for $150,000 at auction (June 10).",
+        "on": "06-10",
+        "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2025/06/10/human-sized-labubu-figure-sells-for-over-us150000-at-beijing-auction"
+      },
+      {
+        "text": "Oasis play their first concert since 2009, in Cardiff (July 4).",
+        "on": "07-04",
+        "source": "https://en.wikipedia.org/wiki/Oasis_Live_%2725_Tour"
+      },
+      {
+        "text": "KPop Demon Hunters becomes Netflix's most-watched film ever (August 26).",
+        "on": "08-26",
+        "source": "https://en.wikipedia.org/wiki/KPop_Demon_Hunters"
+      },
+      {
+        "text": "Taylor Swift releases The Life of a Showgirl (October 3).",
+        "on": "10-03",
+        "source": "https://en.wikipedia.org/wiki/The_Life_of_a_Showgirl"
+      }
+    ],
+    "facts_note": "All 3 existing facts were undated: Minecraft Movie Apr 4 (chant from opening weekend), KPop Demon Hunters Aug 26 (236 million views, past Red Notice), Labubu reworded around the dated record auction (1.08 million yuan, Beijing, Jun 10; WP: June 2025).",
+    "tech": {
+      "text": "Nintendo Switch 2",
+      "on": "06-05",
+      "source": "https://en.wikipedia.org/wiki/Nintendo_Switch_2",
+      "note": "Fits: global release June 5, 2025; 3.5 million sold in four days, Nintendo's fastest-selling console."
+    }
+  }
+]

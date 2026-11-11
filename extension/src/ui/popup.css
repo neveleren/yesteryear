@@ -1,0 +1,128 @@
+/* Yesteryear popup: one Windows 98 window (98.css) on a teal desktop. Colours are the Win98
+   palette, except the LCD greens. Loaded after 98.css, so equal selectors here win. */
+:root {
+  --desktop: #008080;
+  --lcd-bg: #050d05;
+  --seg-lit: #3cff3c;
+  --seg-dim: #2a7a2a;   /* lit segments while the time machine is OFF */
+  --seg-ghost: #0f240f; /* unlit segments, faintly visible like on a real LCD */
+}
+
+html, body { margin: 0; }
+body {
+  width: 300px; /* Chrome sizes the popup to its content */
+  padding: 6px;
+  background: var(--desktop);
+}
+/* Height budget: Chrome caps a popup at 600 DIP, which is 480 CSS px at 125 % page zoom. Keep the
+   tallest normal state (the YouTube note under 2005) below that: tests/ui/popup_check.py measures it. */
+
+/* Until popup.js has read the settings, hide the controls so they do not flash defaults.
+   The animation shows them anyway after 400 ms in case the script failed. */
+.loading .window-body,
+.loading .status-bar {
+  visibility: hidden;
+  animation: reveal 0s 400ms forwards;
+}
+@keyframes reveal { to { visibility: visible; } }
+
+.title-bar-text { display: flex; align-items: center; gap: 4px; }
+.title-bar-text img { image-rendering: pixelated; }
+
+/* ---- Year dial: LCD + up/down spinner ---------------------------------------------------- */
+.dial { display: flex; gap: 3px; }
+
+.lcd {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 62px;
+  background: var(--lcd-bg); /* .field-border would make it white */
+}
+.lcd-digits { display: flex; gap: 6px; padding-left: 14px; }
+.lcd:not(.off) .lcd-digits { filter: drop-shadow(0 0 3px rgba(60, 255, 60, 0.55)); }
+.digit { display: block; width: 32px; height: 51px; }
+.seg { fill: var(--seg-ghost); }
+.seg.on { fill: var(--seg-lit); }
+.lcd.off .seg.on { fill: var(--seg-dim); }
+.lcd-flag {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--seg-lit);
+}
+.lcd.off .lcd-flag { color: var(--seg-dim); }
+
+.spin { display: flex; flex-direction: column; }
+.spin button {
+  flex: 1;
+  width: 24px;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* 7 x 4 px Win98 arrows; disabled ones are grey with a white emboss. */
+#year-up {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath d='M3 0h1v1h1v1h1v1h1v1H0V3h1V2h1V1h1z'/%3E%3C/svg%3E");
+}
+#year-down {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath d='M0 0h7v1H6v1H5v1H4v1H3V3H2V2H1V1H0z'/%3E%3C/svg%3E");
+}
+#year-up:disabled {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath fill='%23fff' transform='translate(1 1)' d='M3 0h1v1h1v1h1v1h1v1H0V3h1V2h1V1h1z'/%3E%3Cpath fill='%23808080' d='M3 0h1v1h1v1h1v1h1v1H0V3h1V2h1V1h1z'/%3E%3C/svg%3E");
+}
+#year-down:disabled {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath fill='%23fff' transform='translate(1 1)' d='M0 0h7v1H6v1H5v1H4v1H3V3H2V2H1V1H0z'/%3E%3Cpath fill='%23808080' d='M0 0h7v1H6v1H5v1H4v1H3V3H2V2H1V1H0z'/%3E%3C/svg%3E");
+}
+.spin button:not(:disabled):active { background-position: calc(50% + 1px) calc(50% + 1px); }
+
+/* ---- Slider with year ticks ----------------------------------------------------------------- */
+.slider-row { display: flex; align-items: flex-start; gap: 2px; margin-top: 8px; }
+.edge { flex: none; width: 30px; padding-top: 5px; text-align: center; }
+.track { flex: 1; min-width: 0; }
+.track input[type=range] { display: block; height: 21px; margin: 0; }
+.track input[type=range]:focus-visible { outline: 1px dotted #000; outline-offset: 1px; }
+/* One tick per year; padding = half the 11 px thumb, so ticks line up with thumb positions. */
+.ticks { display: flex; justify-content: space-between; height: 5px; padding: 0 5px; }
+.tick { width: 1px; height: 3px; background: #000; }
+.tick.major { height: 5px; }
+
+/* ---- Quick years ---------------------------------------------------------------------------- */
+.quick { display: flex; gap: 4px; margin-top: 8px; }
+.quick button { flex: 1; min-width: 0; padding: 0; }
+/* Latched toggle, the way Win98 toolbars drew a pressed state: sunken with a dithered face. */
+.quick button[aria-pressed="true"] {
+  background: repeating-conic-gradient(#fff 0 25%, #c0c0c0 0 50%) 0 0 / 2px 2px;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+  text-shadow: 1px 1px #222;
+}
+
+/* ---- Switches ------------------------------------------------------------------------------- */
+.master { margin-top: 10px; }
+.master label { font-weight: bold; }
+.settings { margin-top: 8px; }
+.pair { display: flex; gap: 28px; }
+.pair .field-row + .field-row { margin-top: 0; }
+.settings > .pair + .field-row { margin-top: 6px; }
+
+/* ---- Travel button (src/travel) --------------------------------------------------------------- */
+.travel-row { margin-top: 8px; }
+#travel { display: block; width: 100%; min-height: 30px; font-weight: bold; letter-spacing: 0.5px; }
+
+/* Hint in Win98 tooltip colours; problems in maroon. */
+.note {
+  margin: 8px 0 0;
+  padding: 3px 5px;
+  background: #ffffe1;
+  box-shadow: inset 0 0 0 1px #000;
+  line-height: 13px;
+}
+.note.problem { color: #800000; }
+
+.status-bar-field + .status-bar-field { flex-grow: 0; white-space: nowrap; }

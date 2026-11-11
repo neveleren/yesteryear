@@ -1,0 +1,4 @@
+/* The offscreen document is never shown. The player keeps a normal size anyway: YouTube's embed rules
+   ask for at least 200 x 200, and the player picks its stream by its own size. */
+html, body { margin: 0; background: #000; }
+#stage iframe { display: block; width: 480px; height: 270px; border: 0; }

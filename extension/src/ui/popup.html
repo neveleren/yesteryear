@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" class="loading">
+<head>
+  <meta charset="utf-8">
+  <title>Yesteryear</title>
+  <link rel="stylesheet" href="../vendor/98css/98.css">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="../player/miniplayer.css">
+  <script type="module" src="popup.js"></script>
+</head>
+<body>
+  <main class="window" aria-labelledby="win-title">
+    <div class="title-bar">
+      <div class="title-bar-text" id="win-title">
+        <img src="icons/icon16.png" srcset="icons/icon16.png 1x, icons/icon24.png 1.5x, icons/icon32.png 2x" width="16" height="16" alt="">
+        Yesteryear
+      </div>
+      <div class="title-bar-controls">
+        <button type="button" id="help" aria-label="Help" title="How it works"></button>
+        <button type="button" id="close" aria-label="Close" title="Close"></button>
+      </div>
+    </div>
+
+    <div class="window-body">
+      <div class="dial">
+        <div class="lcd field-border off" id="lcd" role="img" aria-label="Year">
+          <span class="lcd-flag" id="lcd-flag" aria-hidden="true">OFF</span>
+          <div class="lcd-digits" id="lcd-digits" aria-hidden="true"></div>
+        </div>
+        <div class="spin">
+          <button type="button" id="year-up" aria-label="Next year" title="Next year"></button>
+          <button type="button" id="year-down" aria-label="Previous year" title="Previous year"></button>
+        </div>
+      </div>
+
+      <div class="slider-row">
+        <span class="edge" id="year-min" aria-hidden="true">1998</span>
+        <div class="track">
+          <input type="range" id="year" min="1998" max="2025" step="1" value="2010" aria-label="Year">
+          <div class="ticks" id="ticks" aria-hidden="true"></div>
+        </div>
+        <span class="edge" id="year-max" aria-hidden="true">2025</span>
+      </div>
+
+      <div class="quick" id="quick" role="group" aria-label="Jump to year"></div>
+
+      <div class="travel-row">
+        <button type="button" id="travel" class="default">Travel to 2010 &gt;&gt;</button>
+      </div>
+
+      <div class="field-row master" title="While ON, every Google search goes back in time. Tip: use a separate Chrome profile.">
+        <input type="checkbox" id="opt-enabled">
+        <label for="opt-enabled">Time machine ON</label>
+      </div>
+
+      <fieldset class="settings">
+        <legend>Travel settings</legend>
+        <div class="pair">
+          <div class="field-row">
+            <input type="checkbox" id="opt-google">
+            <label for="opt-google">Google</label>
+          </div>
+          <div class="field-row">
+            <input type="checkbox" id="opt-youtube">
+            <label for="opt-youtube">YouTube</label>
+          </div>
+        </div>
+        <div class="field-row">
+          <input type="checkbox" id="opt-strict">
+          <label for="opt-strict">Strict: never show the future</label>
+        </div>
+        <div class="field-row">
+          <input type="checkbox" id="opt-eraLook">
+          <label for="opt-eraLook">Period look</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="mini-player" id="mini-player">
+        <legend id="mp-legend">Music</legend>
+        <div class="mp-screen" id="mp-screen">
+          <div class="mp-marquee" id="mp-marquee"><span id="mp-text"></span></div>
+          <span class="mp-time" id="mp-time"></span>
+        </div>
+        <div class="mp-row">
+          <button type="button" class="mp-btn" id="mp-prev" aria-label="Previous song" title="Previous song"><span class="mp-ico mp-ico-prev"></span></button>
+          <button type="button" class="mp-btn" id="mp-play" aria-label="Play" title="Play"><span class="mp-ico mp-ico-play"></span></button>
+          <button type="button" class="mp-btn" id="mp-next" aria-label="Next song" title="Next song"><span class="mp-ico mp-ico-next"></span></button>
+          <button type="button" id="mp-show" disabled>Show player</button>
+        </div>
+      </fieldset>
+
+      <p class="note" id="note" role="status" hidden></p>
+    </div>
+
+    <div class="status-bar">
+      <p class="status-bar-field" id="status">OFF: you are in the present</p>
+      <p class="status-bar-field" id="sites">Google + YouTube</p>
+    </div>
+  </main>
+</body>
+</html>

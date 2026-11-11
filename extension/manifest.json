@@ -1,0 +1,101 @@
+{
+  "manifest_version": 3,
+  "name": "Yesteryear",
+  "version": "0.2.0",
+  "description": "Search Google and YouTube as if it were any year from 1998 to 2025, with that year's look and music.",
+  "minimum_chrome_version": "120",
+  "icons": {
+    "16": "src/ui/icons/icon16.png",
+    "32": "src/ui/icons/icon32.png",
+    "48": "src/ui/icons/icon48.png",
+    "128": "src/ui/icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "declarativeNetRequestWithHostAccess",
+    "sidePanel",
+    "webNavigation",
+    "tabs",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*",
+    "https://www.google.de/*",
+    "https://www.google.ru/*",
+    "https://www.google.co.uk/*",
+    "https://www.youtube.com/*",
+    "https://web.archive.org/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "sw.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/ui/popup.html",
+    "default_title": "Yesteryear",
+    "default_icon": {
+      "16": "src/ui/icons/icon16.png",
+      "24": "src/ui/icons/icon24.png",
+      "32": "src/ui/icons/icon32.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "src/player/player.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*",
+        "https://www.google.de/*",
+        "https://www.google.ru/*",
+        "https://www.google.co.uk/*"
+      ],
+      "js": [
+        "src/shared/common.js",
+        "src/google/google_core.js",
+        "src/google/content.js"
+      ],
+      "css": [
+        "src/google/eras.css"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "src/shared/common.js",
+        "src/youtube/youtube_core.js",
+        "src/youtube/content.js"
+      ],
+      "css": [
+        "src/youtube/youtube.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/wayback/resolve.html",
+        "src/wayback/notfound.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "embed_referer",
+        "enabled": true,
+        "path": "src/player/rules.json"
+      }
+    ]
+  }
+}

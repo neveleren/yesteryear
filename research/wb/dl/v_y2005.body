@@ -1,0 +1,339 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>YouTube - Your Digital Video Repository</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="YouTube "" Recently Added Videos [RSS]" href="http://www.youtube.com/rss/global/recently_added.rss">
+</head>
+
+
+<body onLoad=javascript:sf(); return false;>
+
+<table align="center" width="100%" bgcolor="#D5E5F5" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td><img src="img/box_login_tl.gif" width="5" height="5"></td>
+		<td><img src="img/pixel.gif" width="1" height="5"></td>
+		<td><img src="img/box_login_tr.gif" width="5" height="5"></td>
+	</tr>
+	<tr>
+		<td><img src="img/pixel.gif" width="5" height="1"></td>
+		
+		<td width="100%">
+
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td>
+										<table cellpadding="2" cellspacing="0" border="0">
+						<tr>
+							<td>&nbsp;<a href="index.php" class="bold">Home</a></td>
+							<td>&nbsp;|&nbsp;</td>
+							<td><a href="my_videos.php" >My Videos</a></td>
+							<td>&nbsp;|&nbsp;</td>
+							<td><a href="my_favorites.php" >My Favorites</a></td>
+							<td>&nbsp;|&nbsp;</td>
+							<td><a href="my_messages.php" >My Messages</a>
+														</td>
+							<td>&nbsp;|&nbsp;</td>
+							<td><a href="my_profile.php" >My Profile</a></td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			
+			</td>
+	
+		<td><img src="img/pixel.gif" width="5" height="1"></td>
+	</tr>
+	<tr>
+		<td><img src="img/box_login_bl.gif" width="5" height="5"></td>
+		<td><img src="img/pixel.gif" width="1" height="5"></td>
+		<td><img src="img/box_login_br.gif" width="5" height="5"></td>
+	</tr>
+</table>
+
+<div class="tableLinkBar">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	
+			
+		<td width="100%" align="right">
+		<table align="right" cellpadding="2" cellspacing="0" border="0">
+			<tr>
+							<td><a href="signup.php" class="bold">Sign Up</a></td>
+				<td>&nbsp;|&nbsp;</td>
+				<td><a href="login.php">Log In</a></td>
+				<td>&nbsp;|&nbsp;</td>
+				<td><a href="help.php">Help</a>&nbsp;</td>
+						</tr>
+		</table>
+		</td>
+	</tr>
+
+		
+</table></div>
+
+
+<script>
+	function sf()
+	{
+		document.f.search.focus();
+	}
+</script>
+
+<table width="80%" align="center" cellpadding="3" cellspacing="0" border="0">
+	<tr>
+		<td align="center">
+			<img src="img/logo.gif" width="180" height="71" hspace="12" vspace="12" alt="YouTube">
+			<br>
+			Your Digital Video Repository
+			<br>
+			<br>
+		</td>
+	</tr>
+
+	<form name="f" method="GET" action="results.php">
+	<tr>
+		<td align="center"><input type="text" name="search" size="35" maxlength="128" style="color:#ff3333; font-size: 18px; padding: 3px;"></td>
+	</tr>
+	<tr>
+		<td align="center"><input type="submit" value="Search Videos"></td>
+	</tr>
+	</form>
+</table>
+
+<div style="font-size: 16px; font-weight: bold; margin-top: 20px; margin-bottom: 20px; text-align: center;"><a href="my_videos_upload.php">Upload Your Videos</a></div>
+
+<br>
+
+<div style="font-size: 13px; color: #333333; margin-bottom: 30px; text-align: center; width: 50%; margin-left: auto; margin-right: auto;">
+
+
+	<a style="font-size: 12px;" href="results.php?search=rommelmarkt">rommelmarkt</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=buddyrijders">buddyrijders</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=zealand">zealand</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=buckley">buckley</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=manchester">manchester</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=nikko">nikko</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=harz2005">harz2005</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=british">british</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=sing">sing</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=cable">cable</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=to">to</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=wereldband">wereldband</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=zen">zen</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=fairfield">fairfield</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=shots">shots</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=satellite">satellite</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=cubbyhole">cubbyhole</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=dance">dance</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=musical">musical</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=huka">huka</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=in">in</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=airplane">airplane</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=superbike">superbike</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=vondelpark">vondelpark</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=new">new</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=poughkeepsie">poughkeepsie</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=map">map</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=snow">snow</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=stockshot">stockshot</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=space">space</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=heritage">heritage</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=th">th</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=adv">adv</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=peru">peru</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=chin">chin</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=sinceretheory">sinceretheory</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=music">music</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=altenau">altenau</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=de">de</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=funny">funny</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=cruise">cruise</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=japan">japan</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=kids">kids</a> :
+
+	
+	<a style="font-size: 17px;" href="results.php?search=skate">skate</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=yanayacu">yanayacu</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=earth">earth</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=bud">bud</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=glasgow">glasgow</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=nature">nature</a> :
+
+	
+	<a style="font-size: 12px;" href="results.php?search=orgel">orgel</a> :
+
+	
+<div style="font-size: 14px; font-weight: bold; margin-top: 10px;"><a href="tags.php">See More Tags</a></div>
+
+</div>
+		
+<table width="80%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#CCCCCC">
+	<tr>
+		<td><img src="img/box_login_tl.gif" width="5" height="5"></td>
+		<td width="100%"><img src="img/pixel.gif" width="1" height="5"></td>
+		<td><img src="img/box_login_tr.gif" width="5" height="5"></td>
+	</tr>
+	<tr>
+		<td><img src="img/pixel.gif" width="5" height="1"></td>
+		<td>
+		<div class="moduleTitleBar">
+		<div class="moduleTitle"><div style="float: right; padding-right: 5px;"><a href="videos_page.php">&gt;&gt;&gt; Watch More Videos</a></div>
+		Featured Videos
+		</div>
+		</div>
+				
+		<div class="moduleFeatured"> 
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr valign="top">
+
+					
+						<td width="20%" align="center"><a href="index.php?v=eyWg57J0SSQ"><img src="get_still.php?still_id=2&video_id=eyWg57J0SSQ" class="moduleFeaturedThumb" width="120" height="90"></a>
+						<div class="moduleFeaturedTitle"><a href="index.php?v=eyWg57J0SSQ">Pantman</a></div>
+						<div class="moduleFeaturedDetails">Added: June 24, 2005						<br>by <a href="profile.php?user=Krisko">Krisko</a><!-- (<a href="profile.php?user=Krisko">10</a>) --></div>
+						<div class="moduleFeaturedDetails">Views: 6 | Comments: 0</div></td>
+
+						
+						<td width="20%" align="center"><a href="index.php?v=GD4Gyb5e_wU"><img src="get_still.php?still_id=2&video_id=GD4Gyb5e_wU" class="moduleFeaturedThumb" width="120" height="90"></a>
+						<div class="moduleFeaturedTitle"><a href="index.php?v=GD4Gyb5e_wU">nice pass</a></div>
+						<div class="moduleFeaturedDetails">Added: June 19, 2005						<br>by <a href="profile.php?user=anillo65">anillo65</a><!-- (<a href="profile.php?user=anillo65">10</a>) --></div>
+						<div class="moduleFeaturedDetails">Views: 80 | Comments: 0</div></td>
+
+						
+						<td width="20%" align="center"><a href="index.php?v=uRlyoDGeBkQ"><img src="get_still.php?still_id=2&video_id=uRlyoDGeBkQ" class="moduleFeaturedThumb" width="120" height="90"></a>
+						<div class="moduleFeaturedTitle"><a href="index.php?v=uRlyoDGeBkQ">Super Gokart minispeedway racing-a-gogo</a></div>
+						<div class="moduleFeaturedDetails">Added: June 15, 2005						<br>by <a href="profile.php?user=punkey">punkey</a><!-- (<a href="profile.php?user=punkey">10</a>) --></div>
+						<div class="moduleFeaturedDetails">Views: 56 | Comments: 0</div></td>
+
+						
+						<td width="20%" align="center"><a href="index.php?v=FkjOW1SyIzk"><img src="get_still.php?still_id=2&video_id=FkjOW1SyIzk" class="moduleFeaturedThumb" width="120" height="90"></a>
+						<div class="moduleFeaturedTitle"><a href="index.php?v=FkjOW1SyIzk">Ilias showing off his skillz</a></div>
+						<div class="moduleFeaturedDetails">Added: April 29, 2005						<br>by <a href="profile.php?user=jawed">jawed</a><!-- (<a href="profile.php?user=jawed">10</a>) --></div>
+						<div class="moduleFeaturedDetails">Views: 67 | Comments: 0</div></td>
+
+						
+						<td width="20%" align="center"><a href="index.php?v=sKIsdD1w_xU"><img src="get_still.php?still_id=2&video_id=sKIsdD1w_xU" class="moduleFeaturedThumb" width="120" height="90"></a>
+						<div class="moduleFeaturedTitle"><a href="index.php?v=sKIsdD1w_xU">NYIAS 2005</a></div>
+						<div class="moduleFeaturedDetails">Added: June 26, 2005						<br>by <a href="profile.php?user=BMWDave">BMWDave</a><!-- (<a href="profile.php?user=BMWDave">10</a>) --></div>
+						<div class="moduleFeaturedDetails">Views: 11 | Comments: 0</div></td>
+
+						
+				</tr>
+			</table>
+		</div>
+		
+		</td>
+		<td><img src="img/pixel.gif" width="5" height="1"></td>
+	</tr>
+	<tr>
+		<td><img src="img/box_login_bl.gif" width="5" height="5"></td>
+		<td><img src="img/pixel.gif" width="1" height="5"></td>
+		<td><img src="img/box_login_br.gif" width="5" height="5"></td>
+	</tr>
+</table>
+
+<br><table bgcolor="#FFFFFF" align="center" cellpadding="10" border="0">
+	<tr>
+		<td align="center" valign="center"><span class="footer"><a href="about.php">About Us</a> | <a href="contact.php">Contact Us</a> | <a href="terms.php">Terms of Use</a> | <a href="privacy.php">Privacy Policy</a> | Copyright &copy; 2005 YouTube, LLC&#8482; | <a href="rss/global/recently_added.rss"><img src="http://www.youtube.com/img/rss.gif" width="36" height="14" border="0" style="vertical-align: text-top;"></a></span></td>
+	</tr>
+</table>
+
+</body>
+</html>

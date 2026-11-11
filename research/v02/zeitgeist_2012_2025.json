@@ -1,0 +1,940 @@
+[
+  {
+    "year": 2012,
+    "searches": [
+      {
+        "q": "gangnam style",
+        "on": "07-15",
+        "source": "Google Zeitgeist 2012: global trending searches #2"
+      },
+      {
+        "q": "ipad 3",
+        "on": "03-07",
+        "source": "Google Zeitgeist 2012: global trending searches #4"
+      },
+      {
+        "q": "diablo 3",
+        "on": "",
+        "source": "Google Zeitgeist 2012: global trending searches #5"
+      },
+      {
+        "q": "olympics 2012",
+        "on": "",
+        "source": "Google Zeitgeist 2012: global trending searches #7"
+      },
+      {
+        "q": "hunger games",
+        "on": "",
+        "source": "Google Zeitgeist 2012: US trending searches #4"
+      },
+      {
+        "q": "jeremy lin",
+        "on": "02-04",
+        "source": "Google Zeitgeist 2012: US trending searches #5"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "http://www.facebook.com/",
+        "first": "19981212013921"
+      },
+      {
+        "name": "YouTube",
+        "url": "http://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Yahoo!",
+        "url": "http://www.yahoo.com/",
+        "first": "19961017235908"
+      },
+      {
+        "name": "Twitter",
+        "url": "http://twitter.com/",
+        "first": "20010302103333"
+      },
+      {
+        "name": "Pinterest",
+        "url": "http://pinterest.com/",
+        "first": "20100202235045"
+      },
+      {
+        "name": "Tumblr",
+        "url": "https://www.tumblr.com/",
+        "first": "20070105095540"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "searches": [
+      {
+        "q": "iphone 5s",
+        "on": "09-10",
+        "source": "Google Zeitgeist 2013: global top trending #3"
+      },
+      {
+        "q": "harlem shake",
+        "on": "02-02",
+        "source": "Google Zeitgeist 2013: global top trending #5"
+      },
+      {
+        "q": "royal baby",
+        "on": "",
+        "source": "Google Zeitgeist 2013: global top trending #7"
+      },
+      {
+        "q": "playstation 4",
+        "on": "02-20",
+        "source": "Google Zeitgeist 2013: global top trending #9"
+      },
+      {
+        "q": "miley cyrus",
+        "on": "",
+        "source": "Google Zeitgeist 2013: global people #5"
+      },
+      {
+        "q": "gta 5",
+        "on": "",
+        "source": "Google Zeitgeist 2013: US video games #1 (Grand Theft Auto V)"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/",
+        "first": "19981212013921"
+      },
+      {
+        "name": "YouTube",
+        "url": "http://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "http://www.wikipedia.org/",
+        "first": "20010727112808"
+      },
+      {
+        "name": "Amazon",
+        "url": "http://www.amazon.com/",
+        "first": "19990828014913"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "first": "20010302103333"
+      },
+      {
+        "name": "Instagram",
+        "url": "http://instagram.com/",
+        "first": "20040905121720"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "searches": [
+      {
+        "q": "world cup",
+        "on": "",
+        "source": "Google Year in Search 2014: global searches #2"
+      },
+      {
+        "q": "flappy bird",
+        "on": "01-17",
+        "source": "Google Year in Search 2014: global searches #6"
+      },
+      {
+        "q": "conchita wurst",
+        "on": "05-10",
+        "source": "Google Year in Search 2014: global searches #7"
+      },
+      {
+        "q": "frozen",
+        "on": "",
+        "source": "Google Year in Search 2014: global searches #9"
+      },
+      {
+        "q": "sochi olympics",
+        "on": "",
+        "source": "Google Year in Search 2014: global searches #10"
+      },
+      {
+        "q": "iphone 6",
+        "on": "09-09",
+        "source": "Google Year in Search 2014: global consumer electronics #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/",
+        "first": "19981212013921"
+      },
+      {
+        "name": "YouTube",
+        "url": "http://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Amazon",
+        "url": "http://www.amazon.com/",
+        "first": "19990828014913"
+      },
+      {
+        "name": "Reddit",
+        "url": "http://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Imgur",
+        "url": "http://imgur.com/",
+        "first": "20090225014924"
+      },
+      {
+        "name": "BuzzFeed",
+        "url": "http://www.buzzfeed.com/",
+        "first": "20020921163523"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "searches": [
+      {
+        "q": "agar.io",
+        "on": "04-28",
+        "source": "Google Year in Search 2015: global searches #3"
+      },
+      {
+        "q": "jurassic world",
+        "on": "",
+        "source": "Google Year in Search 2015: global searches #4"
+      },
+      {
+        "q": "furious 7",
+        "on": "",
+        "source": "Google Year in Search 2015: global searches #6"
+      },
+      {
+        "q": "fallout 4",
+        "on": "06-03",
+        "source": "Google Year in Search 2015: global searches #7"
+      },
+      {
+        "q": "ronda rousey",
+        "on": "",
+        "source": "Google Year in Search 2015: global searches #8"
+      },
+      {
+        "q": "iphone 6s",
+        "on": "09-09",
+        "source": "Google Year in Search 2015: global consumer tech #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/",
+        "first": "19981212013921"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "http://www.wikipedia.org/",
+        "first": "20010727112808"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "first": "20010302103333"
+      },
+      {
+        "name": "Reddit",
+        "url": "http://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://www.pinterest.com/",
+        "first": "20100202235045"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "searches": [
+      {
+        "q": "pokemon go",
+        "on": "07-06",
+        "source": "Google Year in Search 2016: global searches #1"
+      },
+      {
+        "q": "iphone 7",
+        "on": "09-07",
+        "source": "Google Year in Search 2016: global searches #2"
+      },
+      {
+        "q": "deadpool",
+        "on": "",
+        "source": "Google Year in Search 2016: global searches #7"
+      },
+      {
+        "q": "olympics",
+        "on": "",
+        "source": "Google Year in Search 2016: global searches #8"
+      },
+      {
+        "q": "slither.io",
+        "on": "03-25",
+        "source": "Google Year in Search 2016: global searches #9"
+      },
+      {
+        "q": "stranger things",
+        "on": "07-15",
+        "source": "Google Year in Search 2016: global TV shows #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/",
+        "first": "19981212013921"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "first": "20010302103333"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/",
+        "first": "19990117011532"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "searches": [
+      {
+        "q": "iphone x",
+        "on": "09-12",
+        "source": "Google Year in Search 2017: global searches #3"
+      },
+      {
+        "q": "meghan markle",
+        "on": "",
+        "source": "Google Year in Search 2017: global searches #5"
+      },
+      {
+        "q": "fidget spinner",
+        "on": "02-01",
+        "source": "Google Year in Search 2017: global searches #8"
+      },
+      {
+        "q": "despacito",
+        "on": "01-13",
+        "source": "Google Year in Search 2017: global songs #1"
+      },
+      {
+        "q": "how to make slime",
+        "on": "",
+        "source": "Google Year in Search 2017: global how to #1"
+      },
+      {
+        "q": "mayweather vs mcgregor",
+        "on": "06-14",
+        "source": "Google Year in Search 2017: US searches #6"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/",
+        "first": "19981212013921"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/",
+        "first": "19990117011532"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://www.twitch.tv/",
+        "first": "20100802184448"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "searches": [
+      {
+        "q": "world cup",
+        "on": "",
+        "source": "Google Year in Search 2018: global searches #1"
+      },
+      {
+        "q": "black panther",
+        "on": "",
+        "source": "Google Year in Search 2018: global searches #5"
+      },
+      {
+        "q": "royal wedding",
+        "on": "",
+        "source": "Google Year in Search 2018: global news #4"
+      },
+      {
+        "q": "fortnite",
+        "on": "",
+        "source": "Google Year in Search 2018: US video games #1"
+      },
+      {
+        "q": "red dead redemption 2",
+        "on": "",
+        "source": "Google Year in Search 2018: US video games #2"
+      },
+      {
+        "q": "baby shark",
+        "on": "",
+        "source": "Google Year in Search 2018: US songs #3"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Amazon",
+        "url": "https://www.amazon.com/",
+        "first": "19990828014913"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/",
+        "first": "19990117011532"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://www.twitch.tv/",
+        "first": "20100802184448"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "searches": [
+      {
+        "q": "copa america",
+        "on": "",
+        "source": "Google Year in Search 2019: global searches #3"
+      },
+      {
+        "q": "iphone 11",
+        "on": "09-10",
+        "source": "Google Year in Search 2019: global searches #5"
+      },
+      {
+        "q": "game of thrones",
+        "on": "",
+        "source": "Google Year in Search 2019: global searches #6"
+      },
+      {
+        "q": "avengers endgame",
+        "on": "",
+        "source": "Google Year in Search 2019: global searches #7"
+      },
+      {
+        "q": "joker",
+        "on": "",
+        "source": "Google Year in Search 2019: global searches #8"
+      },
+      {
+        "q": "disney plus",
+        "on": "04-11",
+        "source": "Google Year in Search 2019: US searches #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/",
+        "first": "19990117011532"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://www.twitch.tv/",
+        "first": "20100802184448"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discordapp.com/",
+        "first": "20150306011245"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "searches": [
+      {
+        "q": "zoom",
+        "on": "03-11",
+        "source": "Google Year in Search 2020: global searches #4"
+      },
+      {
+        "q": "among us",
+        "on": "07-15",
+        "source": "Google Year in Search 2020: global games #1"
+      },
+      {
+        "q": "fall guys",
+        "on": "08-04",
+        "source": "Google Year in Search 2020: global games #2"
+      },
+      {
+        "q": "dalgona coffee",
+        "on": "03-01",
+        "source": "Google Year in Search 2020: global recipes #1"
+      },
+      {
+        "q": "the queen's gambit",
+        "on": "10-23",
+        "source": "Google Year in Search 2020: global TV shows #8"
+      },
+      {
+        "q": "playstation 5",
+        "on": "",
+        "source": "Google Year in Search 2020: US searches #10"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Zoom",
+        "url": "https://zoom.us/",
+        "first": "20020606091959"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/",
+        "first": "19990117011532"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/",
+        "first": "19981206081000"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://www.twitch.tv/",
+        "first": "20100802184448"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "searches": [
+      {
+        "q": "nba",
+        "on": "",
+        "source": "Google Year in Search 2021: global searches #4"
+      },
+      {
+        "q": "euro 2021",
+        "on": "",
+        "source": "Google Year in Search 2021: global searches #5"
+      },
+      {
+        "q": "squid game",
+        "on": "09-17",
+        "source": "Google Year in Search 2021: global searches #9"
+      },
+      {
+        "q": "drivers license",
+        "on": "01-08",
+        "source": "Google Year in Search 2021: global songs #1"
+      },
+      {
+        "q": "wandavision",
+        "on": "01-15",
+        "source": "Google Year in Search 2021: global TV shows #3"
+      },
+      {
+        "q": "black widow",
+        "on": "",
+        "source": "Google Year in Search 2021: US movies #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "Zoom",
+        "url": "https://zoom.us/",
+        "first": "20020606091959"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/",
+        "first": "19981206081000"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/",
+        "first": "19961222173516"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "searches": [
+      {
+        "q": "wordle",
+        "on": "",
+        "source": "Google Year in Search 2022: global searches #1"
+      },
+      {
+        "q": "world cup",
+        "on": "",
+        "source": "Google Year in Search 2022: global searches #6"
+      },
+      {
+        "q": "iphone 14",
+        "on": "09-07",
+        "source": "Google Year in Search 2022: global searches #8"
+      },
+      {
+        "q": "top gun maverick",
+        "on": "",
+        "source": "Google Year in Search 2022: global movies #3"
+      },
+      {
+        "q": "elden ring",
+        "on": "",
+        "source": "Google Year in Search 2022: US games #3"
+      },
+      {
+        "q": "we don't talk about bruno",
+        "on": "",
+        "source": "Google Year in Search 2022: US songs #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/",
+        "first": "19981206081000"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "first": "20010302103333"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/",
+        "first": "19961222173516"
+      },
+      {
+        "name": "Roblox",
+        "url": "https://www.roblox.com/",
+        "first": "20040825154659"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "searches": [
+      {
+        "q": "barbie",
+        "on": "",
+        "source": "Google Year in Search 2023: global movies #1"
+      },
+      {
+        "q": "hogwarts legacy",
+        "on": "",
+        "source": "Google Year in Search 2023: global games #1"
+      },
+      {
+        "q": "the last of us",
+        "on": "",
+        "source": "Google Year in Search 2023: global TV shows #1"
+      },
+      {
+        "q": "kylian mbappe",
+        "on": "",
+        "source": "Google Year in Search 2023: global people #4"
+      },
+      {
+        "q": "travis kelce",
+        "on": "",
+        "source": "Google Year in Search 2023: global people #5"
+      },
+      {
+        "q": "grimace shake",
+        "on": "06-12",
+        "source": "Google Year in Search 2023: US recipes #1"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/",
+        "first": "19981206081000"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "first": "20010302103333"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/",
+        "first": "19961222173516"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "searches": [
+      {
+        "q": "copa america",
+        "on": "",
+        "source": "Google Year in Search 2024: global searches #1"
+      },
+      {
+        "q": "iphone 16",
+        "on": "09-09",
+        "source": "Google Year in Search 2024: global searches #8"
+      },
+      {
+        "q": "olympics",
+        "on": "",
+        "source": "Google Year in Search 2024: global searches #9"
+      },
+      {
+        "q": "inside out 2",
+        "on": "",
+        "source": "Google Year in Search 2024: global movies #1"
+      },
+      {
+        "q": "not like us",
+        "on": "05-04",
+        "source": "Google Year in Search 2024: global songs #1"
+      },
+      {
+        "q": "connections",
+        "on": "",
+        "source": "Google Year in Search 2024: US searches #3"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/",
+        "first": "19981206081000"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "Amazon",
+        "url": "https://www.amazon.com/",
+        "first": "19990828014913"
+      },
+      {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/",
+        "first": "19990117011532"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "searches": [
+      {
+        "q": "gemini",
+        "on": "",
+        "source": "Google Year in Search 2025: global searches #1"
+      },
+      {
+        "q": "club world cup",
+        "on": "",
+        "source": "Google Year in Search 2025: global searches #4"
+      },
+      {
+        "q": "deepseek",
+        "on": "01-20",
+        "source": "Google Year in Search 2025: global searches #6"
+      },
+      {
+        "q": "iphone 17",
+        "on": "09-09",
+        "source": "Google Year in Search 2025: global searches #9"
+      },
+      {
+        "q": "kpop demon hunters",
+        "on": "06-20",
+        "source": "Google Year in Search 2025: US searches #2"
+      },
+      {
+        "q": "labubu",
+        "on": "",
+        "source": "Google Year in Search 2025: US searches #3"
+      }
+    ],
+    "sites": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "first": "20050428014715"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com/",
+        "first": "20221203231603"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/",
+        "first": "19981206081000"
+      },
+      {
+        "name": "Reddit",
+        "url": "https://www.reddit.com/",
+        "first": "20020718215101"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "first": "20040905121720"
+      },
+      {
+        "name": "X",
+        "url": "https://x.com/",
+        "first": "19961219022100"
+      }
+    ]
+  }
+]

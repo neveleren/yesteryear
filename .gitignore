@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+__pycache__/
+*.log
+test-profile*/
+test-shots/
+test-build*/
+extension/_metadata/

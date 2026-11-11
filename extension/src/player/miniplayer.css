@@ -1,0 +1,44 @@
+/* Mini player row in the toolbar popup (98.css window). Loaded after popup.css; the screen uses the
+   popup's LCD colours when they are defined. */
+/* A fieldset defaults to min-inline-size: min-content, so the no-wrap song line would widen it past
+   the 300 px popup instead of scrolling. */
+.mini-player { margin-top: 10px; min-inline-size: 0; }
+.mini-player legend { font-weight: bold; }
+
+.mp-screen {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 20px;
+  padding: 0 6px;
+  background: var(--lcd-bg, #050d05);
+  color: var(--seg-dim, #2a7a2a);
+  font: 11px/20px "Lucida Console", "Courier New", monospace;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+.mp-screen.on { color: var(--seg-lit, #3cff3c); text-shadow: 0 0 3px rgba(60, 255, 60, .55); }
+.mp-screen.problem { color: #ffb000; text-shadow: none; }
+.mp-marquee { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; }
+.mp-marquee span { display: inline-block; white-space: pre; }
+.mp-marquee.scroll span { animation: mp-marquee var(--mp-marquee-s, 10s) linear infinite; }
+@keyframes mp-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.mp-time { flex: none; font-variant-numeric: tabular-nums; }
+
+.mp-row { display: flex; align-items: center; gap: 4px; margin-top: 6px; }
+.mini-player .mp-btn { min-width: 0; width: 30px; padding: 0; display: inline-grid; place-items: center; }
+.mini-player #mp-show { margin-left: auto; min-width: 0; padding: 0 10px; }
+
+/* Black pixel icons, like the popup's spin arrows; grey when disabled. */
+.mp-ico {
+  display: block;
+  width: 11px;
+  height: 9px;
+  background-color: #000;
+  -webkit-mask: var(--mp-icon) center / contain no-repeat;
+  mask: var(--mp-icon) center / contain no-repeat;
+}
+.mp-btn:disabled .mp-ico { background-color: #808080; }
+.mp-ico-prev { --mp-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 9'%3E%3Cpath d='M0 0h2v9H0zM2 4.5 6 0v9zM6 4.5 10 0v9z'/%3E%3C/svg%3E"); }
+.mp-ico-next { --mp-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 9'%3E%3Cpath d='M9 0h2v9H9zM9 4.5 5 0v9zM5 4.5 1 0v9z'/%3E%3C/svg%3E"); }
+.mp-ico-play, .mp-btn.is-playing .mp-ico-play { --mp-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 9'%3E%3Cpath d='M3 0v9l5-4.5z'/%3E%3C/svg%3E"); }
+.mp-btn.is-playing .mp-ico-play { --mp-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 9'%3E%3Cpath d='M2 0h3v9H2zM6 0h3v9H6z'/%3E%3C/svg%3E"); }

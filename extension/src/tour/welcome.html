@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Yesteryear</title>
+  <link rel="icon" href="../ui/icons/icon32.png">
+  <link rel="stylesheet" href="../vendor/98css/98.css">
+  <link rel="stylesheet" href="welcome.css">
+  <script type="module" src="welcome.js"></script>
+</head>
+<body>
+  <main class="desktop" id="stage">
+    <h1 class="sr">Welcome to Yesteryear</h1>
+
+    <!-- The real popup as a picture. The attribute alone does not stop the popup from focusing its
+         slider, so welcome.js makes the page inside inert too: never clicked, focused or changed. -->
+    <iframe id="replica" class="replica hidden" src="../ui/popup.html" title="The Yesteryear window (a picture, it does not react to clicks)" tabindex="-1" inert></iframe>
+
+    <section class="window dialog picker" id="picker" role="dialog" aria-labelledby="picker-title" aria-describedby="picker-lead" hidden>
+      <div class="title-bar">
+        <div class="title-bar-text" id="picker-title">
+          <img src="../ui/icons/icon16.png" width="16" height="16" alt="">
+          Yesteryear Setup
+        </div>
+        <div class="title-bar-controls">
+          <button type="button" id="picker-close" aria-label="Close" title="No tour"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p class="lead" id="picker-lead">Welcome! A short tour shows what every button does. Who should show you around?</p>
+        <div class="choices" role="radiogroup" aria-label="Guide">
+          <div class="choice" id="choice-clippy">
+            <label class="preview" for="pick-clippy"><span class="preview-stage" id="preview-clippy"></span></label>
+            <div class="field-row">
+              <input type="radio" name="agent" id="pick-clippy" value="clippy">
+              <label for="pick-clippy">Clippy</label>
+            </div>
+            <p class="blurb" id="blurb-clippy"></p>
+          </div>
+          <div class="choice" id="choice-rover">
+            <label class="preview" for="pick-rover"><span class="preview-stage" id="preview-rover"></span></label>
+            <div class="field-row">
+              <input type="radio" name="agent" id="pick-rover" value="rover">
+              <label for="pick-rover">Rover</label>
+            </div>
+            <p class="blurb" id="blurb-rover"></p>
+          </div>
+        </div>
+        <div class="field-row sound-row">
+          <input type="checkbox" id="opt-sound">
+          <label for="opt-sound">Play sounds</label>
+        </div>
+        <div class="buttons">
+          <button type="button" class="default" id="start">Start tour</button>
+          <button type="button" id="no-tour">No thanks</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="window dialog done" id="done" role="alertdialog" aria-labelledby="done-title" aria-describedby="done-text" hidden>
+      <div class="title-bar">
+        <div class="title-bar-text" id="done-title">Yesteryear</div>
+        <div class="title-bar-controls">
+          <button type="button" id="done-x" aria-label="Close" title="Close this tab"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="message">
+          <img src="info.svg" width="32" height="32" alt="">
+          <p id="done-text"></p>
+        </div>
+        <div class="buttons">
+          <button type="button" class="default" id="done-close">Close</button>
+          <button type="button" id="done-again">Show me again</button>
+        </div>
+      </div>
+    </section>
+
+    <p class="problem" id="problem" role="alert" hidden></p>
+  </main>
+
+  <footer class="taskbar">
+    <span class="start" aria-hidden="true"><img src="../ui/icons/icon16.png" width="16" height="16" alt=""><b>Start</b></span>
+    <span class="task" id="task" aria-hidden="true"><img src="../ui/icons/icon16.png" width="16" height="16" alt="">Yesteryear</span>
+    <div class="tray">
+      <button type="button" class="tray-sound" id="mute" aria-pressed="true" title="Sounds: on"><span class="sr">Sounds</span></button>
+      <span class="clock" id="clock"></span>
+    </div>
+  </footer>
+</body>
+</html>
